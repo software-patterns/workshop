@@ -22,3 +22,12 @@ A pattern language for computer systems that promote human wellbeing
 - Users, nonusers, product owners, programmers, designers, sysadmins, and distributors.
 - Of these groups, only programmers truly have the power to put the patterns into effect. Programmers ultimately determine what gets built.
 - The effective use of the pattern language is therefore the responsibility of programmers.
+
+# Collaborating
+
+Please keep in mind:
+
+- This repo is public.
+- We're all human. Be kind.
+- This org has room for many different repos (Christopher Alexander's [Mosaic of Subcultures](https://patterns-dev.github.io/patterns/newpat/newpat8/newpat8.htm) pattern).
+- But we lean toward accepting contributions rather than telling people to start their own project. No one should have to work alone.
