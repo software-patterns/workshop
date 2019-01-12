@@ -8,7 +8,7 @@ A pattern language for computer systems that promote human wellbeing
 - Our experiences are defined by perceptions of our environment.
 - Computer systems are increasingly interwoven into our lives - they constitute a large part of our environment.
 - We have long recognized that the physical spaces we inhabit impact our wellbeing for good or ill (c.f. Christopher Alexander's works). When physical space is not structured according to human needs, its inhabitants suffer.
-- Research suggests that computer systems can likewise take a heavy toll on our wellbeing.
+- [Research suggests](https://ledger.humanetech.com/) that computer systems can likewise take a heavy toll on our wellbeing.
 - As virtual spaces come to define more of our experiences, we will need new pattern languages that can shape those spaces for the benefit of their inhabitants.
 
 # What
