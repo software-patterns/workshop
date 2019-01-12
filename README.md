@@ -21,7 +21,7 @@ A pattern language for computer systems that promote human wellbeing
 - We consider the needs of various groups affected by computer systems' existence and operation:
 - Users, nonusers, product owners, programmers, designers, sysadmins, and distributors.
 - Of these groups, only programmers truly have the power to put the patterns into effect. Programmers ultimately determine what gets built.
-- The effective use of the pattern language is therefore the responsibility of programmers.
+- The effective use of the pattern language is therefore the responsibility of programmers—though everyone can help.
 
 # Collaborating
 
