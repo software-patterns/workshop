@@ -28,7 +28,7 @@ A pattern language for computer systems that promote human wellbeing
 Please keep in mind:
 
 - This repo is public.
-- We're all human. Be kind.
+- We're breaking new ground; we're bound to disagree sometimes. Be kind.
 - This org has room for many different repos (Christopher Alexander's [Mosaic of Subcultures](https://patterns-dev.github.io/patterns/newpat/newpat8/newpat8.htm) pattern). If you want a repo for your subproject, [just ask](https://github.com/software-patterns/hci-language/issues/new).
 - However, we'd rather accept contributions to this repo than have people fork off their own projects. No one should have to work alone.
 
