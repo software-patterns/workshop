@@ -7,3 +7,7 @@ Links to things and people that have inspired us.
 - [The Power In Agile](https://www.youtube.com/watch?v=YL-6RCTywbc). Exposé of the exclusivity of current agile and XP practices. People: Sarah Mei.
 - [Livable Code](https://www.youtube.com/watch?v=lI77oMKr5EY). People: Sarah Mei.
 - [ZenIT](https://www.zenit.jp/about/). People: Amil Khanzada.
+- [Fast Test, Slow Test](https://www.youtube.com/watch?v=RAxiiRPHS9k). People: Gary Bernhardt.
+- [Boundaries](https://www.youtube.com/watch?v=yTkzNHF6rMs). People: Gary Bernhardt.
+- [Patterns Failed. Why? Should We Care?](https://www.deconstructconf.com/2017/brian-marick-patterns-failed-why-should-we-care) People: Brian Marick.
+- [Therapeutic Refactoring](https://www.youtube.com/watch?v=KA9i5IGS-oU). People: Katrina Owen.
