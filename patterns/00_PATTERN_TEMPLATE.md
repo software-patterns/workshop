@@ -25,8 +25,32 @@ the patterns within a language: a self-reinforcing web of inter-referenced patte
 pattern a falsifiable hypothesis about the world, so it can be improved over time as new discoveries
 are made.**
 
-To make a pattern file, copy this file and give the copy a name, something like `immutable-values.md`.
-Then change each section in the new file to describe your pattern.
+To add a pattern, copy the markdown below to a new file in `patterns/`. Format the file name like `immutable-values.md`.
+Then fill out each section in the template to describe your pattern.
+
+```markdown
+# {Title}
+
+{Summary}
+
+---
+
+**{Problem Statement}**
+
+{Problem description}
+
+**{Solution instructions}**
+
+{Solution description}
+
+## Examples
+
+{Examples go here}
+
+---
+
+{References to smaller patterns}
+```
 
 The sections are as follows:
 - First, the title of the pattern, as a markdown heading. When naming a pattern, remember that all
