@@ -3,6 +3,7 @@
 In order to clearly communicate the patterns within a pattern language, it is helpful
 to have a standard form for representing a pattern. This file both describes
 and exemplifies a pattern style based on the "Alexandrian form" named for Christopher Alexander.
+Use it as a base for creating new patterns.
 
 ---
 
