@@ -29,5 +29,20 @@ Please keep in mind:
 
 - This repo is public.
 - We're all human. Be kind.
-- This org has room for many different repos (Christopher Alexander's [Mosaic of Subcultures](https://patterns-dev.github.io/patterns/newpat/newpat8/newpat8.htm) pattern).
-- But we lean toward accepting contributions rather than telling people to start their own project. No one should have to work alone.
+- This org has room for many different repos (Christopher Alexander's [Mosaic of Subcultures](https://patterns-dev.github.io/patterns/newpat/newpat8/newpat8.htm) pattern). If you want a repo for your subproject, [just ask](https://github.com/software-patterns/hci-language/issues/new).
+- However, we'd rather accept contributions to this repo than have people fork off their own projects. No one should have to work alone.
+
+The easiest way to make your mark on this project is to add to the [References](./references.md) file.
+Links to software projects, organizations, books, blog posts, and videos are all welcome. The more
+the merrier!
+
+If you're feeling slightly more ambitious, you can add a pattern to the [patterns](./patterns) directory.
+Please use the [Pattern Template](./patterns/00_PATTERN_TEMPLATE.md) to create new patterns. If you're
+unsure what this "pattern language" business is all about, the following resources will give you a head start:
+
+- [Martin Fowler's "Writing Software Patterns"](https://www.martinfowler.com/articles/writingPatterns.html)
+- The concept of a pattern language (albeit applied to physical architecture, not software) was first described in pages ix-xvii of [_A Pattern Language_, by Christopher Alexander et al.](https://mythstyles.com/products/a-pattern-language-towns-buildings-construction-center-for-environmental) The book is also available [as a PDF](http://library.uniteddiversity.coop/Ecological_Building/A_Pattern_Language.pdf).
+
+
+
+
