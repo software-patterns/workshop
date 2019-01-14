@@ -35,10 +35,18 @@ have created against the pattern and determine if the pattern is truly
 present, and if not, try again.
 
 An important point about patterns is that they do not occur in isolation.
-To construct "a" pattern as a thing unto itself is to miss the point.
+To construct "an" instance of a pattern as a thing unto itself is to miss the point.
 Patterns are not parts that are assembled to build a system. Rather, they
 are phenomena that occur, densely packed and overlapping, within a
 system that is alive.
+
+Furthermore, when we reach directly for patterns, we miss the point.
+The [One-Hundred-Line File](./100-line-file.md) pattern does not mean
+we should arbitrarily chop long files into 100-line chunks just to
+satisfy the pattern. It only means that the largest files in a healthy
+codebase tend to be about a hundred lines long. As an analogy: the fact
+that a doctor may be concerned about a patient's high blood pressure does
+not imply she should remove blood from the patient to correct the problem.
 
 Thus, we actually *cannot* describe precise methods for creating patterns—not
 even methods with a shelf-life. Each instance of a pattern
