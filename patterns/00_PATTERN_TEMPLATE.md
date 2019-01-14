@@ -7,23 +7,57 @@ Use it as a base for creating new patterns.
 
 ---
 
-**When we give advice about software, it is tempting and easy to overgeneralize.**
+**When we give advice about software development, it is tempting and easy to focus on methods
+instead of results.**
 
-As software developers, we are trained to generalize our solutions. When programming, this training can
-be beneficial, but when trying to ground *advice* on programming in empirical facts, it is
-usually detrimental.
+Methods are attractive because they tell us what to do. Anyone can pick up a book on development
+methods and apply it to their project.
 
-When solutions are overly general, it becomes hard to relate them to any specific problem.
-The author may not even explicitly state what problem or problems they are trying to address.
-General solutions are superficially attractive because they seem to give us a Grand Unified
-Theory or "silver bullet" that will magically improve all the software we write. However,
-we have found that in practice they fall short, by failing to account for the intricacies of
-any specific situation.
+Unfortunately, method-oriented advice often focuses on *how* at the expense of *what*: What is
+the method supposed to achieve? If you have only a vague sense of what the outcome of a method
+is supposed to be, how do you know if it is appropriate for your situation? How do you know
+if the method is even working, if you can't compare your results to some expectation?
 
-**Resist the temptation to overgeneralize by using this template to document patterns. Contextualize
-the patterns within a language: a self-reinforcing web of inter-referenced patterns. Make each
-pattern a falsifiable hypothesis about the world, so it can be improved over time as new discoveries
-are made.**
+In the absense of clearly stated goals, methods become dogma, and dogma rots quickly.
+New technologies are invented all the time, but it takes years, sometimes decades, for
+old methods to catch up. Meanwhile, our objective—to live fulfilling human lives—remains
+unchanged.
+
+Methods change; goals stay the same.
+
+**Instead of describing methods, describe patterns: the wholes and relationships that come
+into being when the method works exactly as it is supposed to.**
+
+When subgoals are expressed as patterns, people can use whatever tools
+they are comfortable with, and whatever methods exist within their culture,
+to create a system that has the pattern. Then they can judge what they
+have created against the pattern and determine if the pattern is truly
+present, and if not, try again.
+
+An important point about patterns is that they do not occur in isolation.
+To construct "a" pattern as a thing unto itself is to miss the point.
+Patterns are not parts that are assembled to build a system. Rather, they
+are phenomena that occur, densely packed and overlapping, within a
+system that is alive.
+
+Thus, we actually *cannot* describe precise methods for creating patterns—not
+even methods with a shelf-life. Each instance of a pattern
+arises in a wholly unique way, conditioned by the context and the other patterns
+that intersect it.
+
+> Indeed it turns out, in the end, that what this method does is simply
+> free us from all method.
+>
+> —Christopher Alexander, _The Timeless Way of Building_
+
+This is the beauty of patterns: they free us. They allow us to be ourselves.
+Instead of applying science to our methods, and worrying "are we doing it right?",
+we can apply science to our *results*, and ask "did it work?" We can work
+together as our true, individual selves,
+secure in the knowledge that if we go astray, it will not be for long,
+because we will see that the patterns are not right, and correct them.
+
+\* \* \*
 
 To add a pattern, copy the markdown below to a new file in `patterns/`. Format the file name like `immutable-values.md`.
 Then fill out each section in the template to describe your pattern.
@@ -69,10 +103,6 @@ The sections are as follows:
   as the solution should be easy to find.
 - Next, a description of the solution in one or more paragraphs. Include examples under the
   heading `## Examples`.
-  
-  When writing the solution section, keep in mind that no pattern is meant to exist in
-  isolation. There may be components of the solution that are best described as smaller
-  patterns that support the one you are writing.
   
   Examples should be diverse and numerous; you almost cannot have too many.
   When trying to get at the essence of something very abstract there is no subsitute for a
