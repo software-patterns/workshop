@@ -59,8 +59,6 @@ The sections are as follows:
 - Next, a summary paragraph that contextualizes the pattern within the language, linking to the "larger"
   patterns that form the environment for the present one. You can use relative links like this:
   `[Immutable Values](./immutable-values.md)`.
-- Then a horizontal line to mark the beginning of the pattern body. In markdown, this is represented
-  by three dashes (`---`).
 - Next, a statement of the problem the pattern addresses, in one or two sentences. Use **bold type**
   so the problem statement is easy to find.
 - Next, a thorough description of the problem, usually in several paragraphs. Be as specific as
@@ -80,7 +78,6 @@ The sections are as follows:
   find exemplary but unlicensed code, take the opportunity to ask the author for permission
   to use it as an example. I don't know anyone who dislikes being told that their code is
   exemplary; plus this is a good way to let more people know about this project. ;)
-- Then another horizontal line to mark the end of the body of the pattern.
 - Finally, a list of links to smaller patterns that help reinforce the present pattern and
   make it live.
 
