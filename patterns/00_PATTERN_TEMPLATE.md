@@ -70,6 +70,10 @@ The sections are as follows:
 - Next, a description of the solution in one or more paragraphs. Include examples under the
   heading `## Examples`.
   
+  When writing the solution section, keep in mind that no pattern is meant to exist in
+  isolation. There may be components of the solution that are best described as smaller
+  patterns that support the one you are writing.
+  
   Examples should be diverse and numerous; you almost cannot have too many.
   When trying to get at the essence of something very abstract there is no subsitute for a
   cornucopia of examples.
@@ -78,6 +82,7 @@ The sections are as follows:
   find exemplary but unlicensed code, take the opportunity to ask the author for permission
   to use it as an example. I don't know anyone who dislikes being told that their code is
   exemplary; plus this is a good way to let more people know about this project. ;)
+  
 - Finally, a list of links to smaller patterns that help reinforce the present pattern and
   make it live.
 
