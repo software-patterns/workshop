@@ -46,9 +46,15 @@ we should arbitrarily chop long files into 100-line chunks just to
 satisfy the pattern. It only means that the largest files in a healthy
 codebase tend to be about a hundred lines long. As an analogy: if a doctor
 is concerned about a patient's high blood pressure, she doesn't correct
-the problem by removing blood from the patient.
+the problem by removing blood from the patient. She might prescribe lifestyle
+changes that will lead to overall better health, with reduced blood pressure
+as one of the indicators of health.
 
-Thus, we actually *cannot* describe precise methods for creating patterns—not
+When it comes to making prescriptions, doctors have it easier than programmers.
+Humans are all built on the same basic plan, while software systems vary wildly.
+What works to cure one program's ills may destroy another.
+The complexity and diversity of software mean we actually
+*cannot* describe precise methods for creating patterns—not
 even methods with a shelf-life. Each instance of a pattern
 arises in a wholly unique way, conditioned by the context and the other patterns
 that intersect it.
