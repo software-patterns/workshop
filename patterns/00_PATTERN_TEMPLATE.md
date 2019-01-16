@@ -71,6 +71,13 @@ together as our true, individual selves,
 secure in the knowledge that if we go astray, it will not be for long,
 because we will see that the patterns are not right, and correct them.
 
+Another advantage of the patterns in the present language is that most of them are
+*objective*. A person who has never worked on a particular software team or
+used a particular product can come on the scene and, within a few moments,
+assess whether the system contains a given pattern. There is no need to observe
+people for long periods of time, conduct interviews, or take surveys. Either
+the pattern is there, or it isn't.
+
 \* \* \*
 
 To add a pattern, copy the markdown below to a new file in `patterns/`. Format the file name like `immutable-values.md`.
