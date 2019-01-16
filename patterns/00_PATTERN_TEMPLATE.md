@@ -44,9 +44,9 @@ Furthermore, when we reach directly for patterns, we miss the point.
 The [One-Hundred-Line File](./100-line-file.md) pattern does not mean
 we should arbitrarily chop long files into 100-line chunks just to
 satisfy the pattern. It only means that the largest files in a healthy
-codebase tend to be about a hundred lines long. As an analogy: the fact
-that a doctor may be concerned about a patient's high blood pressure does
-not imply she should remove blood from the patient to correct the problem.
+codebase tend to be about a hundred lines long. As an analogy: if a doctor
+is concerned about a patient's high blood pressure, she doesn't correct
+the problem by removing blood from the patient.
 
 Thus, we actually *cannot* describe precise methods for creating patterns—not
 even methods with a shelf-life. Each instance of a pattern
