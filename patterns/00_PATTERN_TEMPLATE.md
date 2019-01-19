@@ -18,7 +18,7 @@ the method supposed to achieve? If you have only a vague sense of what the outco
 is supposed to be, how do you know if it is appropriate for your situation? How do you know
 if the method is even working, if you can't compare your results to some expectation?
 
-In the absense of clearly stated goals, methods become dogma, and dogma rots quickly.
+In the absence of clearly stated goals, methods become dogma, and dogma rots quickly.
 New technologies are invented all the time, but it takes years, sometimes decades, for
 old methods to catch up. Meanwhile, our objective—to live fulfilling human lives—remains
 unchanged.
