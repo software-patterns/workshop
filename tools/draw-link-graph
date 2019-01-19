@@ -1,0 +1,18 @@
+#!/bin/sh
+
+if ! which dot >/dev/null; then
+  echo "You must install graphviz to run this script."
+  exit 1
+fi
+
+if ! which ruby >/dev/null; then
+  echo "You must install ruby to run this script."
+  exit 1
+fi
+
+if test -z "$1"; then
+  echo "Usage: tools/dot-link-graph graph.png"
+  exit 1
+fi
+
+tools/dot-link-graph | dot -Tpng >"$1"

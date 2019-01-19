@@ -1,0 +1,27 @@
+#!/usr/bin/env ruby
+
+def main
+  pattern_files = Dir['patterns/*'].map { |path| [File.basename(path), File.read(path)] }
+  puts 'strict digraph {'
+  puts dot_links_from pattern_files
+  puts '}'
+end
+
+def markdown_hrefs_in(text)
+  text.scan(/\]\(([^)]+)\)/).map(&:first)
+end
+
+def quote(s)
+  "\"#{s}\""
+end
+
+def dot_links_from(files)
+  files.flat_map { |filename, text|
+    markdown_hrefs_in(text).
+      select { |href| href.end_with? '.md' }.
+      map { |path| File.basename path }.
+      map { |dest| "#{quote filename} -> #{quote dest}" }
+  }
+end
+
+main
