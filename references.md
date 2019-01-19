@@ -14,3 +14,4 @@ Links to things and people that have inspired us.
 - [Patterns Failed. Why? Should We Care?](https://www.deconstructconf.com/2017/brian-marick-patterns-failed-why-should-we-care) People: Brian Marick.
 - [Therapeutic Refactoring](https://www.youtube.com/watch?v=KA9i5IGS-oU). People: Katrina Owen.
 - [Lecture to the London Mathematical Society, February 20 1947](https://www.vordenker.de/downloads/turing-vorlesung.pdf). People: Alan Turing.
+- [Programming Across Paradigms](https://www.youtube.com/watch?v=Pg3UeB-5FdA). People: Anjana Vakil.
