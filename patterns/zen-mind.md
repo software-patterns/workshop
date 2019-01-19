@@ -43,7 +43,20 @@ when programming? What does "appropriate discipline" look like?
 
 ## Examples
 
-{Examples go here}
+Gratitude can create Beginner's Mind—because gratitude implies not taking something
+for granted, the thing feels new.
+
+Today I ran a teambuilding exercise at work that I've facilitated many times in the
+past, in different contexts. Part of my opening spiel for the exercise is to let
+people know they are free to take a break at any point and get food or a drink.
+So I pointed out the snack cupboard, loaded with free snacks, about 20 feet away
+from where we were sitting. I realized as I did this that it was kind of silly.
+I was talking to my coworkers and they all knew perfectly well where the snacks were
+and that they were free to take some. But it made me think back to all the other times
+I've run the exercise when the snacks *weren't* free, when some volunteer drove
+across town to buy them and bring them back... it made the whole situation seem
+new and fresh, because I had suddenly noticed the extraordinary good fortune of my
+situation.
 
 ---
 
