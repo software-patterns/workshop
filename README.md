@@ -35,12 +35,12 @@ is not stupid. —benchristel*
 # Collaborating
 
 This repository is structured in a way that I hope will encourage
-collaborative, piecemeal growth. You can add to the [patterns directory](./patterns)
-by following the instructions in the [Pattern Template](./patterns/00_PATTERN_TEMPLATE.md).
-You can also add links to the [References](./references.md) file. If you have
-feedback on a specific pattern, you can start a discussion, [wiki-style](http://wiki.c2.com/?PatternLanguage),
-in an italicized block within the pattern text itself.
-Below is an example of this.
+collaborative, piecemeal growth.
+- You can add a pattern to the [patterns directory](./patterns)
+  by following [these instructions](./patterns/00_PATTERN_TEMPLATE.md).
+- You can add links to the [References](./references.md) file.
+- If you have feedback on a specific pattern, you can start a discussion, [wiki-style](http://wiki.c2.com/?PatternLanguage),
+  in an italicized block within the pattern text itself. Below is an example of this.
 
 *I prefer patterns to be concrete, specific, and grounded in our experiences.
 Any positive experience you've had creating or using software is
@@ -51,7 +51,9 @@ don't need a lot of evidence to write the pattern. Patterns
 can (should?) start out as just hypotheses; over time I'd like to test each
 pattern more rigorously and see if it really holds up. —benchristel*
 
-The following resources help explain what patterns are all about:
+# Further Reading
+
+The following resources help explain what patterns are all about.
 
 - [Martin Fowler's "Writing Software Patterns"](https://www.martinfowler.com/articles/writingPatterns.html)
 - [_A Pattern Language_, by Christopher Alexander et al.](https://mythstyles.com/products/a-pattern-language-towns-buildings-construction-center-for-environmental). The original pattern language; this one is about physical architecture,
