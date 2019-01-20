@@ -1,6 +1,6 @@
 # hci-language
 
-A pattern language for computer systems that promote human wellbeing
+A [pattern language](https://groupworksdeck.org/pattern-language) for computer systems that promote human wellbeing.
 
 # Why
 
