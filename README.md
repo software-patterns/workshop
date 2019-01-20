@@ -8,8 +8,10 @@ A [pattern language](https://groupworksdeck.org/pattern-language) for computer s
 - Our experiences are defined by perceptions of our environment.
 - Computer systems are increasingly interwoven with our lives - they constitute a large part of our environment.
 - We have long recognized that the physical spaces we inhabit impact our wellbeing for good or ill (c.f. Christopher Alexander's works). When physical space is not structured according to human needs, its inhabitants suffer.
-- [Research suggests](https://ledger.humanetech.com/) that computer systems can likewise take a heavy toll on our wellbeing.
-- As virtual spaces come to define more of our experiences, we will need new pattern languages that can shape those spaces for the benefit of their inhabitants.
+- [Recent research suggests](https://ledger.humanetech.com/) that computer systems can likewise take a heavy toll on our wellbeing.
+  These computer systems have introduced new forces into our environments—forces that are likely not resolvable by
+  the patterns in _A Pattern Language_.
+- What we need now is an extended pattern language that accounts for these new forces. 
 
 # What
 
@@ -25,23 +27,28 @@ A [pattern language](https://groupworksdeck.org/pattern-language) for computer s
 
 # Collaborating
 
-Please keep in mind:
+This repository is structured in a way that I hope will encourage
+collaborative, piecemeal growth. You can add to the [patterns directory](./patterns)
+by following the instructions in the [Pattern Template](./patterns/00_PATTERN_TEMPLATE.md).
+You can also add links to the [References](./references.md) file. If you have
+feedback on a specific pattern, you can start a discussion, [wiki-style](http://wiki.c2.com/?PatternLanguage),
+in an italicized block within the pattern text itself.
+Below is an example of this.
 
-- This repo is public.
-- We're breaking new ground; we're bound to disagree sometimes. Be kind.
-- This org has room for many different repos (Christopher Alexander's [Mosaic of Subcultures](https://patterns-dev.github.io/patterns/newpat/newpat8/newpat8.htm) pattern). If you want a repo for your subproject, [just ask](https://github.com/software-patterns/hci-language/issues/new).
-- However, we'd rather accept contributions to this repo than have people fork off their own projects. No one should have to work alone.
+*I prefer patterns to be concrete, specific, and grounded in our experiences.
+Any positive experience you've had creating or using software is
+a potential seed for a pattern. If you've also experienced
+the pain of* not *having the pattern in your environment, so much the
+better—that's evidence that the pattern actually does something. But you
+don't need a lot of evidence to write the pattern. Patterns
+can (should?) start out as just hypotheses; over time I'd like to test each
+pattern more rigorously and see if it really holds up. —benchristel*
 
-The easiest way to make your mark on this project is to add to the [References](./references.md) file.
-Links to software projects, organizations, books, blog posts, and videos are all welcome. The more
-the merrier!
-
-If you're feeling slightly more ambitious, you can add a pattern to the [patterns](./patterns) directory.
-Please use the [Pattern Template](./patterns/00_PATTERN_TEMPLATE.md) to create new patterns. If you're
-unsure what this "pattern language" business is all about, the following resources will give you a head start:
+The following resources help explain what patterns are all about:
 
 - [Martin Fowler's "Writing Software Patterns"](https://www.martinfowler.com/articles/writingPatterns.html)
-- The concept of a pattern language (albeit applied to physical architecture, not software) was first described in pages ix-xvii of [_A Pattern Language_, by Christopher Alexander et al.](https://mythstyles.com/products/a-pattern-language-towns-buildings-construction-center-for-environmental) The book is also available [as a PDF](http://library.uniteddiversity.coop/Ecological_Building/A_Pattern_Language.pdf).
+- [_A Pattern Language_, by Christopher Alexander et al.](https://mythstyles.com/products/a-pattern-language-towns-buildings-construction-center-for-environmental). The original pattern language; this one is about physical architecture,
+not software. The book is also available [as a PDF](http://library.uniteddiversity.coop/Ecological_Building/A_Pattern_Language.pdf).
 
 
 
