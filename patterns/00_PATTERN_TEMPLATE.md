@@ -18,7 +18,19 @@ the method supposed to achieve? If you have only a vague sense of what the outco
 is supposed to be, how do you know if it is appropriate for your situation? How do you know
 if the method is even working, if you can't compare your results to some expectation?
 
-In the absence of clearly stated goals, methods become dogma, and dogma rots quickly.
+Here are summaries of some methods I quite like. Note the absence of clearly stated goals.
+
+- TDD: Write a failing test. Modify the program to make it pass. Refactor. Repeat.
+- Retrospectives: Everyone writes down their positive and negative experiences of the
+  past week. The team discusses the items and agrees on a set of actions to do in the
+  coming week.
+- Gherkin: Write user stories in the form `GIVEN ..., WHEN ..., THEN ...`.
+
+There are good reasons to use all of these methods, but in my experience, people usually
+explain them without much more detail than I've given above. *Why* the methods are
+useful is often not part of the explanation.
+
+When we aren't explicit about goals, methods become dogma, and dogma rots quickly.
 New technologies are invented all the time, but it takes years, sometimes decades, for
 old methods to catch up. Meanwhile, our objective—to live fulfilling human lives—remains
 unchanged.
