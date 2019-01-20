@@ -19,6 +19,7 @@ A [pattern language](https://groupworksdeck.org/pattern-language) for computer s
 
 - This repository is a space for collaborating on patterns.
 - Our scope includes code, software architecture, user interfaces, team dynamics, and open-source communities.
+- Our quest is to seek [the quality without a name](https://onluminousgrounds.wordpress.com/2010/04/24/the-quality-without-a-name-part-one/).
 
 # Who
 
