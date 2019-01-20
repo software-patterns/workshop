@@ -1,6 +1,6 @@
 # Computer Places
 
-Within a house or office, create [alcoves](https://patterns-dev.github.io/patterns/clean2/patterns.htm)
+Within a house or office, create [alcoves](https://patterns-dev.github.io/patterns/clean2/apl179/apl179.htm)
 for computing that open off of more public spaces.
 
 ---
