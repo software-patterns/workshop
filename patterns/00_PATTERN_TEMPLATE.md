@@ -1,9 +1,12 @@
 # Pattern Template
 
-In order to clearly communicate the patterns within a pattern language, it is helpful
-to have a standard form for representing a pattern. This file both describes
-and exemplifies a pattern style based on the "Alexandrian form" named for Christopher Alexander.
-Use it as a base for creating new patterns.
+*When I read a pattern, I want to be able to quickly assess whether it applies
+to my context, what problem or system of forces it addresses, and what solution
+it offers. I can do this easily only if the pattern has a standard form that calls
+attention to these main elements. —benchristel*
+
+This file both describes and exemplifies a pattern style based on the "Alexandrian
+form" named for Christopher Alexander. Use it as a base for creating new patterns.
 
 ---
 
