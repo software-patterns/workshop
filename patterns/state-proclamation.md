@@ -73,6 +73,8 @@ values.**
 
 ## Examples
 
+### Real Example: Verse View
+
 The [core](https://github.com/benchristel/verse/blob/master/src/core/Core.js) of
 [Verse](https://benchristel.github.io/verse) is a small tree of stateful objects
 that use State Proclamation to keep the UI informed of their internal state.
@@ -95,6 +97,81 @@ view = {
     formId: 0,        // unique ID to ensure that forms are displayed
                       // and processed correctly
   }
+```
+
+### Simple Example: Mutable Log
+
+The following `Log` class defines mutable objects with two simple operations: `write(message)` and `clear()`.
+When you perform one of these operations on a `Log`, it returns the history of messages
+written so far as an immutable State Proclamation.
+
+One idiosyncrasy of the Log class is that you can't observe its true initial state.
+You have to send it a message, either `write` or `clear`, to access the state.
+This is okay because we probably want newly-initialized Logs to be blank, so we
+can send `clear` to generate the first proclamation.
+
+You can copy-paste this code into [Verse](https://verse.js.org/2.0.0-alpha.0) to see the tests run.
+
+```javascript
+define({
+  Log() {
+    let messages = []
+    return {
+      clear,
+      write,
+    }
+    
+    function clear() {
+      return messages = []
+    }
+    
+    function write(message) {
+      return messages = [...messages, message]
+    }
+  },
+  
+  'test creating a blank Log'() {
+    assert(Log().clear(), equals, [])
+  },
+  
+  'test writing a message to a Log'() {
+    assert(Log().write('hello'), equals, ['hello'])
+  },
+  
+  'test writing multiple messages to a Log'() {
+    const l = Log()
+    l.write('one')
+    assert(l.write('two'), equals, ['one', 'two'])
+    assert(l.write('three'), equals, ['one', 'two', 'three'])
+  },
+  
+  'test clearing a Log'() {
+    const l = Log()
+    l.write('hello')
+    assert(l.clear(), equals, [])
+  },
+  
+  'test clearing a Log and then writing more messages'() {
+    const l = Log()
+    l.write('before clear')
+    l.clear()
+    assert(l.write('after clear'), equals, ['after clear'])
+  },
+  
+  'test writing to a Log does not alter earlier state proclamations'() {
+    const l = Log()
+    let dontChangeMeBro = l.write('one')
+    l.write('two')
+    assert(dontChangeMeBro, equals, ['one'])
+  },
+  
+  'test clearing a Log does not alter earlier state proclamations'() {
+    const l = Log()
+    let dontChangeMeBro = l.write('one')
+    l.clear()
+    assert(dontChangeMeBro, equals, ['one'])
+  }
+})
 ```
 
 ---
