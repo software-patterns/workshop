@@ -16,3 +16,4 @@ Links to things and people that have inspired us.
 - [Lecture to the London Mathematical Society, February 20 1947](https://www.vordenker.de/downloads/turing-vorlesung.pdf). People: Alan Turing.
 - [Programming Across Paradigms](https://www.youtube.com/watch?v=Pg3UeB-5FdA). People: Anjana Vakil.
 - [Why Most Unit Testing Is Waste](https://rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf). People: Jim Coplien.
+- [Rediscovering Mvc](https://github.com/ciscoheat/mithril-hx/wiki/Rediscovering-MVC). A brief history of the evolution of Model-View-Controller, claiming that MVC is in fact a pattern language.
