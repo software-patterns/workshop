@@ -36,3 +36,5 @@ which he restricts his computing activities to a single room.
 ---
 
 To determine how many computer places to create, use [Two People Per Computer](./two-people-per-computer).
+Place computers near windows (taking care to avoid glare) to double up this pattern
+with [Window Place](https://patterns-dev.github.io/patterns/clean2/apl180/apl180.htm).
