@@ -4,9 +4,6 @@ A [pattern language](https://groupworksdeck.org/pattern-language) for computer s
 
 # Why
 
-- Our sense of wellbeing is a function of our experiences.
-- Our experiences are defined by perceptions of our environment.
-- Computer systems are increasingly interwoven with our lives - they constitute a large part of our environment.
 - We have long recognized that [our physical surroundings have profound effects on our wellbeing](http://library.uniteddiversity.coop/Ecological_Building/A_Pattern_Language.pdf). People suffer when the spaces they
   inhabit stir up conflicting stresses within them that they cannot resolve.
 - In _A Pattern Language_, Christopher Alexander unfolds the concept of a **pattern**: a recurring set of relationships
