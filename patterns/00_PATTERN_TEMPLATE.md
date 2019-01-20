@@ -21,17 +21,19 @@ the method supposed to achieve? If you have only a vague sense of what the outco
 is supposed to be, how do you know if it is appropriate for your situation? How do you know
 if the method is even working, if you can't compare your results to some expectation?
 
-Here are summaries of some methods I quite like. Note the absence of clearly stated goals.
+*To make this idea concrete: here are summaries of some methods I use every day.
+Note the absence of clearly stated goals. In my experience, these methods are
+often explained this way, without reference to goals.*
 
-- TDD: Write a failing test. Modify the program to make it pass. Refactor. Repeat.
-- Retrospectives: Everyone writes down their positive and negative experiences of the
-  past week. The team discusses the items and agrees on a set of actions to do in the
-  coming week.
-- Gherkin: Write user stories in the form `GIVEN ..., WHEN ..., THEN ...`.
+- *TDD: Write a failing test. Modify the program to make it pass. Refactor. Repeat.*
+- *Story Points: Estimate amounts of work to be done in abstract "points" rather than
+  concrete units like hours. Bugfixes and technical "chores", however, are not given
+  points, even though they take time to complete.*
+- *Gherkin: Write user stories in the form `GIVEN ..., WHEN ..., THEN ...`.*
 
-There are good reasons to use all of these methods, but in my experience, people usually
-explain them without much more detail than I've given above. *Why* the methods are
-useful is often not part of the explanation.
+*There are good reasons to use all of these methods, but people often
+explain them without much more detail than I've given above.* Why *the methods are
+useful is often not part of the explanation. —benchristel*
 
 When we aren't explicit about goals, methods become dogma, and dogma rots quickly.
 New technologies are invented all the time, but it takes years, sometimes decades, for
@@ -40,23 +42,61 @@ unchanged.
 
 Methods change; goals stay the same.
 
-**Instead of describing methods, describe patterns: the wholes and relationships that come
-into being when the method works exactly as it is supposed to.**
+**Instead of describing methods, describe patterns: the centers and relationships that come
+into being when the method works exactly as it is supposed to. Patterns are landmarks we
+can use to get our bearings as we experiment our way toward creating living wholes.
+We can describe the interactions between patterns—how the patterns support each other—in
+the form of a pattern language.**
 
-When subgoals are expressed as patterns, people can use whatever tools
+When people share a pattern language, they can use whatever tools
 they are comfortable with, and whatever methods exist within their culture,
-to create a system that has the pattern. Then they can judge what they
-have created against the pattern and determine if the pattern is truly
-present, and if not, try again.
+to create a system that has the patterns.
+Then they can judge what they have created against the patterns and determine
+if those patterns are truly present, and if not, try again.
 
-An important point about patterns is that they do not occur in isolation.
-To construct "an" instance of a pattern as a thing unto itself is to miss the point.
-Patterns are not parts that are assembled to build a system. Rather, they
-are phenomena that occur, densely packed and overlapping, within a
-system that is alive.
+Viewed this way, a pattern language does superficially resemble a kind of method.
+You can use the language like a cookbook, creating
+and assembling patterns one by one. But this
+step-by-step method, though useful, is not prescribed. Indeed, to create really
+profound designs, in which the patterns are tightly packed and
+interrelated, we have to abandon step-by-step methods and view the
+patterns not as recipes but as touchstones. We can then begin to
+evaluate, and perhaps even understand, the results of the unconstrained,
+informal processes that characterize the work of a master.
 
-Furthermore, when we reach directly for patterns, we miss the point.
-The [One-Hundred-Line File](./100-line-file.md) pattern does not mean
+> Indeed it turns out, in the end, that what [the pattern language] method does is simply
+> free us from all method.
+>
+> —Christopher Alexander, _The Timeless Way of Building_
+
+Pattern languages free us. They allow us to be ourselves.
+Instead of applying science to our methods, and worrying "are we doing it right?",
+we can apply science to our *results*, and ask "did it work?" We can work
+together as our true, individual selves,
+secure in the knowledge that if we go astray, it will not be for long,
+because we will see that the patterns are not right, and correct them.
+
+# Caveats
+
+A pattern language can only work when each pattern is
+objectively present in or absent from any
+given system. Anyone who knows the patterns should be able to walk into a
+codebase or a workspace and assess in a few moments whether a given pattern
+is present or not. The same applies to
+the problem statement of a pattern. To be useful, a pattern must
+resolve real forces that are really present within a system. If the
+forces addressed by a pattern are vague or subjective, people can get
+caught in endless debates about whether the pattern is applicable
+to them.
+
+We must also beware of [Goodhart's Law](https://en.wikipedia.org/wiki/Goodhart%27s_law):
+
+> When a measure becomes a target, it ceases to be a good measure.
+>
+> —Marilyn Strathern, paraphrase of [Goodhart's Law](https://en.wikipedia.org/wiki/Goodhart%27s_law)
+
+When we make the creation of patterns an overriding goal, we miss the point.
+The [100 Line File](./100-line-file.md) pattern does not mean
 we should arbitrarily chop long files into 100-line chunks just to
 satisfy the pattern. It only means that the largest files in a healthy
 codebase tend to be about a hundred lines long. As an analogy: if a doctor
@@ -65,35 +105,7 @@ the problem by removing blood from the patient. She might prescribe lifestyle
 changes that will lead to overall better health, with reduced blood pressure
 as one of the indicators of health.
 
-When it comes to making prescriptions, doctors have it easier than programmers.
-Humans are all built on the same basic plan, while software systems vary wildly.
-What works to cure one program's ills may destroy another.
-The complexity and diversity of software mean we actually
-*cannot* describe precise methods for creating patterns—not
-even methods with a shelf-life. Each instance of a pattern
-arises in a wholly unique way, conditioned by the context and the other patterns
-that intersect it.
-
-> Indeed it turns out, in the end, that what this method does is simply
-> free us from all method.
->
-> —Christopher Alexander, _The Timeless Way of Building_
-
-This is the beauty of patterns: they free us. They allow us to be ourselves.
-Instead of applying science to our methods, and worrying "are we doing it right?",
-we can apply science to our *results*, and ask "did it work?" We can work
-together as our true, individual selves,
-secure in the knowledge that if we go astray, it will not be for long,
-because we will see that the patterns are not right, and correct them.
-
-Another advantage of the patterns in the present language is that most of them are
-*objective*. A person who has never worked on a particular software team or
-used a particular product can come on the scene and, within a few moments,
-assess whether the system contains a given pattern. There is no need to observe
-people for long periods of time, conduct interviews, or take surveys. Either
-the pattern is there, or it isn't.
-
-\* \* \*
+## Documenting New Patterns
 
 To add a pattern, copy the markdown below to a new file in `patterns/`. Format the file name like `immutable-values.md`.
 Then fill out each section in the template to describe your pattern.
@@ -154,7 +166,8 @@ The sections are as follows:
 
 ## Examples
 
-For an example of a pattern, see [this file](./00_PATTERN_TEMPLATE.md).
+For examples of patterns drawn from _A Pattern Language_, see
+[patterns-dev](https://patterns-dev.github.io/patterns/clean2/patterns.htm).
 
 ---
 
