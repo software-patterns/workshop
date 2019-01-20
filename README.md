@@ -6,7 +6,8 @@ A [pattern language](https://groupworksdeck.org/pattern-language) for computer s
 
 - We have long recognized that [our physical surroundings have profound effects on our wellbeing](http://library.uniteddiversity.coop/Ecological_Building/A_Pattern_Language.pdf). People suffer when the spaces they
   inhabit stir up conflicting stresses within them that they cannot resolve.
-- In _A Pattern Language_, Christopher Alexander unfolds the concept of a **pattern**: a recurring set of relationships
+- In [_A Pattern Language_](http://library.uniteddiversity.coop/Ecological_Building/A_Pattern_Language.pdf),
+  Christopher Alexander unfolds the concept of a **pattern**: a recurring set of relationships
   among architectural elements that allows people to resolve their conflicting stresses.
 - [Recent research suggests](https://ledger.humanetech.com/) that computer systems, just like physical spaces,
   take a heavy toll on our wellbeing.
