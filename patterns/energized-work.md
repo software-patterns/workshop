@@ -16,9 +16,9 @@
 that enable you to sleep well. Do not deprive other people
 of sleep.**
 
-I swear my IQ swings by 50 points depending on whether I slept
+*I swear my IQ swings by 50 points depending on whether I slept
 well the past few nights. No other factor makes as great a
-difference in my ability to learn, think, and communicate.
+difference in my ability to learn, think, and communicate. —benchristel*
 
 ## Examples
 
