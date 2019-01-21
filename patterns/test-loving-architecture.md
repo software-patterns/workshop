@@ -58,4 +58,11 @@ that formed the structure of the beginning of this introduction.
 
 ---
 
-{References to smaller patterns}
+Once you have established your architecture, create a [300-millisecond Test Suite](./300-ms-test-suite.md)
+to make refactoring a stress-free process. From each [Logic-Dependency Boundary](./logic-dependency-boundary.md),
+grow trees of [Pure Functions](./pure-functions.md) composed from [Many Small Units](./many-small-units.md).
+Create [State Atoms](./state-atoms.md) adjoining the boundary whose [State Proclamations](./state-proclamations)
+will be processed by the functions—[Functional View](./functional-view.md).
+And, where appropriate, build the [Logic-Dependency Boundary](./logic-dependency-boundary.md)
+itself as a [Placelike Procedure](./placelike-procedures.md) to align with
+users' intuition that computing is not just "doing something" but "being somewhere".
