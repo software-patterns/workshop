@@ -20,7 +20,7 @@ isolation.
 
 Here is an example of a name that is *not* whole: `fancy_roundup` in Python's [`node.c`](http://svn.python.org/projects/python/branches/py3k/Parser/node.c):
 
-```
+```c
 static int
 fancy_roundup(int n)
 {
@@ -50,7 +50,7 @@ But it does mean that this algorithm cannot be used outside its current context 
 
 However, performance and generality could both be achieved by changing the assertion to a conditional:
 
-```
+```c
 static int
 power_of_2_above(int n)
 {
