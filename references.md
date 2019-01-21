@@ -17,3 +17,4 @@ Links to things and people that have inspired us.
 - [Programming Across Paradigms](https://www.youtube.com/watch?v=Pg3UeB-5FdA). People: Anjana Vakil.
 - [Why Most Unit Testing Is Waste](https://rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf). People: Jim Coplien.
 - [Rediscovering MVC](https://github.com/ciscoheat/mithril-hx/wiki/Rediscovering-MVC). A brief history of the evolution of Model-View-Controller, claiming that MVC is in fact a pattern language.
+- [Humane Interfaces: Questions of Method and Practice in Cognitive Technology](https://books.google.com/books/about/Humane_Interfaces.html?id=lZGdVzyl_KIC). People: Jonathon P. Marsh, Barbara Gorayska, Jacob L. Mey, David Good, Ian Hart, Alex Kass, Joe Herman, Colin T. Schmidt, Patrick Ruch, Muneo Kitajima, Douglas Hermann, Carol Yoder, Virgil Sheets, Justine Wells, Brad Brubaker, John Sillince, Wolfgang Halang.
