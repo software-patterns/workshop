@@ -95,7 +95,7 @@ We must also beware of [Goodhart's Law](https://en.wikipedia.org/wiki/Goodhart%2
 >
 > —Marilyn Strathern, paraphrase of [Goodhart's Law](https://en.wikipedia.org/wiki/Goodhart%27s_law)
 
-When we make the creation of patterns an overriding goal, we miss the point.
+When we make an effort to fill our work with patterns, we miss the point.
 The [100 Line File](./100-line-file.md) pattern does not mean
 we should arbitrarily chop long files into 100-line chunks just to
 satisfy the pattern. It only means that the largest files in a healthy
