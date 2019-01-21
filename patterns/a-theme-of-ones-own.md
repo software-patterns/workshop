@@ -9,7 +9,7 @@ altered without the user's consent.
 ---
 
 **To use only software that has been designed
-by other people—that is like living one's whole life in
+by other people is to live your whole life in
 hotel rooms.**
 
 The rooms may be nice, comfortable, even lavish—but they aren't yours.
