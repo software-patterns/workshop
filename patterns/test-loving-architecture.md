@@ -30,6 +30,8 @@ tests](https://dhh.dk//2014/test-induced-design-damage.html).
 [They may micromanage how the code does its work, rather than expressing goals and leaving
 the implementation to unfold naturally](https://rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf).
 They may have to be thrown away and rewritten whenever the code changes—what a waste!
+And finally, and most distressingly, they may be so slow that no one runs
+them while refactoring.
 These types of tests do not help us avoid complexity. But they are all too common.
 
 To escape these problems, we must realize this essential truth: code that is designed
