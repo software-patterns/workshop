@@ -8,8 +8,7 @@ altered without the user's consent.
 
 ---
 
-**To use only software that has been designed
-by other people is to live your whole life in
+**To use only software designed by other people is to live your whole life in
 hotel rooms.**
 
 The rooms may be nice, comfortable, even lavish—but they aren't yours.
