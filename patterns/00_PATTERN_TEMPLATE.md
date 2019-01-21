@@ -76,7 +76,7 @@ together as our true, individual selves,
 secure in the knowledge that if we go astray, it will not be for long,
 because we will see that the patterns are not right, and correct them.
 
-# Caveats
+## Caveats
 
 A pattern language can only work when each pattern is
 objectively present in or absent from any
