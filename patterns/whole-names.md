@@ -64,10 +64,18 @@ power_of_2_above(int n)
 }
 ```
 
-**Name functions after what they do or what they return, not how they are used. Ask
-yourself "if I could see only this function, would the names make sense?"**
+**Name classes and functions after what they do or what they return, not how they are used. Ask
+yourself, "If I could see only this function, would the names make sense?"**
 
-{Solution description}
+Factor out oft-reused logic into general-purpose functions that can
+inhabit a single [Global Namespace](./global-namespace.md). Inline functions
+when no plausible names apply to them, when they cannot be understood outside
+the context of their caller. Avoid extracting functions just to make code less repetitive.
+Functions you do extract should correspond to concepts in the application domain
+[Ubiquitous Domain Language](./ubiquitous-domain-language.md).
+
+Call trees should be wide
+and shallow—[Radical Composition](./radical-composition.md).
 
 ## Examples
 
