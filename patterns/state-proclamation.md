@@ -41,20 +41,21 @@ mutable object destroys referential transparency. The following pseudocode illus
 ```java
 // session is a mutable object
 authenticate(session.currentUser());
-sleep(100);
+doSomethingComplicated()
 doSomeSecureOperationWith(session.currentUser());
 ```
 
 How can we be sure that the user we've authenticated is still the current user when we
-`doSomeSecureOperationWith(session.currentUser())`? In general, we can't.
+`doSomeSecureOperationWith(session.currentUser())`? In general, we can't. It could have
+been changed by the call to `doSomethingComplicated`. It might even have been changed
+by another thread.
 
 This problem can of course be mitigated by using local variables, e.g.
 
 ```java
-// session is a mutable object
 user = session.currentUser();
 authenticate(user);
-sleep(100);
+doSomethingComplicated()
 doSomeSecureOperationWith(user);
 ```
 
