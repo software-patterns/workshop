@@ -1,6 +1,8 @@
 # 300-millisecond Test Suite
 
-[Automated tests](./automated-tests.md) are only useful when
+A [Test-Loving Architecture](./test-loving-architecture.md) helps us
+eliminate the tedium and human fallibility of checking our work manually.
+But automated tests are only useful when
 programmers run them. Ideally, all the tests run on every change
 to the code. For this to be tenable, test runs must be fast.
 We have found that the subjectively optimal
@@ -105,5 +107,4 @@ just feels right somehow. —benchristel*
 
 ---
 
-In order for the tests to remain both fast and intelligible, the code being tested
-should have a [Test-loving Architecture](./test-loving-architecture.md)
+Keep your tests small and simple with [Many Small Units](./many-small-units.md).
