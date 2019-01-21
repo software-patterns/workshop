@@ -16,11 +16,18 @@ def quote(s)
 end
 
 def dot_links_from(files)
+  filenames = files.map { |f| f[0] }
   files.flat_map { |filename, text|
     markdown_hrefs_in(text).
       select { |href| href.end_with? '.md' }.
       map { |path| File.basename path }.
-      map { |dest| "#{quote filename} -> #{quote dest}" }
+      flat_map { |dest|
+        dest_color = "[color=#{filenames.include?(dest) ? 'black' : 'red'}]"
+        [
+          "#{quote filename} -> #{quote dest} #{dest_color}",
+          "#{quote dest} #{dest_color}"
+        ]
+      }
   }
 end
 
