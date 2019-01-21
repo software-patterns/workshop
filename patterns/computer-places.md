@@ -23,7 +23,7 @@ while lying in bed, or walking, or using the bathroom...
 The effect is that computing is less and less a social experience.
 
 **Set aside places for computers. Place them in areas that are visually
-connected to, but not adjacent, high-traffic spaces like hallways and
+connected to, but not in the midst of, high-traffic spaces like hallways and
 family rooms.**
 
 TODO: Link to Bryan Lunduke's videos on "computing like it's 1989", in
@@ -31,7 +31,46 @@ which he restricts his computing activities to a single room.
 
 ## Examples
 
-{Examples go here}
+*Here are examples of two computer places from my life. —benchristel*
+
+```
+# = wall
+@ = computer monitor
+
+#####----window----#####
+#                 +--+ #
+#                 |  | #
+#    living       |@ | #
+#     room        |  | #
+#             desk+--+ #
+#                      #
+#                      #
+#            up        #
+#------------|---------#########
+             V    hallway       
+
+  dining    #  entry   #######
+   room     #   hall   #
+```
+
+```
+     #
+     ###########
+din. # ,_____, | window
+room # |     | #
+     # |__@__| ################
+     |
+     |
+    <-- up
+     |        family room
+liv. |
+room |
+```
+
+It's worth noting that these examples contradict Christopher Alexander's [Workspace Enclosure](https://patterns-dev.github.io/patterns/clean2/patterns.htm) pattern. They are too exposed to be comfortable workspaces.
+But the computer places above are not offices. In both
+cases, they were shared by the members of a family, and used for small tasks: answering email, checking the
+weather, looking something up, listening to music, playing a game...
 
 ---
 
