@@ -5,9 +5,9 @@ eliminate the tedium and human fallibility of checking our work manually.
 But automated tests are only useful when
 programmers run them. Ideally, all the tests run on every change
 to the code. For this to be tenable, test runs must be fast.
-We have found that the subjectively optimal
+*I have found that the subjectively optimal
 amount of time between editing code and seeing test results is
-about 300 milliseconds.
+about 300 milliseconds. —benchristel*
 
 ---
 
