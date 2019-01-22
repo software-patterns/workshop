@@ -1,6 +1,7 @@
 # Entrance Transition
 
-{Summary} 
+This pattern tells you what to put on the landing page of a [Personal
+Website](./personal-website.md).
 
 ---
 
