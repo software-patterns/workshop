@@ -142,7 +142,21 @@ The sections are as follows:
 - First, the title of the pattern, as a markdown heading. When naming a pattern, remember that all
   the patterns form a language. Names should be brief and evocative, easy to remember and reference
   in text or speech.
-- Next, a summary paragraph that contextualizes the pattern within the language, linking to the "larger"
+- Next, a summary paragraph that states what "FAQ" the pattern answers. If you're stuck, fill in the blank:
+  "This pattern tells you how to \_\_\_\_\_". For example:
+  - _This pattern tells you how to **interview prospective engineers**_
+  - _This pattern tells you how to **name directories in a hierarchy**_
+  - _This pattern tells you how to **structure tests within a file**_
+  - _This pattern tells you how to **extract functions from a larger routine**_
+  
+  Alternatively, starting with "This pattern tells you *when* to" fits some patterns better.
+  - _This pattern tells you **when to add more detail to a test case, and when to split out a new one**_
+  - _This pattern tells you **when to allow an object to be mutable**_
+  - _This pattern tells you **when to work solo**_
+  
+  *TODO: I need to validate this format by going through the existing patterns and rewriting them in this style. —benchristel*
+  
+  Contextualize the pattern within the language by linking to the "larger"
   patterns that form the environment for the present one. You can use relative links like this:
   `[Immutable Values](./immutable-values.md)`.
 - Next, a statement of the problem the pattern addresses, in one or two sentences. Use **bold type**
