@@ -33,7 +33,8 @@ often explained this way, without reference to goals.*
 
 *There are good reasons to use all of these methods, but people often
 explain them without much more detail than I've given above.* Why *the methods are
-useful is often not part of the explanation. —benchristel*
+useful is often not part of the explanation—or worse, people get the "why" dreadfully
+wrong. —benchristel*
 
 When we aren't explicit about goals, methods become dogma, and dogma rots quickly.
 New technologies are invented all the time, but it takes years, sometimes decades, for
