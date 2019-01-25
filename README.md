@@ -1,6 +1,9 @@
 # hci-language
 
-A [pattern language](https://groupworksdeck.org/pattern-language) for computer systems that promote human wellbeing.
+A [pattern language](https://groupworksdeck.org/pattern-language) for humanizing computer systems.
+
+Here, "humanizing" refers to the effect that computers have on people and their relationships with each other.
+It does *not* imply "making computers more human-like".
 
 # Why
 
