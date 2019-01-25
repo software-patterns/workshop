@@ -21,6 +21,9 @@ It does *not* imply "making computers more human-like".
 # What
 
 - This repository is a space for collaborating on patterns.
+- It is perpetually a work in progress.
+- It is a space where we can let our weirdest and wildest ideas run loose.
+  - *but please illustrate your weird ideas with lots of examples; it's hard to talk about ideas without something concrete to point to. —benchristel*
 - Our scope includes code, software architecture, user interfaces, team dynamics, and open-source communities.
 - Our quest is to seek [the quality without a name](https://onluminousgrounds.wordpress.com/2010/04/24/the-quality-without-a-name-part-one/).
 
