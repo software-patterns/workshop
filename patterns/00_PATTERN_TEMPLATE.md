@@ -1,9 +1,9 @@
-# Pattern Template
+# Patterns
 
-*When I read a pattern, I want to be able to quickly assess whether it applies
-to my context, what problem or system of forces it addresses, and what solution
-it offers. I can do this easily only if the pattern has a standard form that calls
-attention to these main elements. —benchristel*
+When you observe some set of relationships, causes, and effects occurring
+over and over again in software systems (or any type of system), you want some way
+of capturing that observation—of distilling the *pattern* to its essence so you can
+communicate it to people. This pattern tells you how to do that.
 
 This file both describes and exemplifies a pattern style based on the "Alexandrian
 form" named for Christopher Alexander. Use it as a base for creating new patterns.
