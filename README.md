@@ -61,6 +61,7 @@ pattern more rigorously and see if it really holds up. —benchristel*
 
 The following resources help explain what patterns are all about.
 
+- The [metapattern](./patterns/00_PATTERN_TEMPLATE.md).
 - [Martin Fowler's "Writing Software Patterns"](https://www.martinfowler.com/articles/writingPatterns.html)
 - [_A Pattern Language_, by Christopher Alexander et al.](https://mythstyles.com/products/a-pattern-language-towns-buildings-construction-center-for-environmental). The original pattern language; this one is about physical architecture,
 not software. The book is also available [as a PDF](http://library.uniteddiversity.coop/Ecological_Building/A_Pattern_Language.pdf).
