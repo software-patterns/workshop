@@ -1,6 +1,6 @@
 # hci-language
 
-A [pattern language](https://groupworksdeck.org/pattern-language) for humanizing computer systems.
+A [pattern language](https://groupworksdeck.org/pattern-language) for making humanizing computer systems.
 
 Here, "humanizing" refers to the effect that computers should have on people and their relationships with each other.
 It does *not* imply "making computers more human-like".
