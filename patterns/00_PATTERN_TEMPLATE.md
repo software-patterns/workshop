@@ -43,9 +43,11 @@ unchanged.
 
 Methods change; goals stay the same.
 
-**Instead of describing methods, describe patterns: the centers and relationships that come
+**Instead of describing methods, describe patterns: the
+[centers](https://en.wikipedia.org/wiki/The_Nature_of_Order) and relationships that come
 into being when the method works exactly as it is supposed to. Patterns are landmarks we
-can use to get our bearings as we experiment our way toward creating living wholes.
+can use to get our bearings as we experiment our way toward creating
+[living wholes](http://dreamsongs.net/Files/AlexanderPresentation.pdf).
 We can describe the interactions between patterns—how the patterns support each other—in
 the form of a pattern language.**
 
