@@ -45,7 +45,7 @@ which he restricts his computing activities to a single room.
 #             desk+--+ #
 #                      #
 #                      #
-#            up        #
+#       step up        #
 #------------|---------#########
              V    hallway       
 
@@ -60,7 +60,7 @@ din. # ,_____, | window
 room # |     | #
      # |__@__| ################
      |
-     |
+     |  step
     <-- up
      |        family room
 liv. |
