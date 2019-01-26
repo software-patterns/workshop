@@ -189,5 +189,5 @@ For examples of patterns drawn from _A Pattern Language_, see
 
 ---
 
-Links to smaller patterns will go here once we have some. "High-quality Examples" is a good
+Links to smaller patterns will go here once we have some. "High-Quality Examples" is a good
 candidate; ask me about Kathy Sierra's videos if you are interested in writing up this pattern.
