@@ -20,8 +20,9 @@ It does *not* imply "making computers more human-like".
 
 # What
 
-- This repository is a space for collaborating on patterns.
-- It is perpetually a work in progress.
+- This repository is a space for giving and receiving feedback on patterns.
+- It will never be "finished" or publishable; rather, it is a community resource from which
+  the raw materials of publishable works can be mined.
 - It is a space where we can let our weirdest and wildest ideas run loose.
   - *but please illustrate your weird ideas with lots of examples; it's hard to talk about ideas without something concrete to point to. —benchristel*
 - Our scope includes code, software architecture, user interfaces, team dynamics, and open-source communities.
