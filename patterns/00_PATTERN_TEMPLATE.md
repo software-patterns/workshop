@@ -189,5 +189,8 @@ For examples of patterns drawn from _A Pattern Language_, see
 
 ---
 
-Links to smaller patterns will go here once we have some. "High-Quality Examples" is a good
-candidate; ask me about Kathy Sierra's videos if you are interested in writing up this pattern.
+Support each pattern with [Many High-Quality Examples](./many-high-quality-examples.md).
+Give patterns concrete, unique names that can become part of the common vocabulary
+of the software profession—compare [Ubiquitous Domain Language](./ubiquitous-domain-language.md).
+To be effective, patterns must be shared, so test and refine your patterns with
+a [Community of Peers](./community-of-peers.md).
