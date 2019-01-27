@@ -38,8 +38,8 @@ wrong. —benchristel*
 
 When we aren't explicit about goals, methods become dogma, and dogma rots quickly.
 New technologies are invented all the time, but it takes years, sometimes decades, for
-old methods to catch up. Meanwhile, our objective—to live fulfilling human lives—remains
-unchanged.
+old methods to catch up. Meanwhile, the forms and relationships we want to create
+remain largely the same.
 
 Methods change; goals stay the same.
 
