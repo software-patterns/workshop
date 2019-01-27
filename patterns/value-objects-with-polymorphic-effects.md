@@ -2,7 +2,9 @@
 
 *TODO: This pattern really really needs a better name. —benchristel*
 
-This pattern tells you how to shape the most fundamental objects in a system.
+This pattern tells you how to shape the most fundamental objects in a system: the nouns
+in the [Ubiquitous Domain Language](./ubiquitous-domain-language.md)
+of the application. These objects operate on both sides of a [Logic-Dependency Boundary](./logic-dependency-boundary.md).
 
 The objects and functions that collaborate with this pattern will be easy to test within a
 [300-Millisecond Test Suite](./300-ms-test-suite.md).
@@ -250,4 +252,5 @@ You could also write your own quite easily. —benchristel*
 
 ---
 
-{References to smaller patterns}
+The [Side-Effecting Method](./side-effecting-method.md) pattern tells you how to form the relationship between
+the data and code in a value object.
