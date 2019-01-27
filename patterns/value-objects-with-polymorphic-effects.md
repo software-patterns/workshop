@@ -9,8 +9,8 @@ of the application. These objects operate on both sides of a [Logic-Dependency B
 The objects and functions that collaborate with this pattern will be easy to test within a
 [300-Millisecond Test Suite](./300-ms-test-suite.md).
 
-The kernel of the idea for this pattern is due to Gary Bernhardt, who described
-something similar in his talk "Boundaries".
+The kernel of the idea for this pattern is due to [Gary Bernhardt](https://www.destroyallsoftware.com), who described
+something similar in his talk ["Boundaries"](https://www.destroyallsoftware.com/talks/boundaries).
 
 ---
 
