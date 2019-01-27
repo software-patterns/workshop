@@ -8,6 +8,8 @@ Links to things and people that have inspired us.
 - [Patterns Dev](https://patterns-dev.github.io/patterns/newpat/newpat0/new-patterns-introduction.htm). Summaries of the 253 patterns from _A Pattern Language_ by Christopher Alexander et al. People: Theo Armour, Christopher Alexander.
 - [The Power In Agile](https://www.youtube.com/watch?v=YL-6RCTywbc). Exposé of the exclusivity of current agile and XP practices. People: Sarah Mei.
 - [Livable Code](https://www.youtube.com/watch?v=lI77oMKr5EY). People: Sarah Mei.
+- [Project Oberon](http://www.projectoberon.com/). People: Niklaus Wirth, Jürg Gutknecht.
+  - [Chapters 1-9 of the Oberon Book](https://www.inf.ethz.ch/personal/wirth/ProjectOberon/PO.System.pdf)
 - [ZenIT](https://www.zenit.jp/about/). People: Amil Khanzada.
 - [Fast Test, Slow Test](https://www.youtube.com/watch?v=RAxiiRPHS9k). People: Gary Bernhardt.
 - [Boundaries](https://www.youtube.com/watch?v=yTkzNHF6rMs). People: Gary Bernhardt.
