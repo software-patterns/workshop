@@ -22,3 +22,4 @@ Links to things and people that have inspired us.
 - [Humane Interfaces: Questions of Method and Practice in Cognitive Technology](https://books.google.com/books/about/Humane_Interfaces.html?id=lZGdVzyl_KIC). People: Jonathon P. Marsh, Barbara Gorayska, Jacob L. Mey, David Good, Ian Hart, Alex Kass, Joe Herman, Colin T. Schmidt, Patrick Ruch, Muneo Kitajima, Douglas Hermann, Carol Yoder, Virgil Sheets, Justine Wells, Brad Brubaker, John Sillince, Wolfgang Halang.
 - [What Nobody Tells You About Documentation](https://www.divio.com/blog/documentation/). Describes the four-part approach to writing comprehensible docs. People: Daniele Procida.
 - [Re: Patterns, QWAN, and Extreme Programming](http://objectclub.jp/community/XP-jp/xp_relate/xp_patterns). Describes some of the history of patterns in software. People: Ralph Johnson.
+- [Christopher Alexander: An Introduction for Object-Oriented Designers](http://gee.cs.oswego.edu/dl/ca/ca/ca.html). People: Doug Lea.
