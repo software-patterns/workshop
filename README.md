@@ -20,46 +20,104 @@ artificial, mechanical, deathlike.**
 Vast parking lots, impersonal apartment blocks, litter-strewn streets with traffic zooming past:
 people avoid such spaces, if they can. They don't maintain or care for them.
 And their peace of mind is eroded a little each time they are forced into contact with these spaces.
-The spaces and the people each take from the other more than they give, and so gradually the whole system destroys itself.
+
+**To say that these spaces are deathlike is no mere metaphor. They are literally self-destroying.**
+
+The spaces and the people each take from the other more than they give. Neither one gives sustenance to the other,
+and so gradually the whole system destroys itself. Such systems can only be kept going at great expense or
+through legal coercion.
 
 **But it does not have to be this way.**
 
-Alexander lays out a process by which people can create spaces that are _alive_: that is, self-maintaining,
-whole, in harmony with the physical, social, and psychological forces that shape the activity there. Key to
-the process is the concept of a **pattern**.
+Though inhuman, ugly buildings and cities are now the norm, each of us can (I hope) recall places that
+are different: places that are beautiful, where we feel at ease, free to be ourselves,
+connected to the people around us. Places where we look around and smile, where we are serene, where
+we become voluble and magnanimous and stoic and wistful.
 
-**Patterns tell us how to create self-maintaining systems.**
+These places are *alive*. They are constantly changing, yet they seem eternal, as if they could happily
+go on existing forever without losing their essential selves.
 
-A pattern is a network of relationships among architectural elements that, when
-implemented in physical space, helps create living, self-maintaining systems. Alexander's patterns have
-titles like "Four-Story Limit", "Light on Two Sides", and "Looped Local Roads". Each one is
-a concrete instruction about how to shape a particular type of space. The 253 patterns are
-arranged in a sequence from largest (state or county level planning) to smallest
-(details of construction and interior decoration).
+Alexander claims that places like this share a startlingly simple property: they were made, not by
+the execution of some master plan,
+but by many small acts of creation by the people who live and work there.
 
-Patterns do not stand alone.
-Each pattern is linked to others: the larger patterns that form the "context" in which it is appropriate or
-necessary, and the smaller patterns that are required to make it effective.
+**The places we cherish are not the output of a design-upfront, build-it-once, demolish-after-twenty-years process,
+but the result of a constant flow of tiny acts of repair and renewal.**
 
-**The whole network of interrelated patterns is called a *pattern language***. 
+One might at first assume that the result of so many small, independent acts would be chaos—a cacophony
+of conflicting design concepts that work at cross purposes and ultimately negate each other.
+But that doesn't happen. Instead of chaos, we get order. Exactly *why* we get order is the question
+Alexander seeks to answer.
 
-If patterns are like words, a pattern language is like grammar: it tells you how to put the pieces together
-to form systems that are fractally self-consistent.
+**For order to arise organically like this, the individual builders must be drawing their ideas from some common source.**
 
-This fractal self-consistency means that pattern languages can extend to all levels
-of detail in a system, from the very smallest to the very largest.
+Though there is no overarching design, the various pieces all have something in common that allows them
+to harmonize with each other and with the whole system. That means that the people who made those
+pieces must have shared something as well. But what is that mysterious *something*?
+
+**Alexander calls the design elements that are shared by a community *patterns*.**
+
+Patterns are not plans or cookie-cutter components. They are more abstract than that. They
+describe the relationships between elements (which may themselves be patterns) that solve
+a particular problem.
+
+**For example, the architectural pattern *Window Place* tells you where to place furniture in a room.**
+
+When people enter a room they likely want to sit down, but they also tend to seek natural light.
+If there is nowhere for them to sit near a window, the tension between these two forces makes people
+avoid that room, and it becomes a dead space. But if you create a definite *place* for people to be
+comfortable near a window, they will use it and take care of it. Then the room may live.
+
+**Yet a single isolated pattern, however good, is not enough to give a place life.**
+
+In order to be effective, a pattern must be sustained by many other smaller patterns working in
+concert.
+
+You know intuitively that a small window high up on a wall can never create an effective *Window Place*.
+A window that looks onto a blank wall or a parking lot is no better. A window that is a single large pane of glass
+makes people near it feel uncomfortable, so it also will make a bad *Window Place*.
+
+The patterns *Low Sill*, *Windows Overlooking Life*, and *Small Panes* address each of these concerns.
+When all of the patterns in a space are working together, we feel at ease. The interactions
+between the patterns are so intricate and subtle that we may not even be able to identify what
+we like about the place—we only know that we like it.
+
+The most special and subtle of these places have the character of poems: the patterns in them are densely packed,
+overlapping, startlingly new and yet familiar.
+
+**These relationships among patterns have the structure of a language.**
+
+If patterns are like words, a *pattern language* is like the grammar that tells us how to put the words together
+into useful, meaningful sentences. Patterns are defined in terms of other patterns, and
+perhaps in terms of archetypes and examples. Humans seem to have the same uncanny knack for
+pattern languages that they do for spoken languages: a fluent "speaker" can use the pattern
+language even if they can't formally describe the grammar.
+
+This, then, is the answer to the mystery of how architecture can unfold organically from a thousand
+independent acts: the builders all share a pattern language.
+
+The fact that patterns are abstract allows endless variety; the fact that they precisely target
+specific problems ensures their effectiveness; the fact that they form a language creates
+the fractal self-consistency that characterizes the places that we love.
+
+At its roots the pattern language is connected to ordinary language, and serves the same purposes:
+cultural transmission and differentiation. Yet it is different from ordinary language in one
+important way: *it does not just describe the world, it acts upon it*.
+
+**A pattern language is the means by which a shared world-concept can be made manifest.**
 
 Alexander's works are often cited as being concerned with architecture, but I think that's underselling them.
 They describe nothing less than a comprehensive vision for human civilization. They are an instruction
 manual for creating a more beautiful, more humane world.
 
-**But the advent of personal computers has created new challenges for pattern languages**.
+**But the advent of personal computers has changed the set of activities and interactions that pattern languages must account for.**
 
-Alexander's work on patterns was done while Unix was just being born. His language says nothing
+Alexander did his work on patterns in the 1970s. At the time, Unix was just being born. Personal computers
+didn't yet exist. Alexander's language says nothing
 about how we might begin to integrate computers into the patterns of space and activity that
 shape our lives.
 
-**Yet integrate them we must.**
+**We must account for the effects of computers if our language is to be whole.**
 
 Anecdotally, the language people use when talking about software hints that they conceive of it as an
 extension of physical space. People speak of being "on a webpage" or going "to a site"—though of course
@@ -70,7 +128,9 @@ inverted scrolling conventions on us all.
 Yet even if we did not think of computer systems as a new type of space, we would have to
 account for them in our pattern languages, because computers have physical and societal effects that
 extend beyond the screen and which
-[we have yet to fully account for](https://ledger.humanetech.com/).
+[we have yet to grapple with](https://ledger.humanetech.com/).
+Our failure to integrate computers into our society in sustainable ways has already caused disastrous damage.
+
 - In 1996, a software engineering mistake [caused the Ariane 5 rocket to self-destruct](https://www.dreamsongs.com/MobSoftware.html),
 resulting in the loss of [$370 million](https://blog.bugsnag.com/bug-day-ariane-5-disaster/) worth of hardware.
 - [In 2013, the Healthcare.gov website launched](https://en.wikipedia.org/wiki/HealthCare.gov), on time but tenfold over budget—and didn't work for the vast majority
@@ -78,6 +138,10 @@ resulting in the loss of [$370 million](https://blog.bugsnag.com/bug-day-ariane-
 - [In 2015, the number of distracted-driving accidents surpassed the number of drunk-driving accidents and caused
 a third as many deaths](https://www.thezebra.com/insurance-news/4671/drunk-driving-vs-distracted-driving-dangerous/).
 - In 2016, [disinformation campaigns on social media](https://www.thedailybeast.com/facebook-now-says-russian-disinfo-reached-150-million-americans) may have swung the U.S. presidential election.
+
+Data breaches, security vulnerabilities, and misuse of private information are so commonplace
+that I don't even need to give examples of them here. No matter when you're reading this, you'll no doubt be able
+to recall a few examples from the last month or so.
 
 [We cannot look for single "root causes" of failure to address these issues](https://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf). The problems are systemic,
 and the solutions must be holistic.
