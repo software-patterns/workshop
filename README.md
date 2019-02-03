@@ -7,9 +7,60 @@ It does *not* imply "making computers more human-like".
 
 # Why
 
+**People are becoming increasingly aware that the way they interact with software is not enjoyable, healthy, or sustainable.**
+
+We use our phones every waking hour of our days,
+[even when it impacts our sleep](https://jamanetwork.com/journals/jamapediatrics/article-abstract/2571467).
+[Our devices distract us even when they're turned off](https://www.journals.uchicago.edu/doi/full/10.1086/691462), burning
+through our [precious cognitive resources](http://seriouspony.com/blog/2013/7/24/your-app-makes-me-fat).
+We shudder at the thought of having to pay to access websites, but
+the alternative—internet advertising—is so odious that
+[31% of Americans have installed ad blockers](https://deloitte.wsj.com/cmo/2018/04/03/are-consumers-adlergic-a-look-at-ad-blocking-habits/).
+
+The inner workings of software are often proprietary and veiled in mystery. Companies
+don't want their secret recipes stolen, nor do they want their users to know what's in the sausage.
+As a result, [people don't understand the influence that software algorithms have on their consumption of information](http://social.cs.uiuc.edu/papers/pdfs/Eslami_FolkTheories_CHI16.pdf).
+This lack of transparency and individual agency puts people at the mercy of software companies, and they often complain
+bitterly when software they depend on changes. When Facebook updated their UI design in 2008, millions of people
+formed Facebook groups to protest "New Facebook". They seemed to feel that some vital element of
+their nascent online community had been lost in the shuffle.
+
+The malaise is not restricted to end-users.
+[Even software developers are overwhelmed by the endless churn of new tools](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f) that they feel they must master to be professionals in their field.
+
+The crux of all these issues is this:
+
+**People feel anxious when they are using software, because they know deep down that they do not and cannot
+really control it, but are at the same time irrevocably dependent on it.**
+
+They know it will hurt them, but it is emotionally, socially, and perhaps economically impossible to give it up.
+
+**Software has made addicts of us all.**
+
+And yet we are so beset by images of the wonders of technological progress, and convinced by rational
+arguments of the inevitability of these types of systems, that we find these issues difficult,
+perhaps even embarrassing, to talk about in public.
+
+**We are, however, fortunate in one thing: we are not the first to face these problems.**
+
+The centralization of power, and the forced dependency on centralized power;
+the loss of community and individual control, and the complacent acceptance of the situation by the
+surrounding culture—all of this has happened before.
+
+**This was the state of architecture in 20th century America.**
+
+In the 1970s, architect Christopher Alexander published a two-volume manifesto for a new philosophy
+of architecture. The first volume, _The Timeless Way of Building_, describes the fundamental
+process by which the texture of a city or town can arise from countless individual acts of construction and repair.
+The second volume, _A Pattern Language_, is a comprehensive instruction manual for one particular
+version of that process.
+
+The thesis of Alexander's work is simple, a truism almost—but one that architects of the
+era seemed to be unaware of. It is this: 
+
 **Our surroundings have profound effects on our wellbeing.**
 
-Architect Christopher Alexander cites many examples in his book [_A Pattern Language_](http://library.uniteddiversity.coop/Ecological_Building/A_Pattern_Language.pdf).
+Alexander cites many examples in [_A Pattern Language_](http://library.uniteddiversity.coop/Ecological_Building/A_Pattern_Language.pdf).
   - Tall apartment buildings prevent their inhabitants from casually going out or seeing what is going on in the street, leading to significant increases in mental illness. (_A Pattern Language_ p. 115).
   - Rooms with natural light only on one side make it harder to perceive subtle facial expressions due to glare from the window. (p. 748)
   - Local roads that function as shortcuts attract through-traffic and become unpleasant and unsafe. (p. 261)
