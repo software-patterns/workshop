@@ -139,9 +139,9 @@ resulting in the loss of [$370 million](https://blog.bugsnag.com/bug-day-ariane-
 a third as many deaths](https://www.thezebra.com/insurance-news/4671/drunk-driving-vs-distracted-driving-dangerous/).
 - In 2016, [disinformation campaigns on social media](https://www.thedailybeast.com/facebook-now-says-russian-disinfo-reached-150-million-americans) may have swung the U.S. presidential election.
 
-Data breaches, security vulnerabilities, and misuse of private information are so commonplace
-that I don't even need to give examples of them here. No matter when you're reading this, you'll no doubt be able
-to recall a few examples from the last month or so.
+Data breaches, security vulnerabilities, deliberate manipulation of users by software vendors, and misuse
+of private information are so commonplace that I don't even need to give examples of them here.
+No matter when you're reading this, you'll no doubt be able to recall a few examples from the last month or so.
 
 [We cannot look for single "root causes" of failure to address these issues](https://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf). The problems are systemic,
 and the solutions must be holistic.
