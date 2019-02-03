@@ -31,7 +31,7 @@ The malaise is not restricted to end-users.
 The crux of all these issues is this:
 
 **People feel anxious when they are using software, because they know deep down that they do not and cannot
-really control it, but are at the same time irrevocably dependent on it.**
+really control it, but at the same time they are irrevocably dependent on it.**
 
 They know it will hurt them, but it is emotionally, socially, and perhaps economically impossible to give it up.
 
