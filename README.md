@@ -70,7 +70,7 @@ artificial, mechanical, deathlike.**
 
 Vast parking lots, impersonal apartment blocks, litter-strewn streets with traffic zooming past:
 people avoid such spaces, if they can. They don't maintain or care for them.
-And their peace of mind is eroded a little each time they are forced into contact with these spaces.
+And their peace of mind is eroded a little each time they are forced into contact with them.
 
 **To say that these spaces are deathlike is no mere metaphor. They are literally self-destroying.**
 
