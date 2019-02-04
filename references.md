@@ -4,6 +4,7 @@ Links to things and people that have inspired us.
 
 - [Dreamsongs.net](http://dreamsongs.net). Richard P. Gabriel's personal site with many essays about programming
   patterns, and poetry. People: Richard Gabriel, Christopher Alexander.
+  - ["Mob Software: The Erotic Life of Code"](http://dreamsongs.net/MobSoftware.html)
 - [Center for Humane Technology](http://humanetech.com/). Formerly(?) Time Well Spent. People: Tristan Harris.
 - [Patterns Dev](https://patterns-dev.github.io/patterns/newpat/newpat0/new-patterns-introduction.htm). Summaries of the 253 patterns from _A Pattern Language_ by Christopher Alexander et al. People: Theo Armour, Christopher Alexander.
 - [The Power In Agile](https://www.youtube.com/watch?v=YL-6RCTywbc). Exposé of the exclusivity of current agile and XP practices. People: Sarah Mei.
