@@ -6,7 +6,7 @@
 >
 > —Mary Zimmerman, _The Arabian Nights_
 
-[Psychological Safety](./psychological-safety.md) and a [Community of Peers](./community-of-peers.md)
+[Psychological Safety](./psychological-safety.md) and a [Community of Peers](../patterns/community-of-peers.md)
 create an environment where people can thrive. *Energized Work* describes
 the atmosphere of a workplace where these larger patterns intersect.
 
