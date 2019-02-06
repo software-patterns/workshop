@@ -79,7 +79,9 @@ connected to the people around us. Places where we look around and smile, where 
 we become voluble and magnanimous and stoic and wistful.
 
 These places are *alive*. They are constantly changing, yet they seem eternal, as if they could happily
-go on existing forever without losing their essential selves.
+go on existing forever without losing their essential selves. Because we love them, we take care of them.
+We do not wish for their destruction. The places and the people in them thus sustain each other, and so
+the whole system becomes self-maintaining.
 
 Alexander claims that places like this share a startlingly simple property: they were made, not by
 the execution of some master plan,
