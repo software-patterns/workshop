@@ -121,7 +121,7 @@ concert.
 
 You know intuitively that a small window high up on a wall can never create an effective *Window Place*.
 A window that looks onto a blank wall or a parking lot is no better. A window that is a single large pane of glass
-makes people near it feel uncomfortable, so it also will make a bad *Window Place*.
+makes people near it feel exposed and uncomfortable, so it also will make a bad *Window Place*.
 
 The patterns *Low Sill*, *Windows Overlooking Life*, and *Small Panes* address each of these concerns.
 When all of the patterns in a space are working together, we feel at ease. The interactions
