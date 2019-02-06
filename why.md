@@ -163,7 +163,7 @@ didn't yet exist. Alexander's language says nothing
 about how we might begin to integrate computers into the patterns of space and activity that
 shape our lives.
 
-**We must account for the effects of computers if our language is to be whole.**
+**We must account for the effects of computers if our pattern languages are to be whole.**
 
 Anecdotally, the language people use when talking about software hints that they conceive of it as an
 extension of physical space. People speak of being "on a webpage" or going "to a site"—though of course
