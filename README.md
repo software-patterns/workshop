@@ -1,4 +1,4 @@
-# hci-language
+# hci-language ([working title; discussion here](https://github.com/software-patterns/hci-language/issues/3))
 
 A [pattern language](https://groupworksdeck.org/pattern-language) for making humanizing computer systems.
 
