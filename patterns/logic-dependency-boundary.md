@@ -53,6 +53,98 @@ In many codebases, most of the code is type 4. *This type of codebase is very di
 Please don't use Hungarian notation for this, though. I hope and suspect that if everyone on your team has the
 four types of code in mind, they won't find it too hard to keep the logic and dependency code separate.
 
+One complicating factor is that, in OO languages,
+code types 2 through 4 often look the same from the outside. If all you can see is the interface of a class,
+you can't really tell if it's storing state, calling methods on other objects that you pass it, or affecting the
+outside world.
+
+Type 3 code is especially difficult to distinguish from Type 4. Even when you can see the internals of
+a class, it is hard to tell the difference. Consider the following sketch of a class implementation:
+
+```java
+class Type3Maybe {
+  A a; B b;
+  public Type3Maybe(A a, B b) {
+    this.a = a;
+    this.b = b;
+  }
+  
+  public void foo() {
+    a.foo();
+    b.bar();
+  }
+}
+```
+
+If `A.foo()` and `B.bar()` are type 2 or 3, `Type3Maybe.foo()` is type 3.
+But if either `A.foo()` or `B.bar()` is type 4, `Type3Maybe.foo()` is also type 4.
+If `A` and `B` are interfaces, the confusion gets worse; they may have some
+implementations that are type 2 and some that are type 4, so the classification of
+`Type3Maybe` depends on what arguments are passed to its constructor at runtime.
+
+Since the type system cannot help us figure out how to classify our code in cases like
+this, we must rely on informal contracts between units of code to understand what
+`Type3Maybe` is going to do.
+
+These informal contracts can be quite subtle, and can blur the boundaries between
+the four types of code. This can be a good thing. The way we think about our code is
+almost always subtler than our type systems can express.
+
+Here is an example in pseudocode in which the distinction between type 3 and type 4 is blurred:
+
+```java
+namespace Subscription {
+class StatsCollector {
+  public static Stats collect(Stream<Subscription> subs) {
+    Stats stats = new Stats()
+    while (subs.hasNext()) {
+      Sub sub = subs.next()
+      if (sub.isPaid()) stats.paid++
+      if (sub.isCanceled()) stats.canceled++
+      if (sub.isActive()) stats.active++
+    }
+    return stats
+  }
+}
+}
+```
+
+Is this code type 3 or type 4? It depends on the implementation of `Stream<Subscription>` passed in.
+The stream could be a simple in-memory data structure, which would make `StatsCollector` type 3.
+But it could also read from a file or database as we iterate over it,
+which would seem to make `StatsCollector` type 4.
+
+And yet, this ambiguity causes us little worry. Why?
+
+One reason is that we trust that while a `Stream` may receive input from the outside world (e.g.
+from a file or database), it doesn't alter the outside world in any important way. We trust
+that reading the Stream won't cause other things to happen.
+
+Another reason is that, whether the Stream is in-memory or reading lazily from a file, its
+input must have come from *somewhere*. It must have been passed to us from Type 4 code whose
+purpose is reading input. If the Stream is lazily reading a file, that's okay, because
+the code that created it has already "taken responsibility" in some sense for the file read.
+Whether the data was loaded into memory eagerly when the Stream was constructed, or will be
+loaded lazily when we call `hasNext`, is not our concern.
+
+Depending on the application, the level of abstraction provided by interfaces like `Stream`
+can be very powerful.
+
+One danger lingers when the Stream is loaded lazily: it is possible that there will be an
+error when it tries to read its input. In that case, it could either throw an exception, or
+simply signal the end of the stream. But somehow, the error must be handled. The complexity 
+added by the potential for errors is a strong reason not to hide side effects behind interfaces like the Stream,
+if you can avoid it.
+
+It's possible that Type 4 code should be broken down into two subtypes: 4.1 **Input** and 4.2
+**Output**. In many cases, we do not care when, exactly, our code reads input from the outside
+world. Input routines are thus relatively safe to hide behind abstractions like the `Stream` in the
+above example.
+
+**Output**, on the other hand, is a different story. The order in which our code outputs data
+or affects the world is often crucially important. Therefore, output routines must be explicit
+about the fact that they are affecting the outside world.
+
 ## Examples
 
 - In his talk ["Boundaries"](https://www.youtube.com/watch?v=yTkzNHF6rMs),
