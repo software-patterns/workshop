@@ -22,7 +22,8 @@ one of four categories:
    They are easy to test and understand because, given some parameters, they always return the same value.
 2. **Stateful objects** receive messages from the outside world, change their internal state in
    response, and (usually) return a value. The values returned can be different each time, depending on the state.
-3. **Mutating routines** take stateful objects as parameters and send messages to them.
+3. **Mutators** take in stateful objects and send messages to them. They may be simple routines, or
+   they may be objects that store references to their "collaborator" objects.
 4. **Side-effecting code** does everything else. It communicates with databases. It talks to the network.
    It starts threads and forks off child processes. It reads and writes files. It pokes pixels in the
    graphics buffer.
@@ -35,7 +36,7 @@ The first three of these types of code can be composed in a great variety of way
   to do its computation, but it can also create a stateful object, send some messages to it, construct
   an immutable return value from the responses, and throw the object away.
 - A stateful object can create other stateful objects and send messages to them, and of course it can call pure functions.
-- Mutating routines can be thought of as just convenience wrappers for sending a series of messages,
+- Mutators can be thought of as just convenience wrappers for sending a series of messages,
   so they can be used by any of the other types of code too.
 
 Type 4 code is different, though. *Type 4 is a virus*. It is transitive. Everything
