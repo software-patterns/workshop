@@ -14,11 +14,14 @@ See [why.md](./why.md).
 
 # What
 
-- This repository is a space for giving and receiving feedback on patterns.
-- It will never be "finished" or publishable; rather, it is a community resource from which
+This repository:
+
+- is public.
+- will never be "finished" or publishable; rather, it is a community resource from which
   the raw materials of publishable works can be mined.
-- It is a space where we can let our weirdest and wildest ideas run loose.
+- is a space where we can let our weirdest and wildest ideas run loose.
   - *but please illustrate your weird ideas with lots of examples; it's hard to talk about ideas without something concrete to point to. —benchristel*
+
 - Our scope includes code, software architecture, user interfaces, team dynamics, and open-source communities.
 - Our quest is to seek [the quality without a name](https://onluminousgrounds.wordpress.com/2010/04/24/the-quality-without-a-name-part-one/).
 
@@ -41,16 +44,16 @@ collaborative, piecemeal growth.
   by following [these instructions](./patterns/00_PATTERN_TEMPLATE.md).
 - You can add links to the [References](./references.md) file.
 - If you have feedback on a specific pattern, you can start a discussion, [wiki-style](http://wiki.c2.com/?PatternLanguage),
-  in an italicized block within the pattern text itself. Below is an example of this.
+  in an italicized block or quote block within the pattern text itself. Below is an example of this.
 
-*I prefer patterns to be concrete, specific, and grounded in our experiences.
+> [benchristel] I prefer patterns to be concrete, specific, and grounded in our experiences.
 Any positive experience you've had creating or using software is
 a potential seed for a pattern. If you've also experienced
-the pain of* not *having the pattern in your environment, so much the
+the pain of *not* having the pattern in your environment, so much the
 better—that's evidence that the pattern actually does something. But you
 don't need a lot of evidence to write the pattern. Patterns
 can (should?) start out as just hypotheses; over time I'd like to test each
-pattern more rigorously and see if it really holds up. —benchristel*
+pattern more rigorously and see if it really holds up.
 
 # Further Reading
 
