@@ -4,6 +4,8 @@ As part of a [test-loving architecture](./test-loving-architecture.md), create
 a clearly-defined boundary between domain-logic code and code that
 depends on services and state that are outside your control.
 
+The impetus for writing up this pattern came from a conversation with @pgoodwin.
+
 ---
 
 **How many times have you looked at code and wondered if it would touch the database if you ran it?**
@@ -88,7 +90,7 @@ this, we must rely on informal contracts between units of code to understand wha
 
 These informal contracts can be quite subtle, and can blur the boundaries between
 the four types of code. This can be a good thing. The way we think about our code is
-almost always subtler than our type systems can express.
+almost always subtler than our formal systems can express.
 
 Here is an example in pseudocode in which the distinction between type 3 and type 4 is blurred:
 
@@ -150,6 +152,9 @@ about the fact that they are affecting the outside world.
 - In his talk ["Boundaries"](https://www.youtube.com/watch?v=yTkzNHF6rMs),
   Gary Bernhardt describes how he separated logic from dependencies in his
   Twitter client `toot`.
+- In [Verse](https://benchristel.github.io/verse), the [sagas](https://github.com/benchristel/verse/blob/master/src/ui/sagas/index.js) form the main logic-dependency boundary.
+  All interaction between the "dependency" code (the keyboard, time, and storage modules) and the "logic" code
+  (the running Process, the test framework, and the view) is mediated by the sagas.
 
 ---
 
