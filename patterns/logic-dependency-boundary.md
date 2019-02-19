@@ -69,7 +69,7 @@ doWorkflowFoo() {
 }
 ```
 
-The above example depicts what a logic-dependency boundary might look like for a CLI. In a game or interactive web application,
+The above example depicts what a logic-dependency boundary might look like for a CLI. In a game or interactive web UI,
 you might see something more like this:
 
 ```javascript
@@ -86,7 +86,21 @@ eventLoop() {
 
 All of the logic of the application is contained in the `nextState` and `renderUiDom` functions.
 
-[redux-saga](https://github.com/redux-saga/redux-saga) is a library that makes it easier to implement this pattern for web applications.
+[redux-saga](https://github.com/redux-saga/redux-saga) is a library that makes it easier to implement this pattern for web UIs.
+
+On the server side of a web application, the logic-dependency boundary might look like this for a single endpoint's controller:
+
+```javascript
+handleProfilePageRequest(request) {
+  params = extractParams(request)
+  data = *loadProfilePageData(params)
+  dom = renderProfilePage(data)
+  ui = toMarkup(dom)
+  *sendResponse(ui)
+}
+```
+
+Note that all of these examples are oversimplified. In particular, the names are meant to be illustrative, not exemplary.
 
 ## Caveats
 
