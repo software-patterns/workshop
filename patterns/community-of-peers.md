@@ -20,11 +20,11 @@ person B, for every skill related to their job—and that's almost never true.
 *Personally, I tend to feel weird criticising someone's ideas when I can see that they have
 a higher "rank" than me—and I'm less likely to take technical critique
 seriously when it comes from someone of a lower "rank". This despite
-the fact that I conciously believe P-levels are B.S. —benchristel*
+the fact that I conciously believe this "ranks" are B.S. —benchristel*
 
 **Base salaries on years of service, Adjust pay to local cost of living
 and the employee's family situation—whether or not they have other people
-to support. Instead of publicizing a P-level for each employee, the company
+to support. Instead of publicizing a pay grade for each employee, the company
 directory can list the skills each person has mastered.**
 
 Once our basic needs are met, additional money doesn't make us happier.
