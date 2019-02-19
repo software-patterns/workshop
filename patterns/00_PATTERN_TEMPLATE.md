@@ -38,10 +38,9 @@ wrong. —benchristel*
 
 When we aren't explicit about goals, methods become dogma, and dogma rots quickly.
 New technologies are invented all the time, but it takes years, sometimes decades, for
-old methods to catch up. Meanwhile, the forms and relationships we want to create
-remain largely the same.
+old methods to catch up.
 
-Methods change; goals stay the same.
+Our methods change, but our goals stay the same.
 
 **Instead of describing methods, describe patterns: the
 [centers](https://en.wikipedia.org/wiki/The_Nature_of_Order) and relationships that come
