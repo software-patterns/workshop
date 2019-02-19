@@ -27,3 +27,5 @@ Links to things and people that have inspired us.
 - [Christopher Alexander: An Introduction for Object-Oriented Designers](http://gee.cs.oswego.edu/dl/ca/ca/ca.html). People: Doug Lea.
 - [The Emperor's Old Clothes](http://zoo.cs.yale.edu/classes/cs422/2014/bib/hoare81emperor.pdf). People: C.A.R. Hoare.
 - [Thoughts on Craftsmanship and Deep Feeling: Matisse and Alexander](https://onluminousgrounds.wordpress.com/2010/07/10/thoughts-on-craftsmanship-and-deep-feeling-matisse-and-alexander/). People: Mike van Eerden, Christopher Alexander, Henri Matisse.
+- [Collaboration in Open-Plan Offices](https://espace.library.uq.edu.au/view/UQ:401844). People: Gemma Irving.
+  - [Summary by the author](http://theconversation.com/open-plan-offices-can-actually-work-under-certain-conditions-89452).
