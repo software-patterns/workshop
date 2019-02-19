@@ -190,4 +190,4 @@ about the fact that they are affecting the outside world.
 
 ---
 
-Logic and side-effecting code can peacefully inhabit the same object—see [Value Objects With Polymorphic Effects](value-objects-with-polymorphic-effects.md).
+Logic and side-effecting code can peacefully inhabit the same object—see [Value Objects With Polymorphic Effects](value-objects-with-polymorphic-effects.md). Isolate your logic code from changes to third-party APIs by putting an [Anti-Corruption Layer](https://medium.com/continuousdelivery/anti-corruption-layer-e24e2025be6f) around your dependency code.
