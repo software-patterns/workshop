@@ -48,10 +48,47 @@ and once it is rooted it is *very* hard to remove.
 In many codebases, most of the code is type 4. *This type of codebase is very difficult to test and understand.*
 
 **Limit the spread of side-effecting code by marking a clear division between types 1-3 ("logic" code) and Type 4 code
-("dependency" code).**
+("dependency" code). Create a narrow ribbon of "boundary" code near the root of the call stack to unite the logic and dependency
+sides.**
 
-Please don't use Hungarian notation for this, though. I hope and suspect that if everyone on your team has the
-four types of code in mind, they won't find it too hard to keep the logic and dependency code separate.
+The logic-dependency boundary can take the form of an imperative procedure that might look something like this:
+
+```javascript
+doWorkflowFoo() {
+  // expressions marked with * are calls to "dependency" code
+  data = *loadData()
+  plan = planOperation(data)
+  answer = *askUserToConfirm(plan)
+  if (isAffirmative(answer)) {
+    result = computeResult(plan, data)
+    *writeResult(result)
+    *logSuccess(plan)
+  } else {
+    *logFailure(plan)
+  }
+}
+```
+
+The above example depicts what a logic-dependency boundary might look like for a CLI. In a game or interactive web application,
+you might see something more like this:
+
+```javascript
+eventLoop() {
+  state = initialState()
+  while (!exited(state)) {
+    event = *waitForAny(timerTickStream, uiEventStream, keyEventStream)
+    state = nextState(state, event)
+    ui = renderUiDom(state)
+    *draw(ui)
+  }
+}
+```
+
+All of the logic of the application is contained in the `nextState` and `renderUiDom` functions.
+
+[redux-saga](https://github.com/redux-saga/redux-saga) is a library that makes it easier to implement this pattern for web applications.
+
+## Caveats
 
 One complicating factor is that, in OO languages,
 code types 2 through 4 often look the same from the outside. If all you can see is the interface of a class,
