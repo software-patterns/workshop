@@ -1,5 +1,9 @@
 # 300-millisecond Test Suite
 
+This pattern tells you when to make your test suite faster (by
+rearchitecting your code and testing smaller units) and when you
+can afford to let it be slower.
+
 A [Test-Loving Architecture](./test-loving-architecture.md) helps us
 eliminate the tedium and human fallibility of checking our work manually.
 But automated tests are only useful when
