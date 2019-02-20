@@ -1,8 +1,8 @@
 # Community of Peers
 
-To support [psychological safety](./psychological-safety.md) and avert the
-risks of internal competition and hero worship, develop software within
-a community of peers.
+This pattern tells you how to structure the relationships among the people
+in your organization to promote [psychological safety](./psychological-safety.md)
+and minimize internal competition and hero worship.
 
 ---
 
