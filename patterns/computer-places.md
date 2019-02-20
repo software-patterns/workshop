@@ -1,7 +1,7 @@
 # Computer Places
 
-Within a house or office, create [alcoves](https://patterns-dev.github.io/patterns/clean2/apl179/apl179.htm)
-for computing that open off of more public spaces.
+This pattern tells you how to place shared computers so that they catalyze
+social interactions.
 
 ---
 
@@ -25,6 +25,9 @@ The effect is that computing is less and less a social experience.
 **Set aside places for computers. Place them in areas that are visually
 connected to, but not in the midst of, high-traffic spaces like hallways and
 family rooms.**
+
+Within a house or office, create [alcoves](https://patterns-dev.github.io/patterns/clean2/apl179/apl179.htm)
+for computing that open off of more public spaces.
 
 TODO: Link to Bryan Lunduke's videos on "computing like it's 1989", in
 which he restricts his computing activities to a single room.
