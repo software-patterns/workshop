@@ -1,8 +1,7 @@
 # Shallow Trees
 
-Hierarchies of all kinds—[people in a team](./community-of-peers.md),
-dependencies of a package, and functions in a call graph—should be
-shallow and wide.
+This pattern tells you how to shape the many kinds of hierarchies that
+arise in software development.
 
 ---
 
