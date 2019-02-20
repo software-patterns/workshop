@@ -1,5 +1,10 @@
 # Logic-Dependency Boundary
 
+> [benchristel] TODO: This pattern describes much more than the actual Logic-Dependency
+> Boundary. Currently, most of what's here is background and context. The meat of this
+> pattern should probably be moved to Test-Loving Architecture, which is currently light
+> on specifics.
+
 As part of a [test-loving architecture](./test-loving-architecture.md), create
 a clearly-defined boundary between domain-logic code and code that
 depends on services and state that are outside your control.
