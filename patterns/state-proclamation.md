@@ -2,6 +2,9 @@
 
 *TODO: This pattern is in search of a better name.*
 
+This pattern tells you how to communicate the *state* of your program to the functions and
+objects that need access to it.
+
 The [stateful objects](./state-atoms.md) on the logicward side of a [logic-dependency boundary](./logic-dependency-boundary.md)
 convey their internal state to the rest of the program via immutable
 messages. This minimizes the risk of state changes causing
