@@ -1,6 +1,7 @@
-# Quiet Office
+# Neighborly Teams
 
-Enable programmers to focus on their work by providing a quiet office space.
+This pattern tells you how arrange an office space to resolve the
+tension between collaborative work and individuals' need for quiet and privacy.
 
 ---
 
