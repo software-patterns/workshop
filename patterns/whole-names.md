@@ -1,5 +1,9 @@
 # Whole Names
 
+This pattern tells you how to name the functions and objects that you extract from
+larger units of code as you refactor. It also, indirectly, tells you *what* to
+extract: if you can't think of a Whole Name for a chunk of code, leave it in line.
+
 Within a program made of [many small units](./many-small-units.md) in a
 [single namespace](./single-namespace), avoid confusion by insisting that
 names be *whole*—that is, true to the nature of the thing named, without
