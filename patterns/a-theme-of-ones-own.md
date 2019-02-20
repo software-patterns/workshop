@@ -1,10 +1,8 @@
 # A Theme of One's Own
 
-Enable people to personalize the look and feel of
-the software they use most often—that they want to feel
-connected to. Hypothesis: this works best if the
-look and feel of the underlying interface is never
-altered without the user's consent.
+This pattern tells you what aspects of software should be customizable,
+and what aspects should be invariant, to give users a sense of
+belonging and "home".
 
 ---
 
