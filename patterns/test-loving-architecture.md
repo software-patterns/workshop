@@ -1,5 +1,8 @@
 # Test-loving Architecture
 
+This pattern tells you how to form the high-level structure of a program's call graph.
+It lays the foundation for the program's future growth.
+
 ---
 
 **To build steadily on our abilities, step by step—that is the goal of engineering.**
