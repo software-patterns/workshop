@@ -4,6 +4,7 @@ This is a space for drafting and workshopping bits of software-related writing.
 
 Currently, the ideas here center around a
 [pattern language](https://groupworksdeck.org/pattern-language) for making humanizing computer systems.
+See the [patterns](./patterns) directory.
 
 Here, "humanizing" refers to the effect that computers should ideally have on people and their relationships with each other.
 It does *not* imply "making computers more human-like".
