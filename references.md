@@ -29,3 +29,4 @@ Links to things and people that have inspired us.
 - [Thoughts on Craftsmanship and Deep Feeling: Matisse and Alexander](https://onluminousgrounds.wordpress.com/2010/07/10/thoughts-on-craftsmanship-and-deep-feeling-matisse-and-alexander/). People: Mike van Eerden, Christopher Alexander, Henri Matisse.
 - [Collaboration in Open-Plan Offices](https://espace.library.uq.edu.au/view/UQ:401844). People: Gemma Irving.
   - [Summary by the author](http://theconversation.com/open-plan-offices-can-actually-work-under-certain-conditions-89452).
+- [Do You Have a Good Outcome-Oriented Roadmap?](https://content.pivotal.io/blog/do-you-have-a-good-outcome-oriented-roadmap) People: Aloka Penmetcha.
