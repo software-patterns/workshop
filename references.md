@@ -12,6 +12,7 @@ Links to things and people that have inspired us.
 - [Livable Code](https://www.youtube.com/watch?v=lI77oMKr5EY). People: Sarah Mei.
 - [Project Oberon](http://www.projectoberon.com/). People: Niklaus Wirth, Jürg Gutknecht.
   - [Chapters 1-9 of the Oberon Book](https://www.inf.ethz.ch/personal/wirth/ProjectOberon/PO.System.pdf)
+- [Out of the Tar Pit](https://github.com/papers-we-love/papers-we-love/blob/master/design/out-of-the-tar-pit.pdf). A response to Fred Brooks' "No Silver Bullet" that explores the causes of accidental complexity and potential cures. People: Ben Moseley and Peter Marks.
 - [ZenIT](https://www.zenit.jp/about/). People: Amil Khanzada.
 - [Fast Test, Slow Test](https://www.youtube.com/watch?v=RAxiiRPHS9k). People: Gary Bernhardt.
 - [Boundaries](https://www.youtube.com/watch?v=yTkzNHF6rMs). People: Gary Bernhardt.
