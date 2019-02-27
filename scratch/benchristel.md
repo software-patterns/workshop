@@ -1,3 +1,18 @@
+## 2019-02-26: Book Titles Etc.
+
+Title: _Priorities_
+
+All engineering challenges are optimization problems.
+You have a bunch of different resources: money, computer time, human time,
+customer goodwill, technical quality. Many of these are difficult to quantify.
+The exchange rates fluctuate constantly. Somehow you must make sense of this chaos
+and build something that gives you more resources than you put in.
+
+You can start by prioritizing these resources by value. You want to exchange
+less valuable resources for more valuable ones.
+
+You probably undervalue unquantifiable resources—I know I do. (how can you tell, though?)
+
 ## 2019-02-20: Outline of a Possible Book
 
 ### Introduction
