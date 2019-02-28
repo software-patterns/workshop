@@ -59,3 +59,15 @@ anything to do with it. [. . .] They were involved in it but not in such a way a
 **p. 35**
 
 > When you want to hurry something, that means you no longer care about it and want to get on to other things.
+
+**p. 75**
+
+> Persons tend to think and feel exclusively in one mode or the other and in doing so they tend to misunderstand
+and underestimate what the other mode is all about. But no one is willing to give up the truth as he sees it,
+and as far as I know, no one now living has any real reconciliation of these truths or modes.
+
+**p. 85**
+
+> [. . .] a ghost which calls itself rationality but whose appearance is that of incoherence and
+meaninglessness, which causes the most normal of everyday acts to seem slightly mad because of their
+irrelevance to anything else.
