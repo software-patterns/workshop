@@ -32,3 +32,30 @@ always have been, and if they become strong enough in their hatred of technology
 > The Buddha, the Godhead, resides quite as comfortably in the circuits of a digital computer or the gears
 of a cycle transmission as he does at the top of a mountain or in the petals of a flower. To think
 otherwise is to demean the Buddha—which is to demean oneself.
+
+**p. 32**
+
+> The shop was a different scene from the ones I remembered. The mechanics, who had once all seemed like
+ancient veterans, now looked like children. A radio was going full blast and they were clowning around
+and talking and seemed not to notice me. When one of them finally came over he barely listened to the
+piston slap before saying, "Oh yeah. Tappets."
+>
+> Tappets? I should have known then what was coming.
+>
+> [. . .]
+>
+> After the third overhaul two months later they replaced the cylinders, put in oversize main carburetor
+jets, retarded the timing to make it run as coolly as possible and told me, "Don't run it fast."
+>
+> It was covered with grease and did not start.
+
+**p. 34**
+
+> At 5 P.M. or whenever their eight hours were in, you knew they would cut it off and not have another thought
+about their work. They were already trying not to have any thoughts about their work *on* the job. In their
+own way they were achieving the same thing John and Sylvia were, living with technology without really having
+anything to do with it. [. . .] They were involved in it but not in such a way as to care.
+
+**p. 35**
+
+> When you want to hurry something, that means you no longer care about it and want to get on to other things.
