@@ -135,3 +135,20 @@ be made of the "undifferentiated aesthetic continuum" from which the theoretic a
 > The questions he had asked about infinite hypotheses hadn't been of interest to science because they
 weren't scientific questions. Science cannot study scientific method without getting into a bootstrap
 problem that destroys the validity of its answers.
+
+**p. 150**
+
+> I remember reading this for the first time and remarking about the analytic craftsmanship displayed.
+> He avoided splitting the University into fields or departments [. . .]. He also avoided the
+traditional split into students, faculty, and administration. [. . .] Phaedrus split it between
+"the church" and "the location"
+
+(The phrase "analytic craftsmanship" is interesting, because we don't often think of *analysis* itself
+as a craft. But I believe (and _ZAMM_ makes the point) that it *is* a craft. Compare Christopher
+Alexander on the House of Tiles in Mexico: craft is paying attention to distinctions that matter and
+ignoring distinctions that don't, and that is exactly what Phaedrus does in this passage.)
+
+**p. 152**
+
+> You are never dedicated to something you have complete confidence in. No one is fanatically shouting
+that the sun is going to rise tomorrow.
