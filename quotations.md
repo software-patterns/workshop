@@ -152,3 +152,31 @@ ignoring distinctions that don't, and that is exactly what Phaedrus does in this
 
 > You are never dedicated to something you have complete confidence in. No one is fanatically shouting
 that the sun is going to rise tomorrow.
+
+**p. 155**
+
+> It's not the technology that's scary. It's what it does to the relations between people, like callers
+and operators, that's scary.
+
+**p. 163**
+
+> Like the split between art and art history. One does it and the other talks about how it's done and
+the talk about how it's done never seems to match how one does it.
+
+**p. 164**
+
+> Science works with chunks and bits and pieces of things with the continuity presumed, and DeWeese
+works only with the continuities of things with the chunks and bits and pieces presumed.
+
+**p. 165**
+
+> "Peace of mind isn't at all superficial, really," I expound. "It's the whole thing. That which
+produces it is good maintenance; that which disturbs it is poor maintenance. What we call workability
+of the machine is just an objectification of this peace of mind. [. . .] The material object of
+observation, the bicycle or rotisserie, can't be right or wrong. [. . .] If the machine produces
+tranquillity it's right."
+
+> DeWeese asks, "What if the machine is wrong and I feel peaceful about it?"
+
+> "What's more common is that you feel unpeaceful even if it's right [. . .]. In this case, if you're
+worried, it isn't right. That means it isn't checked out thoroughly enough.
