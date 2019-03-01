@@ -71,3 +71,67 @@ and as far as I know, no one now living has any real reconciliation of these tru
 > [. . .] a ghost which calls itself rationality but whose appearance is that of incoherence and
 meaninglessness, which causes the most normal of everyday acts to seem slightly mad because of their
 irrelevance to anything else.
+
+**p. 97**
+
+> The desk girl asked us if we owned those "groovy, dreamy motorcycles" outside the window and we both
+laughed so hard she wondered what she had said wronng.
+
+**p. 100**
+
+> Precision instruments are designed to achieve an *idea*, dimensional precision, whose perfection is
+impossible. There is no perfectly shaped part of the motorcycle and there never will be, but when you
+come as close as these instruments will take you, remarkable things happen [. . .]. John looks at the
+motorcycle and he sees steel in various shapes and has negative feelings about these steel shapes and
+turns off the whole thing. I look at the shapes of the steel now and I see *ideas*. He thinks I'm
+working on *parts*. I'm working on *concepts*.
+
+**p. 101-2**
+
+> The overall name of these interrelated structures, the genus of which the hierarchy of containment
+and structure of causation are just species, is *system*. The motorcycle is a system. A *real*
+system.
+>
+> To speak of certain government and establishment institutions as "the system" is to speak
+correctly [. . .]. People arrive at a factory and perform a totally meaningless task from eight to
+five without question because the structure demands that it be that way. There's no villain, no
+"mean guy" who wants them to live meaningless lives, it's just that the structure, the system demands
+it [. . .]
+>
+> But to tear down a factory [. . .] is to attack effects rather than causes [. . .]. The true system,
+the real system, is our present construction of systematic thought itself [. . .]
+
+**p. 102**
+
+> [I]f a factory is torn down but the rationality which produced it is left standing, then that
+rationality will simply produce another factory.
+
+**p. 113**
+
+> The formation of hypotheses is the most mysterious of all the categories of scientific method. Where
+they come from, no one knows.
+
+**p. 114**
+
+> "Nobody," [Einstein] said, "who has really gone into the matter will deny that in practice the world
+of phenomena uniquely determines the theoretical system, in spite of the fact that there is no
+theoretical bridge between phenomena and their theoretical principles."
+
+(Notice what happens when you replace "phenomena" with "requirements" and imagine this and the subsequent
+paragraphs are about agile software development.)
+
+**p. 123-4**
+
+> These terms "theoretic" and "esthetic" correspond to what Phaedrus later called classic and romantic
+modes of reality and probably shaped these terms in his mind more than he ever knew. The difference is
+that the classic reality is *primarily* theoretic but has its own esthetics too. The romantic reality is
+*primarily* esthetic but has its theory too. The theoretic and esthetic split is between components
+of a single world. The classic and romantic split is between two separate worlds. The philosophy book,
+which is called _The Meeting of East and West_, by F. S. C. Northrop, suggests that greater cognizance
+be made of the "undifferentiated aesthetic continuum" from which the theoretic arises.
+
+**p. 125**
+
+> The questions he had asked about infinite hypotheses hadn't been of interest to science because they
+weren't scientific questions. Science cannot study scientific method without getting into a bootstrap
+problem that destroys the validity of its answers.
