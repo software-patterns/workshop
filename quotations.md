@@ -180,3 +180,11 @@ tranquillity it's right."
 
 > "What's more common is that you feel unpeaceful even if it's right [. . .]. In this case, if you're
 worried, it isn't right. That means it isn't checked out thoroughly enough.
+
+**p. 209**
+
+> In time, however, he wondered *why* it worked, especially when he already knew it was irrational.
+Why should an irrational method work when rational methods were all so rotten?
+
+Compare Richard Gabriel on generative advice in squash: "The law of follow-through is hard to forget - it’s a law, though, that makes little sense: where is its enchantment? How can advice about what to do after you hit a ball make any difference to what happens when you hit it, or before? 
+
