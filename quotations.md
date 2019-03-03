@@ -168,7 +168,7 @@ the talk about how it's done never seems to match how one does it.
 > Science works with chunks and bits and pieces of things with the continuity presumed, and DeWeese
 works only with the continuities of things with the chunks and bits and pieces presumed.
 
-**p. 165**
+**pp. 165-6**
 
 > "Peace of mind isn't at all superficial, really," I expound. "It's the whole thing. That which
 produces it is good maintenance; that which disturbs it is poor maintenance. What we call workability
@@ -178,8 +178,23 @@ tranquillity it's right."
 
 > DeWeese asks, "What if the machine is wrong and I feel peaceful about it?"
 
-> "What's more common is that you feel unpeaceful even if it's right [. . .]. In this case, if you're
-worried, it isn't right. That means it isn't checked out thoroughly enough.
+> "What's more common is that you feel unpeaceful even if it's right [. . .]. You haven't completed
+the ultimate requirement of achieving peace of mind because you feel these instructions were too
+complicated and you may not have understood them correctly."
+
+(Compare C.A.: "It is a subtle kind of freedom from internal contradictions.")
+
+**p. 167**
+
+> "The craftsman isn't ever following a single line of instruction. [. . .] The material and his
+thoughts are changing together in a progression of changes until his mind's at rest at the same
+time the material's right."
+
+**p. 176**
+
+> It seemed as though every rule [Phaedrus] honestly tried to discover with [his students] and
+learn with them was so full of exceptions and contradictions and qualifications and confusions
+that he wished he'd never come across the rule in the first place.
 
 **p. 209**
 
