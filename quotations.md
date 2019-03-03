@@ -196,6 +196,14 @@ time the material's right."
 learn with them was so full of exceptions and contradictions and qualifications and confusions
 that he wished he'd never come across the rule in the first place.
 
+**p. 204**
+
+> Mountains should be climbed with as little effort as possible and without desire. The reality of
+your own nature should determine the speed. [. . .] To live only for some future goal is shallow.
+It's the sides of the mountain which sustain life, not the top. Here's where things grow.
+>
+> But of course, without the top, you can't have any sides. It's the top that *defines* the sides.
+
 **p. 209**
 
 > In time, however, he wondered *why* it worked, especially when he already knew it was irrational.
@@ -203,3 +211,6 @@ Why should an irrational method work when rational methods were all so rotten?
 
 Compare Richard Gabriel on generative advice in squash: "The law of follow-through is hard to forget - it’s a law, though, that makes little sense: where is its enchantment? How can advice about what to do after you hit a ball make any difference to what happens when you hit it, or before? 
 
+**p. 217**
+
+> Absence of Quality is the essence of squareness.
