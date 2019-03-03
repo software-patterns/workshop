@@ -1,3 +1,64 @@
+## 2019-03-02: Beauty, Quality, Naru
+
+Why did C.A.'s pattern language "fail" [in Mexicali](https://www.livingneighborhoods.org/ht-0/mexicali.htm)?
+
+I thought I had an answer, but after looking at the photos at the link above, I'm more confused than ever.
+
+I wonder if this is partly because the photos are just snapshots in time. The most "finished" views of the
+buildings aren't, really. Perhaps the Quality Without a Name resides in the temporal flow of things and not
+in static forms. Certain examples Alexander gives seem to support this interpretation.
+
+The trees along a windblown lake, bending in the wind.
+
+The eroded gully that destroys itself.
+
+The Quality is, or isn't, in each of these places because of the processes that happen there. It doesn't seem
+to be purely a property of form.
+
+And yet I can say that some of the photos of the building exteriors don't have the Quality, because no one is yet living
+there. As I look at the picture I can see that the space is not yet complete: that more differentiation needs to
+occur.
+
+But if the Quality resides in the process, which is in this case the process of building, and if these houses are
+being built by their future occupants, how can it be said that they do not have the Quality? Without seeing the
+future evolution of the structure, it is impossible for me to judge.
+
+If I see a tree bending in the wind, I can't know how whole, how self-sustaining, the situation is until I know
+whether the tree falls or breaks or bends back. The degree of my knowledge is proprotional to the length of time
+I spend observing.
+
+There is obviously a kind of halting problem here.
+
+I thought, when I first sat down to write this post, that the Quality Without a Name was just one of a cluster of
+properties of form and space, and that by focusing on it to the exclusion of other things in the cluster,
+Alexander might have doomed his pattern language method to what he saw as failure.
+
+The other properties I'll term *beauty* and *naru*. The latter could also be termed *genius loci*, but that term
+already has a body of context behind it that I think will confuse things. *Naru* is a word I invented long ago, that
+refers to the shimmering vision of a place: the dream that captures its whole and pinpoints its essence.
+
+"Beauty" is easy. It's simply "what people like". It could probably be complexified more than that but I see no
+reason to do so. It corresponds to Robert Pirsig's "Quality" as described in _Zen and the Art of Motorcycle Maintenance_.
+
+The aspect of the Quality Without a Name that I think is most vital to contrast with these other two concepts is
+that of egolessness: freedom from contrivance. The examples Alexander gives highlight this aspect more than others:
+a steel mill, blazing in the night; a group of friends strolling along, arms wide, laughing; men throwing sandbags
+into a truck, working quickly, abandoning themselves to the work; the pile of beer cans on the deck of a fishing boat;
+the decorations carved into a handcrafted bench.
+
+Something can of course be egoless without being beautiful. That is important to recognize. The steel mill and the
+pile of beer cans are examples.
+
+Something can also have a strong *naru* without being egoless or beautiful. The tower of Barad-Dûr in the Lord of
+the Rings films is a good example. Various pieces of software, such as Hadoop or Rails, fall into this
+category. They have a distinctive "flavor" that comes almost entirely from the vision their creators wish to
+impose on their development and use, but it is a syrupy, too-sweet flavor.
+
+A *naru* can arise from an egotistical pursuit of beauty. [Verse](https://benchristel.github.io/verse) is a good example.
+
+The hardest pair to reconcile are *naru* and egolessness. These rarely co-occur. When they do, the site of their
+convergence reaches into the realm of the eternal.
+
 ## 2019-02-27: Quality: Surface and Form
 
 Seed: _Zen and the Art of Motorcycle Maintenance_:
