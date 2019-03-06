@@ -1,3 +1,40 @@
+## 2019-03-05: Science and Engineering
+
+```
+   Science : Software Engineering
+:: Explain : Implement
+:: Phenomenon : Behavior
+:: Predict : Anticipate
+:: Observation : User Story
+:: Hypothesis : Code
+:: Experiment : Release
+```
+
+- People often think that it takes a supremely logical mind to program a computer.
+- But the role of logical thinking in programming has been vastly overstated.
+- No formal way to transform informal requirements into formal ones
+- Once a formal specification is written, code can be proven correct... but how do you know the spec is correct?
+- It's important to distinguish formal logic, i.e. deductive reasoning, from the "logic" of inductive reasoning
+  (which is never actually logically valid: one cannot reason from examples to general principles) and also from
+  the bizarre, emotionless "scientism" (C.S. Lewis's term; there's probably a better one) that many people mistake
+  for "thinking logically" because it aims for objectivity. The place of these three concepts in engineering is as follows:
+  
+  - Formal logic is great, but its uses are limited. As hinted above, arriving at a formal specification, the
+    jumping-off point for logic, is the hard part. How exactly one does that, no one knows.
+  - Inductive reasoning is important and pragmatic, though not logically sound. It is the means by which we get
+    general specifications from specific user stories and bug reports.
+  - Scientism has no business existing at all. Its distinguishing feature—a willful disregard for
+    the subjective human observer, that very same person whose wellbeing it claims to promote—ought to doom
+    it to ridicule. Unfortunately, scientistic views persist, possibly because they can be easily used to
+    intimidate people who have not invested in such intellectual weaponry.
+    
+    As an example, consider the exhortation to "just think logically" when approaching an engineering problem.
+    Unless this command is aimed at someone
+    poring over a formal specification, it is meaningless on the face of it. One cannot use logic to get a
+    formal specification (and code is a formal specification) from an informal one.
+    What this really means is "prioritize the things I, a self-styled logical person, think are important",
+    or, more bluntly, "be smarter". In either case, it's simply disguised intellectual bullying, not useful advice.
+
 ## 2019-03-02: Beauty, Quality, Naru
 
 Why did C.A.'s pattern language "fail" [in Mexicali](https://www.livingneighborhoods.org/ht-0/mexicali.htm)?
