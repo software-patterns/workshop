@@ -18,10 +18,34 @@ source code's primary purpose is to describe the program's behavior to a human r
 that person that the description is correct. If code didn't need to do these things, high-level languages
 wouldn't be so popular, which is why I claim the human interface is actually the primary one.
 
+People are in the habit of thinking of programming as a rational, straightforward process, one in which truths are
+objective and externally imposed. The program is either right or it isn't. It has a bug, or it doesn't.
+
+My first task in this essay is to break you of this habit of thinking. Programming isn't a purely rational process,
+any more than writing is a purely rational process. No program is objectively correct or incorrect. That is,
+although statements about a program can be true or untrue, the program itself cannot be.
+
 There is a strange thing that happens in the interface between a human reader and code. Perhaps you see it
 already. Perhaps, though, you are so used to reading code that you don't see the strangeness, so I will explain:
 
-When you read code, you do something that is logically impossible, many times per hour.
+Code does two things when you read it: it *describes* and it *persuades*. It describes what the program
+is supposed to do, and it persuades you, via its structure, that the logic of the program has been expressed
+correctly to the machine.
+
+Unfortunately, each of these processes, describing and persuading, is founded on the other. They are locked in
+a deadly embrace, and there is no way to untangle them.
+
+- Describing depends on persuading. You can't understand what the program is *supposed* to do by reading the code;
+  you can only find out what the
+  program actually *does*. Unless you know the code is correct, you have no rational way of divining the *intended*
+  behavior of the program from the code.
+- Persuading depends on describing. You have no rational way of knowing the code is correct until you know what
+  the program is intended to do and can compare the code to that intention.
+
+There is clearly a bootstrapping problem here. And yet, it causes you no trouble. You can look at code, figure
+out the intent behind it, and even identify bugs.
+
+Thus, when you read code, you do something that is logically impossible, many times per hour.
 
 How often have you looked at a piece of someone else's code and realized that it was likely to be wrong? That is,
 that a bug resided in that code, perhaps guarded against somewhere else, but at the very least, latent there?
