@@ -70,12 +70,31 @@ It is, in a word, our sense of _Quality_ that tells us when code is right or wro
 It is an aesthetic sense. But the aesthetics of Quality are not vague, personal, whatever-you-like feelings,
 nor the diffuse miasma of popular opinion. Quality is as sharp and exact as the blade of a knife.
 
-It is mysterious, but only in the way water is mysterious to a fish: we can't get away from it, can't remove ourselves
+We seem, all of us, to have lying within ourselves a coherent vision of a better world. This vision is not
+individual, but held in common, as evidenced by the agreement among our individual judgements of Quality.
+
+Quality is mysterious, but only in the way water is mysterious to a fish: we can't get away from it, can't remove ourselves
 from it, so we can't really see it. But there is nothing mystical about it. Quality is entirely commonplace;
 what makes it mysterious is its ordinariness.
 
 The two people who have written the most and the best about this sense of Quality are Robert Pirsig and
 Christopher Alexander.
+
+---
+
+If the absence of romantic Quality is squareness (Pirsig), what's the absence of classical Quality? I think
+Pirsig mostly fails to unite the two types of Quality he identifies. But if we can unify their opposites, perhaps
+that will let us see, as though in a mirror indirectly, what unified Quality is.
+
+Candidates for the opposite of Classical Quality are:
+- Phonyness / fakeness? Falseness?
+- Bullshit / pretension?
+
+When phonyness and pretension are absent, and squareness is also absent, then something can be said to have both
+Classical and Romantic quality. But do these two types of Quality mix and combine to create something new, more
+than the sum of both types? I wonder what its name would be.
+
+Perhaps it would not have one. I think perhaps it is what Christopher Alexander calls the Quality Without a Name.
 
 ## 2019-03-05: Science and Engineering
 
