@@ -1,3 +1,35 @@
+## 2019-03-07
+
+Efforts to improve code quality often focus on the code as an objective entity. But that misses the point.
+Code quality is in your mind.
+
+Have you ever been paralyzed by fear when trying to make a change to code, and then had an expert swoop
+in to help you, only to make exactly the changes you were considering but were afraid to make? It's happened
+to me many times. In complex C codebases, e.g. the code that looks correct often has subtle things wrong with
+it: memory leaks, unintended side effects... you have to have a great deal of faith, both in yourself and in the
+people who developed and documented the functions you're calling, to change such code with confidence.
+Even when the code is high quality, if you have no basis for *knowing* that it's high quality, it might as
+well be low quality.
+
+Re: the logical impossibility of reading code in the last post: the way the deadlock gets broken is via naming.
+Names are the foundation of informal reasoning about code: they ground our reading in human metaphors.
+If the program doesn't have names (e.g. if it's minified javascript) what do you do to understand it? You find
+leaf nodes of the call graph, things with no dependencies, and assume they're correct. Then you rename them after
+their actual behavior. Then you find functions that only call named things, and rename them after what they appear
+to do, and so work your way up the call graph.
+
+Is Quality in code culturally relative, or universal? I think it's some of both. The difficulty is in separating
+the two, in finding the universal elements amid the cultural ones.
+
+E.g. in OOP it's a cultural value to hide data inside objects. In FP the cultural value is the opposite: data
+should be exposed and made of simple datastructures. Both of
+these cultures adhere to their values with religious certainty, despite the fact that the other culture functions
+just fine. So the degree to which data is hidden has nothing, directly, to do with Quality.
+
+I think the universal value underlying both of these cultures is *safety*. In OOP the only way for data to be "safe"
+is if it's encapsulated, otherwise anyone can just come along and change it. Because data is mutable, encapsulation
+is necessary. In FP, data is immutable, so it's safe to expose it.
+
 ## 2019-03-06: A first chapter?
 
 Another book of programming "rules", this ain't!
@@ -89,7 +121,7 @@ when we read code. Yet we seem to have a knack, finely honed by millions of year
 knowing when something will hurt us or help us. This instinct somehow extends to something as abstract and
 recent as code.
 
-It is, in a word, our sense of _Quality_ that tells us when code is right or wrong.
+It is, in a word, our sense of _Quality_ that tells us when code is right or wrong, safe or dangerous.
 
 It is an aesthetic sense. But the aesthetics of Quality are not vague, personal, whatever-you-like feelings,
 nor the diffuse miasma of popular opinion. Quality is as sharp and exact as the blade of a knife.
