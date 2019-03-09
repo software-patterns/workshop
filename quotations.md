@@ -214,3 +214,53 @@ Compare Richard Gabriel on generative advice in squash: "The law of follow-throu
 **p. 217**
 
 > Absence of Quality is the essence of squareness.
+
+**p. 223**
+
+> I think the referent of a term that can split a world into hip and square, classic and romantic, technological
+and humanistic, is an entity that can unite a world already split along these lines into one. A real understanding
+of Quality doesn't just serve the System, or even beat it or even escape it. A real understanding of Quality
+*captures* the System [. . .].
+
+**p. 233**
+
+> Scientific materialism, which is commoner among lay followers of science than among scientists themselves, holds
+that what is composed of matter or energy and is measurable by the instruments of science is real. Anything else
+is unreal, or at least of no importance. "What you like"" is unmeasurable, and therefore unreal.
+
+**p. 236**
+
+> People disagreed about Quality because some just used their immediate emotions whereas others applied their
+overall knowledge. [. . .] But this argument was completely devastating. [. . .] The hip-square cleavage he'd
+discovered was still there, but Quality didn't now seem to fall entirely on one side [. . .].
+
+AFAICT, the empirical evidence against unified Quality—that people disagree about it—kind of makes it useless
+as a philosophical concept. I lean towards replacing it with "caring" at this point, the obvious next question
+being "what is it people should care about"? And the answer, of course, is "the whole thing, everything, but
+especially the bit you're working on right now."
+
+**p. 239**
+
+> Quality is not a *thing*. It is an *event*.
+
+> Quality is not just the *result* of a collision between subject and object. The very existence of subject
+and object is *deduced* from the Quality event.
+
+The more you care, the more aware you are of subjects and objects and their interrelation. I'm not sure
+*how* exactly Quality produces subjects and objects, but it seems to. Lack of Quality, anecdotally,
+produces feelings of dissociation. This isn't *qualia* I'm talking about, which is another thing entirely
+and what I assumed Pirsig was getting mixed up with Quality when I first read this passage. Quality—whether
+good or bad—produces awareness. If there's no good or bad to be aware of, awareness itself shuts down.
+
+A world without quality is a world without either subjects or objects. A world without human life.
+
+Machines can think. But do they care?
+
+**p. 242**
+
+> First you get the feeling, then you figure out why.
+
+**p. 248**
+
+> Now we had two different kinds of Quality but they no longer split Quality itself. They were
+just two different time aspects of Quality, short and long.
