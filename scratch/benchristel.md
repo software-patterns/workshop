@@ -1,3 +1,115 @@
+## 2019-03-09: Tools
+
+A possible book title is _Tools_, or maybe _The Code Crafter's Tools_.
+
+Caring is prerequisite for Quality. Quality is what people eventually produce when they care about their work and
+about what they are producing. I term a person who cares about what they work on and how they work on it a
+*crafter* or *craftsperson*.
+
+But caring alone is not enough to produce Quality directly. When crafting something new, three paths are possible:
+
+- Not caring -> (unobservedly) low Quality work
+- Caring -> high Quality work
+- Caring -> low Quality work
+
+That is, if you don't care about what you're doing, it is almost impossible to produce work of high Quality.
+You can make something that meets requirements, that hits the right benchmarks, through sheer force of will and
+toil, but that's not Quality. It's more like quantity—because it's objectively measurable. And anyone who looks
+at the result with an eye for Quality will be able to see the difference. They'll be able to see that the work
+was not produced by a human mind and heart but by an inhuman force that used the human as a tool.
+
+If you don't care about the work, though, *you* won't notice the low Quality. So though you get no joy from the
+work, you don't suffer much, either.
+
+If you do care, you may produce something of high Quality, but that's not guaranteed. You might also produce
+something of low Quality, which is the bitterest feeling there is—to care and fail. Since caring and failing is
+by far the worst outcome, many people, whose failures lead them to believe they don't have the knack for Quality,
+choose the path of not caring.
+
+This is tragic, because, after all, there is no "knack for Quality". It's not something you're born with—or rather,
+it's something *everyone* is born with. If you let yourself see the Quality or lack thereof in
+your work, you'll see it, guaranteed. The question is, if you see bad Quality there, how do you fix it? The fear
+of having no answer to that question is what makes people shut down the part of themselves that cares.
+
+To make Quality, then, you need three things:
+
+- Caring
+- The right tools
+- Practice
+
+I can't make you care, and I can't make you practice. But I can give you tools, and that's what this book is about.
+
+By "tools", I don't mean fancy computers or fancy software. You don't need those things to make Quality,
+though they're nice to have. The real work of programming happens in the mind, not on the screen, so the tools I
+describe are mental ones. They comprise two groups:
+
+- Tools for "seeing" code, turning it around in your mind, observing it from every angle.
+- Tools for changing code.
+
+The tools for changing are also tools for seeing: as you change code you learn new things about it that you can't
+easily see any other way. But before you start changing code, you need to be able to see it at a basic level, so you
+know what changes to make. That is the motivation for the division into two groups. The "changing" tools depend on
+the "seeing" ones.
+
+**Working with People**
+
+Once you and your team have the tools, and have begun making Quality together, you will inevitably discover
+differences in how you each think about Quality. People care about different things, so if you have a bunch
+of people caring about the code you're writing and the software you're building together, there's bound to
+be tension.
+
+The way teams have traditionally resolved this tension is by giving each person their own part of the codebase
+to work on. I don't touch your code, and you don't touch mine. We can each pursue our own vision of Quality within
+our isolated silos.
+
+There are many problems with this, though, as Kent Beck describes in _Extreme Programming Explained_. One is that
+if someone goes on vacation, their section of the code is effectively frozen in time until they return. No one else
+knows how to change it, so work that touches that part of the codebase grinds to a halt. The same thing happens,
+only worse, when someone leaves the company.
+
+Extreme Programming (XP) tries to remedy this via the practice of shared code ownership. Any member of the team is
+empowered to change code anywhere in the codebase, provided they write automated tests to ensure that later changes don't
+wreck what they did. This practice allows the team to converge on a set of shared norms, so that if someone leaves
+the company, it isn't a catastrophe. Their code looks similar enough to the rest of the codebase that other team members
+can jump right in and fill the gap.
+
+Unfortunately, this forced convergence of Quality norms tends to drown out minority voices on the team. If I'm the only
+person on my team who cares about security, or the only one who prioritizes readability over performance, my sense of
+Quality will suffer when I'm working on shared code. If shared code strays too far from my ideal of Quality, I'll
+care about it less and less. And lack of caring produces lower Quality.
+
+I have some theories about how to resolve this dilemma, between individual code silos and shared code ownership.
+One idea is for the team to share norms around testing but let people structure production code how they please;
+this helps ensure that if one programmer has to work on another's code, at least they have tests as a safety
+net. However, people have different opinions about testing too, so I fear this just kicks the can.
+
+Another idea is for the team to share a *pattern language* that is flexible enough to accommodate differing views.
+I already have a pattern language in mind that unifies procedural, object-oriented, and functional programming
+styles, so I am optimistic that a pattern language could resolve many of the interpersonal tensions around
+code Quality. In this approach, the team members must be willing to work with, and respect, patterns that aren't
+their preferred ones.
+
+Ultimately, the question of how team members resolve tension boils down to how respect works on the team.
+In individually-siloed code, I respect you by not changing your code without consulting you. Under shared code ownership,
+I show respect by writing tests to make your job easier when you have to change my code. Under a pattern language
+approach, I show respect by working with the patterns you've created in your code, though I may not particularly like
+them.
+
+Each of these patterns of respect has analogues in ordinary human society. The individual ownership and pattern-language
+approaches are similar to how unrelated people in a community interact in a civil way. The XP approach is a
+communitarian style that mirrors how people within a household interact.
+
+What we have here is an apparent tension between two values: the *community good* vs. the *individual good*. The XP
+approach is community-biased. The silo approach is individual-biased. The pattern language approach tries to strike
+a balance... but does it succeed?
+
+I think the way to unify these two apparently opposed values is with the value of *belonging*. Belonging is a state
+in which the individual is supported by the community, feels some form of identification with it, and gives back to
+it. The community in turn recognizes individual variation and affords individuals freedom of self-expression.
+
+This is an analytic way of describing belonging. In terms of immediate feeling, belonging is just another form of
+caring—but caring about people, instead of work or the products of work.
+
 ## 2019-03-07
 
 Efforts to improve code quality often focus on the code as an objective entity. But that misses the point.
