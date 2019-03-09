@@ -1,10 +1,41 @@
 ## 2019-03-09: Tools
 
-A possible book title is _Tools_, or maybe _The Code Crafter's Tools_.
+A possible book title is _Tools_, or maybe _The Code Crafter's Tools_, or _The Process of Repair_.
 
 Dull. Endlessly dull. Dry, dreary, grey and lifeless. A blank gloom that shuts out even despair.
 
 Such is life without what Robert Pirsig, in _Zen and the Art of Motorcycle Maintenance_, calls Quality.
+
+I believe *negative space* is an appropriate architectural metaphor for the absence of Quality.
+Negative space is what is left over when something is constructed. It is unshaped space, ignored by both
+builders and occupants. The space in between real places. A nowhere-place where no one wants to be.
+
+Negative space creates negative time.
+We hurry through parking lots, the deserts of suburban life, to get to the next oasis of positive space.
+We commute so we can work. We work so we can eat and shop and pay rent. We eat (or drink Soylent) so we can live.
+If we're lucky, we get moments of Quality in between all this negative time, this plumbing of life.
+
+But buildings and cities can be constructed in which there is little to no negative space, and it is
+possible too to live so that there is no negative time. Yet in the 21st century United States, this is
+becoming harder and harder.
+
+(quote from ZAMM about the "death force" of technology and the Sutherlands running from it)
+
+Technology has been reduced to a mere means in the name of "efficiency". But this is a false efficiency,
+because it has stripped technologists of the privilege of caring about what they do (replaced craft and a feel
+for the work with schedules, standards, laws), and so drained technology
+itself of inherent value. Most of the technological trappings of modern life, for all their polish and
+surface veneer, have no more personality or spiritual weight than the door of a public bathroom stall. The web
+of technology that holds civilization in place is just dead weight, a parasite that has grown so large that
+if it dies, the host dies. And with every passing year, the web spreads and thickens.
+
+At this point, you may feel like rushing to technology's defense with the argument that without technology,
+we would have much more poverty and famine and disease than we currently do. That is true. I'm not proposing
+that we get rid of modern technology or even reduce it. I am merely pointing out that all the negative space and
+time created by Qualityless technology is an appalling and unnecessary waste, a waste that has gone
+unreckoned because it is measured not in dollars but in moments of human life.
+
+With time and care, though, the waste can be reversed. That process of reversal is the subject of this book.
 
 Caring is prerequisite for Quality. Quality is what people eventually produce when they care about their work and
 about what they are producing. I term a person who cares about what they work on and how they work on it a
@@ -54,6 +85,15 @@ The tools for changing are also tools for seeing: as you change code you learn n
 easily see any other way. But before you start changing code, you need to be able to see it at a basic level, so you
 know what changes to make. That is the motivation for the division into two groups. The "changing" tools depend on
 the "seeing" ones.
+
+**Caring About Caring**
+
+When I was first introduced to the idea of code Quality, I thought it meant I had to care about every tiny detail
+of my code and working environment. I obsessed over variable names. Whitespace alignment. Tab size. Syntax highlighting.
+The fonts my editor used. Comment style. The order of methods in classes. And on and on and on.
+
+But to attend to everything is to attend to nothing. There has to be some notion of priority, of paying attention
+to what matters, and letting go of what doesn't matter as much.
 
 **Working with People**
 
