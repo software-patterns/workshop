@@ -2,6 +2,10 @@
 
 A possible book title is _Tools_, or maybe _The Code Crafter's Tools_.
 
+Dull. Endlessly dull. Dry, dreary, grey and lifeless. A blank gloom that shuts out even despair.
+
+Such is life without what Robert Pirsig, in _Zen and the Art of Motorcycle Maintenance_, calls Quality.
+
 Caring is prerequisite for Quality. Quality is what people eventually produce when they care about their work and
 about what they are producing. I term a person who cares about what they work on and how they work on it a
 *crafter* or *craftsperson*.
