@@ -1,3 +1,74 @@
+## 2019-03-10: A Program Called Reality
+
+- The problem (the technological "death force", Alexander's "deathlike morphology")
+- Alexander and Pirsig were writing and researching at around the same time, without (as far as I know)
+  any awareness of each other. They both independently saw Quality and saw that
+  it was somehow lacking in modern technology. Both insisted that Quality could not be defined.
+- Though I agree that it is foolish to try to rationally define Quality itself, I think we can easily identify
+  and define Quality's causes and effects, and so arrive at an operational understanding of how
+  and why to make Quality. And the definition of Quality's cause is so simple and concrete that
+  once you grok it, you will see tiny bits of Quality everywhere, and not only that, you will be able
+  to create it at will if you have the right tools and practical know-how. In a word, the cause of
+  Quality is *caring*, and the goal of Quality is the direction of attention to what is culturally
+  and practically important. Quality itself is simply *evidence of care*.
+- Code quality
+- Quality is not just a feel-good, emotional thing
+  - it has concrete, practical implications too, as down-to-earth as the measurements
+    in a recipe and as objective as the calibration of a scientific instrument.
+- Quality is:
+  - a demonstration of caring
+  - not quantifiable
+  - a language, a means of communication among people
+  - how we distinguish the socially important vs. the socially unimportant
+  - a mechanism for efficiently transmitting culture between people and especially between
+    generations, without explicit instruction
+  - the foundation of spoken language (infants can distinguish a great variety of *phones* or fundamental
+    speech sounds, but soon develop an awareness of the set of *phonemes* that are relevant for
+    the language of their community by observing which distinctions of sound adults care about and which
+    they do not. Eventually, children lose the ability to perceive phonetic distinctions that are not
+    phonemic in their language—and when they do, those phonetic distinctions cease to exist in their subjective, conscious
+    reality, despite the fact that they are objectively present. This is what Pirsig means when he says that Quality
+    creates our reality.)
+- Examples of Quality:
+  - box drawn around a child's name "to keep the letters from sliding out"
+  - underline in text to draw attention to an important term
+  - XKCD "I have never been lied to by data in a .txt file that has been hand-aligned." (https://xkcd.com/1301/)
+- Religion remains compelling, despite the empirical unverifiability of gods and spirits,
+  because the Quality in nature seems like the product of one or more wise, powerful, and
+  above all *caring* entities. Pirsig touches briefly on the connection between Quality and religion,
+  noting that the Old English roots of *god* and *good* are identical. A full exposition of the connection
+  is way beyond the scope of this book, and is left as an exercise for the interested reader.
+  - c.f. Alexander's "buildings with the character of nature" and the Quality Without a Name
+- A breakdown of Quality means much more for human society than a simple lack of joy or pleasure. Loss of Quality
+  means loss of language, culture, community, spirituality, even consciousness itself—everything we think of as
+  fundamentally human.
+- Note that the definition of Quality as *evident care* means that where Quality resides is dependent on culture and technology.
+  If we did not have automatic code formatters, proper formatting in code would be a form of Quality—evident care.
+  But as it stands, proper formatting has little Quality. All it shows is that someone cared the bare minimum amount
+  to run the formatter.
+  - The implication of this is devastating for automated approaches that try to "ensure quality". When you think that
+    consistent formatting helps *create* high quality in code, you do things like write tools that
+    auto-format the code before every check-in. But this is backwards: correct formatting does
+    not create Quality. It is Quality, the social drive to make caring evident, that creates correct formatting.
+    Auto-formatting tools thus do not help create Quality; they actually destroy it.
+    
+    Again, this is not mere sentimentality or nostalgia for a simpler time. It is cold, hard pragmatism. The fact is
+    that when it is impossible for checked-in code to be formatted incorrectly, you cannot use formatting
+    to distinguish high-Quality code that someone paid careful attention to from low-Quality code that was slapped
+    together at 2 AM to fix a production issue. That in turn means you have one less cue telling you how wary to
+    be when you are reading or modifying the code. Lack of proper awareness leads to lost time or more bugs; more
+    production issues and less money.
+  - This type of thinking—that it is possible to somehow identify Quality in an object and then automate a process that
+    creates that Quality—actually undermines Quality. It completely fails to understand that *Quality does not
+    reside in objects*. Quality is not static and objective but contextual and evolving, and this fact arises directly
+    from Quality's operation as a social mechanism. This fundamental misunderstanding about what Quality is causes the
+    "deathlike morphology" that both Pirsig and Alexander observed in technology.
+- Quality is contextual (recall the story of Lazy Jack, who really cared, but failed to apply
+  contextually appropriate solutions).
+  - if code is going to change frequently and be maintained by many people, readability is likely more
+    important than performance. If it's a low-level routine that is called in many places and is
+    unlikely to change, performance is likely more important than readability.
+
 ## 2019-03-09: Tools
 
 A possible book title is _Tools_, or maybe _The Code Crafter's Tools_, or _The Process of Repair_.
