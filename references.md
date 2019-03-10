@@ -6,6 +6,7 @@ Links to things and people that have inspired us.
   patterns, and poetry. People: Richard Gabriel, Christopher Alexander.
   - ["Mob Software: The Erotic Life of Code"](http://dreamsongs.net/MobSoftware.html)
   - ["Incommensurability"](http://dreamsongs.net/Files/Incommensurability.pdf). On the difficulties of communicating across scientific paradigms.
+  - [_Patterns of Software: Tales from the Software Community_](http://dreamsongs.net/Files/PatternsOfSoftware.pdf).
 - _Zen and the Art of Motorcycle Maintenance_. People: Robert M. Pirsig.
 - [Center for Humane Technology](http://humanetech.com/). Formerly(?) Time Well Spent. People: Tristan Harris.
 - [Patterns Dev](https://patterns-dev.github.io/patterns/newpat/newpat0/new-patterns-introduction.htm). Summaries of the 253 patterns from _A Pattern Language_ by Christopher Alexander et al. People: Theo Armour, Christopher Alexander.
