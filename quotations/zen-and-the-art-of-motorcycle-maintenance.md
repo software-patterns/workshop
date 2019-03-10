@@ -1,5 +1,3 @@
-# Quotations from the [Referenced Works](./references.md)
-
 ## Robert Pirsig, _Zen and the Art of Motorcycle Maintenance_
 
 **p. 16**
