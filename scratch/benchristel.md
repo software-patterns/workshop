@@ -24,7 +24,7 @@ becoming harder and harder.
 Technology has been reduced to a mere means in the name of "efficiency". But this is a false efficiency,
 because it has stripped technologists of the privilege of caring about what they do (replaced craft and a feel
 for the work with schedules, standards, laws), and so drained technology
-itself of inherent value. Most of the technological trappings of modern life, for all their polish and
+itself of inherent value. Most of the technological trappings of modern life, for all their ornamentation and
 surface veneer, have no more personality or spiritual weight than the door of a public bathroom stall. The web
 of technology that holds civilization in place is just dead weight, a parasite that has grown so large that
 if it dies, the host dies. And with every passing year, the web spreads and thickens.
@@ -88,12 +88,88 @@ the "seeing" ones.
 
 **Caring About Caring**
 
-When I was first introduced to the idea of code Quality, I thought it meant I had to care about every tiny detail
+When I was first introduced to the idea of code quality, I thought the way to maximize it was to care about every tiny detail
 of my code and working environment. I obsessed over variable names. Whitespace alignment. Tab size. Syntax highlighting.
 The fonts my editor used. Comment style. The order of methods in classes. And on and on and on.
 
 But to attend to everything is to attend to nothing. There has to be some notion of priority, of paying attention
-to what matters, and letting go of what doesn't matter as much.
+to what matters, and letting go of what doesn't matter as much. Caring doesn't mean insistence on perfection.
+
+It *especially* doesn't mean insistence on *externally imposed* standards of perfection. When you mistake the idealized
+images in your mind for Quality, you can run into real trouble.
+
+My parents just finished up remodeling their house, and this particular hang-up bit them many times during the process.
+The original plan was just to replace the windows and part of the floor, but my mom figured, what the heck, as long
+as the construction people are there, why not take the opportunity to replace the doorknobs and hinges, too?
+
+The original knobs were cheap, funky, brass-plated nickel, and they'd started to corrode in places. The ones on the inside of
+the bathroom doors, that people touched with damp hands, were in the worst shape. But they turned and latched easily
+and the doors swung smoothly, without preferring to "settle" in a particular place when they were open. It's so obvious
+that doors and knobs should behave like this that we all took it for granted. Didn't even think of it as a property of the
+hardware. It was just a property of *reality*.
+
+At this point you can probably guess the rest of the story. They got the new hardware installed. The knobs were fancy
+oil-rubbed bronze from one of those glossy catalogs that are as wide and thick as coffee-table books. But they didn't
+latch quite right. On many of the doors, the knobs turned haltingly, as if they had a catch in their throats. Other
+doors you had to lean on hard to get them to close. One of the locks didn't work. The hinges creaked. When you opened
+one bedroom door, it would inch its way closed again, pulled by gravity.
+
+On my first tour through the house I noticed these things and pointed them out. I thought one door was locked, at first,
+I had to twist the knob so hard. "Well, you'll just have to muscle it," my mom said. "It's *quality hardware*. Not like
+that *old* crap."
+
+I was stunned. Speechless. In what universe did "quality hardware" mean "doorknob that doesn't turn"?
+
+The problem with holding up Quality as an ideal is that cognitive biases can get us to believe that almost anything
+has good Quality. When Quality is just a groovy, unexamined feeling for what's good, these biases can distort
+our decision making. This gets especially fraught when we start judging Quality in *people*, since most of us have
+subconcious racial and gender biases that affect our judgements when we're not careful. Clearly, some better-defined
+value than Quality is necessary.
+
+That's why I focus on *caring*. Though my mom and I don't see eye to eye on the *quality* of the doorknobs she bought,
+she readily agrees that the people who installed them did not seem to *care* about the results of their work. She might
+also acknowledge that the people assembling the hardware at the factory didn't evidently care about *their* work.
+It's this lack of evident care that we were both, in our own way, riled up about.
+
+Now, this lack of caring isn't, I think, usually a personal failing of the would-be craftsperson. Lack of care is
+a structural issue: it's baked into our concept of a "job", in which workers are given incentives to spend time at
+work and complete tasks. Caring about the work, and trying to improve the system, are often viewed as distractions,
+and the internal pain of caring and failing is amplified by the external threat of job loss if one's own sense
+of Quality causes schedule slips or other disturbances. Far safer, far better, not to care.
+
+And yet—what a harsh price for peace is one's own sense of caring! To be robbed of the opportunity to care is to
+have a piece of one's humanity taken away, because caring and showing others that we care is part of how humans
+communicate. Caring and the exchange of Quality binds together communities, families, and friends.
+
+I've made it sound like caring is this warm, fuzzy, emotional thing, but when I say it's a form of communication I
+mean that literally, and like other forms of communication, it has hard, practical consequences.
+Caring is how people communicate to each other what is important and what is not. We learn, from infancy, which
+facts about the universe are important and which are unimportant by observing what the people around us
+care about. (quote Pirsig on English vs. Hindi, maybe Rosenfelder on phones vs. phonemes and linguistic development in infants?) 
+If we failed to learn to distinguish important from unimportant facts, science and technology would be impossible.
+When we don't know what to focus on, empirical methods of obtaining knowledge simply stop working.
+
+(Quote Pirsig on Poincare on the selection of facts that precedes science)
+
+As an example:
+I sometimes read code and see things I don't understand, code that has no apparent reason to be the shape that it is.
+If the code is messy, if there is no evidence of care, I chalk the inexplicable part up to sloppy coding. But if
+I sense from reading the rest of the code that the person who wrote it cared about what they were doing, I'm much more
+likely to think of that inexplicable bit as significant, as something crucial that *I* simply don't have the context
+to understand. And I, in turn, will be more careful, and dig deeper. I'll research and experiment to find out what's really going
+on in that code. I will, in a word, do science on it. And I will take the time to do that because my predecessor's care
+has communicated to me the importance of this strange bit of code that I just don't have the background to understand.
+
+The practical impact of caring on software development is why I have hope that, in time, we can heal the wounds that our
+present form of Qualityless, technological work has wrought on American society. If my complaint were just that door
+hardware were being inexpertly manufactured and installed, I would have little hope of doing anything about it. The
+structure of work would not be turned topsy-turvy just so people in doorknob factories could care about what they
+produced. It would not be in the interest of the owners of the company to make it happen, and the reason it would
+not be in their interest is that doorknob manufacture is not a form of practical communication that impacts
+the progress of scientific knowledge. Programming, on the other hand, *is* such a form of communication. The success of
+software companies depends on the scientific progress that caring about code enables. It is thus in software that Robert
+Pirsig's notion of technological Quality, which has stood acclaimed but mostly dormant for almost half a century, can
+finally make its mark.
 
 **Working with People**
 
