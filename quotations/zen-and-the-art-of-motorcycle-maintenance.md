@@ -262,3 +262,44 @@ Machines can think. But do they care?
 
 > Now we had two different kinds of Quality but they no longer split Quality itself. They were
 just two different time aspects of Quality, short and long.
+
+**p. 250**
+
+> "What I mean (and everybody else means) by the word *quality* cannot be broken down into subjects and
+predicates. This is not because Quality is so mysterious but because Quality is so simple, immediate, and
+direct.
+
+**pp. 250-1**
+
+> "The easiest intellectual analogue of pure Quality that people in our environment can understand is that 'Quality
+is the response of an organism to its environment'. [. . .] In our highly complex organic state we advanced organisms
+respond to our environment with an invention of many marvelous analogues. We invent earth and heavens, trees, stones,
+and oceans, gods, music, arts, language, philosophy, engineering, civilization and science. We call these analogues
+reality. And they *are* reality. [. . .] But that which causes us to invent the analogues is Quality."
+
+**p. 256**
+
+> One thing about pioneers that you don't hear mentioned is that they are invariably, by their nature,
+mess-makers. They go forging ahead, seeing only their noble, distant goal, and never notice any of the crud and
+debris they leave behind them. Someone else gets to clean that up and it's not a very glamorous or interesting
+job.
+
+> To discover a metaphysical relationship of Quality and the Buddha at some mountaintop of personal experience is
+very spectacular. And very unimportant. [. . .] What's important is the relevance of such a discovery to all the
+valleys of this world, and all the dull, dreary jobs and monotonous years that await all of us in them.
+
+**p. 257**
+
+> [Phaedrus] did nothing for Quality or the Tao. What benefited was reason. He showed a way by which reason may
+be *expanded* to include elements that have previously been unassimilable and thus have been considered irrational.
+I think it's the overwhelming presence of these irrational elements crying for assimilation that creates the present
+bad quality, the chaotic, disconnected spirit of the twentieth century.
+
+**p. 258**
+
+> The dictum that Science and its offspring, technology, are "value free," that is, "quality free," has got to go.
+
+**p. 262**
+
+> Mathematics, the cornerstone of scientific certainty, was suddenly uncertain.
+
