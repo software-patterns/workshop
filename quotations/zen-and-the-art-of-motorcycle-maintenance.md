@@ -303,3 +303,81 @@ bad quality, the chaotic, disconnected spirit of the twentieth century.
 
 > Mathematics, the cornerstone of scientific certainty, was suddenly uncertain.
 
+**p. 264**
+
+> Geometry is not true, it is advantageous.
+
+> *Which* facts are you going to observe? THere is an infinity of them. There is no more chance that an unselective
+observation of facts will produce science than there is that a monkey at a typewriter will produce the Lord's Prayer.
+
+> "If a phenomenon admits of a complete mechnical explanation it will admit of an infinity of others which will account
+equally well for all the peculiarities disclosed by experiment."
+
+**p. 265**
+
+> The more general a fact, the more precious it is. Those which serve many times are better than those which have
+little chance of coming up again.
+
+> Which facts are likely to reappear? The simple facts.
+
+> Where is the simple fact? Scientists have been seeking it in the two extremes, in the infinitely great and in the
+infinitely small.
+
+> How then choose the interesting fact, the one that begins again and again? Method is precisely this choice of facts;
+it is needful then to be occupied first with creating a method; and many have been imagined, since none imposes itself.
+
+> It is proper to begin with the regular facts, but after a rule is established beyond all doubt, the facts in conformity
+with it become dull because they no longer teach us anything new. Then it's the exception that becomes important.
+
+**p. 266**
+
+> Particular rules seem at first discordant, but looking more closely we see in general that they resemble each other;
+different as to matter, they are alike as to form, as to the order of their parts.
+
+**p. 268**
+
+> What guarantees the objectivity of the world in which we live is that this world is common to us with other thinking
+beings. Through the communications that we have with other men we receive from them ready-made harmonious reasonings.
+We know that these reasonings do not come from us, and at the same time we recognize in them, *because of their harmony*,
+the work of reasonable beings like ourselves. And as these reasonings appear to fit the world of our sensations,
+we think we may infer that these reasonable beings have seen the same thing as we; thus it is that we know we haven't
+been dreaming.
+
+**p. 269**
+
+> What [Poincaré] neglected to say was that the selection of facts before you "observe" them is "whatever you like"
+*only in a dualistic, subject-object metaphysical system!*
+
+> [Quality] is *not* capricious, it is the force that *opposes* capriciousness; the ordering principle of all
+scientific and mathematical thought which *destroys* capriciousness, and without which no scientific thought can
+proceed.
+
+**p. 275**
+
+> I think it's important now to tie care to Quality by pointing out that care and Quality are internal and external
+aspects of the same thing. A person who sees Quality and feels it as he works is a person who cares. A person who
+cares about what he sees and does is a person who's bound to have some characteristics of Quality.
+
+**p. 281**
+
+> But when we stop and think about it disinterestedly, in terms of this stuck screw, we begin to see that this whole idea of
+disinterested observation is silly. WHere *are* those facts? What are we going to observe disinterestedly? The torn slot?
+The immovable side cover plate? THe color of the paint job? The speedometer? The sissy bar? As Poincaré would have said, there
+are an infinite number of facts about the motorcycle, and the right ones don't just dance up and introduce themselves.
+The right facts, the ones we really need, are damned *elusive* [. . .]. As Poincaré pointed out, there *must* be a subliminal
+choice of what facts we observe.
+
+> The difference between a good mechanic and a bad one, like the difference between a good mathematician and a bad one, is
+precisely this ability to select the good facts from the bad ones on the basis of quality. He has to *care*!
+
+**p. 284**
+
+> With Quality as a central, undefined term, reality is, in its essential nature, not static but dynamic.
+
+> Harry Truman, of all people, comes to mind, when he said, concerning his administration's programs, "We'll just try
+them . . . and if they don't work . . . why then we'll just try something else." That may not be an exact quote,
+but it's close.
+
+**p. 286**
+
+> Stuckness shouldn't be avoided. It's the psychic predecessor of all real understanding.
