@@ -136,16 +136,17 @@ has to either be in "my space" or "your space".
 > ### Dream office (for a couple small teams)
 >
 > ```
+> W = whiteboard
 >          .
 >           . 
 >          ##-----###------###-----##
->          |    M  |     K  |    M  |
+>          |    M  |    K   |    M  |
 >          #_______|        |_______#
 >          |                        |
->          |     .      |   . . .   |    .
->          |   .  .     |    . .    |
+>          |     .      W   . . .   |    .
+>          |   .  .     W    . .    |
 >    .     |   .  .                 |
->          |    .     ____          |
+>          |    .      WWW          |
 >          |                        |
 >          |        .               |
 >          |                     .  |
@@ -166,7 +167,7 @@ has to either be in "my space" or "your space".
 > The office is neither crowded, nor empty and dead.
 >
 > People have decorated the space around them in various simple ways. There is color.
-> No one "owns" space.
+> Teams, not individuals, "own" space.
 >
 > Picture the atmosphere of a meeting-place at a university, where people are socially,
 > but intently, studying.
