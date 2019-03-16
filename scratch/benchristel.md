@@ -1,3 +1,38 @@
+## 2019-03-16: Specifying Generalities
+
+One way to present abstract concepts in writing is to start
+with a specific example, then generalize, and end on another
+specific example. E.g:
+
+- When you look at the painting of a master, you don't see shading,
+  lighting, composition. The painter has mastered these techniques
+  and can break the rules. The mastery of each part, frees
+  the whole; it leaps forth from the canvas. Before we
+  even have had time to analyze it, it impresses us.
+- And yet, if we look more closely, and with an analytical eye,
+  we see tremendous care and skill evident in each part.
+- This care is what frees the whole from being a mere
+  agglomeration of parts. There is
+  nothing distracting, nothing awkward, no superfluous detail,
+  and nothing missing either. Each part exists because it
+  supports the whole. Because there are no little out-of-place
+  details troubling the parts, they do not trouble us: they
+  melt away into insignificance. We feel free to ignore them
+  in our appreciation of the whole. But if we do attend to
+  the parts, we see the evident care that has been lavished
+  on them, and we see that it is just this care that allows
+  the feeling of the whole to come into being.
+- The same is true of writing. Good writing flows; we get
+  caught up in it. We forget about mere words and sentences
+  and lose ourselves in the intoxication of meaning. But
+  if we do happen to look more closely, we see that this
+  flow is created by the care of all the little parts: the
+  word order, the insertion of a clause to adjust the timing
+  of the sentence, rhythm, how topics are introduced and
+  left off and woven back in. And again, it is just this
+  care of the parts that frees us from being distracted by
+  them, and allows us to be caught up in the whole.
+
 ## 2019-03-14: Pi Day!
 
 *Note: moved this outline from the projects/ directory because it's not
@@ -180,7 +215,7 @@ Part 2: Seeing Code
     auto-format the code before every check-in. But this is backwards: correct formatting does
     not create Quality. It is Quality, the social drive to make caring evident, that creates correct formatting.
     Auto-formatting tools thus do not help create Quality; they actually destroy it.
-    
+
     Again, this is not mere sentimentality or nostalgia for a simpler time. It is cold, hard pragmatism. The fact is
     that when it is impossible for checked-in code to be formatted incorrectly, you cannot use formatting
     to distinguish high-Quality code that someone paid careful attention to from low-Quality code that was slapped
@@ -345,7 +380,7 @@ I've made it sound like caring is this warm, fuzzy, emotional thing, but when I 
 mean that literally, and like other forms of communication, it has hard, practical consequences.
 Caring is how people communicate to each other what is important and what is not. We learn, from infancy, which
 facts about the universe are important and which are unimportant by observing what the people around us
-care about. (quote Pirsig on English vs. Hindi, maybe Rosenfelder on phones vs. phonemes and linguistic development in infants?) 
+care about. (quote Pirsig on English vs. Hindi, maybe Rosenfelder on phones vs. phonemes and linguistic development in infants?)
 If we failed to learn to distinguish important from unimportant facts, science and technology would be impossible.
 When we don't know what to focus on, empirical methods of obtaining knowledge simply stop working.
 
@@ -604,7 +639,7 @@ Perhaps it would not have one. I think perhaps it is what Christopher Alexander 
   (which is never actually logically valid: one cannot reason from examples to general principles) and also from
   the bizarre, emotionless "scientism" (C.S. Lewis's term; there's probably a better one) that many people mistake
   for "thinking logically" because it aims for objectivity. The place of these three concepts in engineering is as follows:
-  
+
   - Formal logic is great, but its uses are limited. As hinted above, arriving at a formal specification, the
     jumping-off point for logic, is the hard part. How exactly one does that, no one knows.
   - Inductive reasoning is important and pragmatic, though not logically sound. It is the means by which we get
@@ -613,7 +648,7 @@ Perhaps it would not have one. I think perhaps it is what Christopher Alexander 
     the subjective human observer, that very same person whose wellbeing it claims to promote—ought to doom
     it to ridicule. Unfortunately, scientistic views persist, possibly because they can be easily used to
     intimidate people who have not invested in such intellectual weaponry.
-    
+
     As an example, consider the exhortation to "just think logically" when approaching an engineering problem.
     Unless this command is aimed at someone
     poring over a formal specification, it is meaningless on the face of it. One cannot use logic to get a
