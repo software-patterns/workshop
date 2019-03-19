@@ -11,7 +11,10 @@
 ## Introduction
 
 - This is a book for software teams
-- Code is the primary communication mechanism of a team
+- Specifically, teams working in a situation where they
+  must be agile (requirements not fully known in advance of
+  coding and deployment)
+- Code is the primary communication mechanism of an agile team
   - must be primary, for work to be efficient
   - lots of knowledge implicit in code that is difficult to
     communicate in email, documentation, or even
@@ -27,6 +30,19 @@
 - in this book, I hope to elucidate what code quality really
   is, and how it affects the collaboration and sense of
   community within a team.
+- I will try to demonstrate, as concretely as I can, the way I
+  "see" code and manipulate it in my mind, and how these
+  habits of thought make quality jump to the fore.
+- I will give you concrete techniques, in the form of patterns,
+  to make the rote labor of coding easier so you can focus your
+  attention on quality.
+- And finally, I will present a process in which to apply these
+  techniques: one that is general enough to be used by teams of
+  any size from one to ten people, and flexible enough to
+  accommodate many different preferences and work styles.
+- The key to the flexibility of the process is the focus on code
+  and code quality as primary communication mechanisms of
+  the team.
 
 ## Glossary
 
