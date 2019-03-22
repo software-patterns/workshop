@@ -257,6 +257,48 @@
   from the gradual unfolding of structure within the
   framework of a pattern language: he calls it the Quality
   Without a Name.
+- (explain what the Quality Without a Name is)
+- (how it relates to pattern languages)
+- (examples of patterns)
+- chapter 3 of this book is a pattern language, so we'll return to the concept later
+- but pattern languages aren't the whole story: CA said his pattern language failed
+- use of the language must be guided by one's sense of Quality.
+- brief overview of the Nature of Order
+- concept of centers... a collection of atoms or points in space is a *center* to the extent that
+  it is a "thing" that can be referred to as a unit. Sets of points have different
+  degrees of "thingyness" depending on their context.
+- centers are supported by other centers: even a simple square has edges, corners, which we can
+  refer to as entities and without which the square would obviously not exist.
+- possible to have a square with no edges? yep! (optical illusion)
+- we pay attention to thingy things; we name them and can communicate about them easily. We can imagine
+  moving them, changing them, or manipulating them in other ways.
+- what can this possibly mean for code?
+  - units of code can be more thingy or less thingy
+  - since thingy things attract attention, we can use thingyness to guide the attention of the readers
+    and maintainers of our code
+  - making code thingier is easy (block set off by whitespace example)
+  - functions/methods are thingier than blocks
+  - classes are thingier than methods
+  - if a center is made up of smaller centers that are different, they should not be too numerous or too
+    much smaller than the main center. If the smaller centers are similar (e.g. undulations in a border,
+    similar lines in a config file section) they can be more numerous.
+  - a major problem with a lot of "low quality" code is that thingyness is improperly distributed.
+    Irrelevant concepts are too thingy, and important ones aren't thingy enough.
+  - you see this in OO code with class names like FooManager, XYZCoordinator, etc. Too thingy.
+  - the code in 1000-line methods with no internal differentiation is not thingy enough. The many important
+    concepts inside are obscured because they aren't given their own methods or classes.
+  - this also explains why OO code with classes sometimes just "feels better" than equivalent functional
+    code, even when there are no rational arguments why it should be better. OO code provides a powerful mechanism
+    for making units of code "thingy"—the class—that FP doesn't have.
+
+- pattern languages vs. nature of order? which is more important for programming?
+- I think both are important.
+  - patterns help you find good ways of distributing thingyness
+  - neither is of any use without skill
+
+That was a whirlwind tour. I've touched on many topics and probably
+introduced many ideas that are totally new to you. Let's pause, catch
+our breath, and put these thoughts into a better order:
 
 In summary:
 - Quality is "a subtle kind of freedom from inner
@@ -273,6 +315,8 @@ In summary:
 - The quality is achieved by careful shaping of the parts
   (so that they do not become awkward or distracting) while
   keeping the whole in mind
+- This shaping entails, more or less, making important concepts
+  more "thingy", and irrelevant ones less thingy.
 - quality in a codebase allows engineers to quickly
   understand it and make changes easily
 - To maintain a high level of quality, the quality must be
@@ -280,6 +324,8 @@ In summary:
   people care intrinsically about maintaining it
 - The quality that has this effect is what Christopher
   Alexander calls the Quality Without a Name.
+- Alexander asserts that the Quality Without a Name is created,
+  in architecture, by certain geometric properties of space
 
 ## Seeing Code
 
