@@ -73,6 +73,14 @@
 ## Feeling Quality
 
 - quote Pirsig's vision of a qualityless world
+- in the real world, we can't escape quality, good or bad
+- when you finish implementing a feature in your codebase, how will you feel?
+  - energized? excited? ready to go on to the next thing?
+  - or tired, frustrated, foggy-brained, irritable?
+- people think they can "power through" bad quality. They're wrong.
+- there's no mind over matter. Minds are matter. Your ability to continue doing
+  valuable work after finishing that feature is dependent on how you felt about finishing
+  it, whether you want it to be or not.
 - misconception that STEM fields are quality-free
 - drilled into us in school by the notion that there's a
   "right answer" in math and science, but "no single right
