@@ -81,6 +81,12 @@
 - there's no mind over matter. Minds are matter. Your ability to continue doing
   valuable work after finishing that feature is dependent on how you felt about finishing
   it, whether you want it to be or not.
+- so how do we prevent our code from becoming a mess?
+- code quality tools like Code Climate... these try to quantify and objectify quality
+- but quality is exactly what *can't* be quantified!
+- in reality, the aspects of code quality measured by tools -- cyclomatic complexity, method length, file length,
+  duplication -- are those that matter *least*.
+- important aspects of quality are not in the code. It's in the interaction between the code and your mind.
 - misconception that STEM fields are quality-free
 - drilled into us in school by the notion that there's a
   "right answer" in math and science, but "no single right
