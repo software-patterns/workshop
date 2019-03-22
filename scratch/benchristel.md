@@ -1,3 +1,23 @@
+## 2019-03-21
+
+- Some "magic" interfaces that have side effects are dangerous. You can't just try them out to see how they work
+  - so you have to read docs
+  - and someone has to maintain the docs
+  - and the cost of the docs being wrong is high
+- accumulate enough of these magic interfaces and your project, which was once about producing software, is now
+  focused on producing documentation
+- strive to create units of code that can be easily run without side effects, so people can try them out.
+  The interfaces that have side effects should be simple and few.
+
+- No matter what its philosophy or design, people will eventually use every abstraction for its effects and its
+  effects alone.
+  Gherkin: `When install`
+  RSpec: `it "createNode(<number>)" do`
+- Corollary: effects *matter*. You can't just say "it's an abstraction, people shouldn't care about the side effects".
+  The side effects matter, and you cannot make them matter less by abstracting more.
+
+Pattern idea: when to put comments in tests vs. code. What kind of info is expressed in each?
+
 ## 2019-03-16: Specifying Generalities
 
 One way to present abstract concepts in writing is to start
