@@ -1,5 +1,16 @@
 # Software Quality: What It Is and How to Create It
 
+Other possible titles:
+
+- _Code Quality: ..._
+- _Quality Code: ..._
+- _Programming Well: A Software Crafter's Handbook_
+- _The Happy Programmer_
+- _Writing for Humans and Computers: A Guide to Code Quality_
+
+I really dislike the word "code", because it has too many other meanings that are antithetical
+to quality. We, as a profession, need a better word.
+
 ## TOC
 
 - part 0: introduction
