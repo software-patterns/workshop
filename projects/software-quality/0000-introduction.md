@@ -19,9 +19,10 @@ When your team has to deliver high-quality results early and often, you come to 
 accurate communication. For software developers, that invariably means making the code
 itself a medium of communication. Documentation and even code comments go out of date quickly, and so have
 to be constantly and painstakingly maintained. Code itself, on the other hand, can't lie. It always describes
-exactly what the software actually does.
+exactly what the software actually does. So the most efficient communication about code happens
+when the code can simply speak for itself.
 
-Of course, that does not mean that understanding code is easy. Often, divining "what the software actually
+Of course, not all code communicates well. Often, divining "what the software actually
 does" from the code requires deep technical knowledge, intuition, and more than a little luck. Many
 codebases seem to actively impede understanding. They are "code" in the cryptographer's sense as well
 as the programmer's: deliberately obfuscated, impenetrable, arcane.
@@ -31,12 +32,16 @@ of code, I feel like the people who came before me have my back; like their work
 dragging me down. A powerful feeling of community and shared responsibility can arise out of code
 like this, a feeling that can enable whole teams to do better work.
 
-But what exactly "better work" means, when it comes to code, is a subject of debate, and opinions
-on this point can and do turn good code sour. The thing that intelligible code has, and that obfuscated
-code lacks, we call "code quality". In an attempt to grasp and pin down this quality, we invent metrics that
+The thing that these better codebases have—the thing that generates feelings of community, pride, shared
+ownership, and responsibility—we call *code quality*.
+
+But although we can name code quality, and recognize it by the feeling it creates, it is still not clear
+to most of us how to create it.
+
+So, in an attempt to grasp what code quality is, we invent metrics that
 seem to correlate with it, and then we define quality in terms of those metrics.
 
-Such metrics include:
+These metrics include:
 - cyclomatic complexity (how many different execution paths there are through a piece of code)
 - test coverage (how much of the code is executed by at least one automated test)
 - file length (usually measured in lines of code)
