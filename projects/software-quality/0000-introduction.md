@@ -1,62 +1,131 @@
+> The Way that can be followed is not the eternal Way.
+>
+> —Laozi, _Daodejing_.
+
 # Introduction
+
+## Who is this book for?
 
 This is a book for software teams.
 
-It is, very intentionally, a book for *everyone* on the team. Product managers, UX designers,
-senior engineers, junior engineers—all can, I hope, learn something from this book. If you don't learn anything,
-I hope you at least see some of your own thoughts about software represented here, and can
-use this book to more confidently communicate those thoughts to other members of your team.
-My hope is that this book becomes a kind of hearth, a gathering-place, in which teams
-find shared understanding of the work they do every day.
+It is a book for *everyone* on the team: product managers,
+UX designers, engineers from junior to senior. All can, I
+hope, learn something from this book.
 
-This book is most suitable for teams that must be agile—those that must rapidly create working
-software, and keep it working, in the face of changing requirements. To such teams, the ability
-to read, comprehend, and change code quickly and accurately is of paramount importance. While
-I will touch on many different aspects of software development, the main focus of this book will
-be the process of understanding and improving code.
+If you don't learn anything, I hope you at least see some of
+your own thoughts about software represented here, and can
+use this book to speak more confidently about them with
+other members of your team.
 
-When your team has to deliver high-quality results early and often, you come to rely on efficient,
-accurate communication. For software developers, that invariably means making the code
-itself a medium of communication. Documentation and even code comments go out of date quickly, and so have
-to be constantly and painstakingly maintained. Code itself, on the other hand, can't lie. It always describes
-exactly what the software actually does. So the most efficient communication about code happens
-when the code can simply speak for itself.
+And if, on the other hand, you can't make heads or tails of
+this book, ask around: an experienced teammate may be able
+to give you their perspective on it.
 
-Of course, not all code communicates well. Often, divining "what the software actually
-does" from the code requires deep technical knowledge, intuition, and more than a little luck. Many
-codebases seem to actively impede understanding. They are "code" in the cryptographer's sense as well
-as the programmer's: deliberately obfuscated, impenetrable, arcane.
+My hope, more than anything, is that this book becomes a
+kind of hearth: a gathering-place, in which teams find
+shared understanding of the work they do every day.
 
-And yet, a few rare codebases actually do help us understand and change them. When I work with this kind
-of code, I feel like the people who came before me have my back; like their work is supporting me instead of
-dragging me down. A powerful feeling of community and shared responsibility can arise out of code
-like this, a feeling that can enable whole teams to do better work.
+## What is this book about?
 
-The thing that these better codebases have—the thing that generates feelings of community, pride, shared
-ownership, and responsibility—we call *code quality*.
+In a word? *Quality*.
 
-But although we can name code quality, and recognize it by the feeling it creates, it is still not clear
-to most of us how to create it.
+It explores the idea of *code quality*, its close relative
+*software quality*, and how both relate to *quality of life*
+for the people who make and use software. My thesis is that
+all these forms of quality are connected̈—that they are in
+fact just different aspects of the same thing.
 
-So, in an attempt to grasp what code quality is, we invent metrics that
-seem to correlate with it, and then we define quality in terms of those metrics.
+Many words have already been spent on the subject of
+software quality, so you might wonder why I'm bothering to
+add a book of my own to the pile.
 
-These metrics include:
-- cyclomatic complexity (how many different execution paths there are through a piece of code)
-- test coverage (how much of the code is executed by at least one automated test)
-- file length (usually measured in lines of code)
-- method or function length (usually measured in lines of code)
-- duplication (how many times similar chunks of code appear in the project)
+The fact is, I don't believe the other writers on software
+quality have expressed their ideas clearly enough. I don't
+mean to disparage their work by saying this: I've enjoyed
+many of their books, blog posts, and videos, and learned a
+great deal from them. This book would not be possible
+without them.
 
-But these metrics capture only the most superficial aspects of quality, and when we focus on optimizing
-them, we divert our attention from quality itself. Indeed, the easiest ways to optimize the metrics
-actually make code *worse*.
+But in my professional life, I've too often seen their ideas
+taken as dogma and misapplied. It doesn't help that the
+various philosophies of software quality appear to be
+contradictory, and people tend to gravitate toward one camp
+or the other. Should we make our code object-oriented, or
+functional, or simply procedural? Write integrated tests, or
+unit tests? Test first or test after? Outside-in or
+bottom-up? These unresolved tensions have created schisms in
+our industry, across which we often fail to communicate
+empathetically.
 
-In the following chapters, I hope to elucidate what code quality really is, and how it affects the
-collaboration and sense of community within a team. I will try to demonstrate, as concretely as I can,
-the way I "see" code and manipulate it in my mind, and how these habits of thought make quality jump to the fore.
-I will give you concrete techniques, in the form of patterns, to make the rote labor of coding easier so you
-can focus your attention on quality. And finally, I will present a process in which to apply these techniques:
-one that is general enough to be used by teams of any size from one to ten people, and flexible enough to
-accommodate many different preferences and work styles. The key to the flexibility of the process is the focus
-on code and code quality as primary communication mechanisms of the team.
+What we need now is to unify all of our disparate ideas
+about quality. I believe that, against all appearances, such
+a unification is possible. What makes it possible is that
+all of the apparently conflicting philosophies of quality
+are just grasping different parts of the same proverbial
+elephant. If we understand the whole, we will understand how
+each piece of advice applies in its proper context.
+
+I've heard it said that "everyone thinks their way is the
+right way, and everyone is wrong." I disagree: everyone is
+*right*, but *only in a particular context*. What creates
+the schisms in our philosophy of quality is that we can't
+easily see the boundaries of our current context, so we
+think the principles we've discovered are universal.
+
+Though this book, too, is only applicable within a certain
+context, I think it is a very broad context. You're most
+likely to find this book helpful if:
+
+- You develop software in an agile way: you don't know most
+  of the requirements in advance, but instead must
+  continuously release new versions based on feedback from
+  users.
+- You use a runtime environment that frees memory for you.
+  Some of the advice in this book is applicable to
+  languages (like C) that require you to free memory
+  yourself, but proceed with caution.
+- You use languages with support for all three major
+  programming paradigms (procedural, object-oriented, and
+  functional). Popular languages in this category include
+  Java, JavaScript, Python, Ruby, Go, Scala, Elixir, Kotlin,
+  Swift, C#, Rust, and to some extent C++. The advice in
+  this book leans on the ability to opportunistically use
+  multiple programming paradigms. As I'll show later, any
+  language that has both function closures (lambdas) and
+  mutable local variables can be used to write
+  object-oriented programs, and so almost certainly falls
+  within the scope of this book.
+
+## Summary of Contents
+
+The remainder of this book is divided into four sections.
+
+The first section, **Feeling Quality**, relates our concept
+of code quality to visions of quality in other fields, in
+particular the mysterious "Quality Without a Name" described
+by architect Christopher Alexander. It tries to answer the
+questions: How does something as seemingly fuzzy and
+subjective as quality fit into the hard, mathematical world
+of programming? Are there different types of quality, and if
+so which ones do we care about? What is code quality good
+for? How do we recognize it? And how do we go about trying
+to create it?
+
+In the second section, **Seeing Code**, I lay the groundwork
+for the more technical parts of the book by explaining how I
+visualize the structure of code and manipulate it in my
+mind. These habits of thought are, as far as I can tell,
+essential for creating the type of quality described in the
+first section.
+
+You can use the third section, **Shaping Patterns**, to
+guide your process of writing code. The intention is not
+to provide a set of dogmatic rules, but to give you a set of
+sane defaults, or "first things to try". The point of having
+these defaults is to free up space in your mind to pay
+attention to quality.
+
+The fourth section, **The Process of Repair**, describes the
+larger context of the other three: the software development
+culture that we must create for the Quality Without a Name
+to fully come into being.
