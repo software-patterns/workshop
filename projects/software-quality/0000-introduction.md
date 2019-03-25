@@ -115,8 +115,8 @@ In the second section, **Seeing Code**, I lay the groundwork
 for the more technical parts of the book by explaining how I
 visualize the structure of code and manipulate it in my
 mind. These habits of thought are, as far as I can tell,
-essential for creating the type of quality described in the
-first section.
+essential for creating the patterns described in the third
+section.
 
 You can use the third section, **Shaping Patterns**, to
 guide your process of writing code. The intention is not
