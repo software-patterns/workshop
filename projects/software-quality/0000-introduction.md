@@ -32,7 +32,7 @@ In a word? *Quality*.
 It explores the idea of *code quality*, its close relative
 *software quality*, and how both relate to *quality of life*
 for the people who make and use software. My thesis is that
-all these forms of quality are connected̈—that they are in
+all these forms of quality are connected—that they are in
 fact just different aspects of the same thing.
 
 Many words have already been spent on the subject of
