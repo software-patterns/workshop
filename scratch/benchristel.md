@@ -1,3 +1,133 @@
+## 2019-03-26: Memoir
+
+> When I told Tillie that six steps seemed a lot to have to
+> do before you begin, she said, "You must think of those
+> six steps not as preparation for the beginning but as the
+> beginning itself."
+>
+> —E. L. Konigsburg, _The View from Saturday_
+
+I suppose I should begin at what seems to me to be the
+beginning: the point where my thoughts on quality depart
+from the thoughts of the people I learned from. One nice
+result of beginning this way is that this chapter will read
+a bit like an acknowledgements section, but with more
+color than just a list of thank-yous. Another result is that
+you'll understand better what context I'm coming from. As
+I mentioned in the introduction, context is important when
+evaluating programming advice, and too often it's left out.
+
+Perhaps fittingly, I began my career with a
+code-quality-improvement job. I was an intern at a small
+startup and was tasked with cleaning up some code left
+behind by a contractor, code that, apparently, no one else
+wanted to touch.
+
+The code in question was JavaScript: a single file,
+several thousand lines longs, that drew some SVG graphs for
+the company's web portal. There were functions that went on
+for hundreds of lines, doing lots of complicated math to
+draw lines and boxes and wedges in the proper places. It was
+byzantine. It was impressive. It had no tests.
+
+But that didn't faze me. I certainly did *something* to that
+code, though my memories are vague and I can't say for sure
+that I improved it.
+
+My first full-time job was at Groupon, writing Ruby on Rails
+code for their payment-processing platform. It was at this
+job that I really appreciated test-driven development for
+the first time. I was writing tests in RSpec, and greatly
+enjoyed how it made the test code read almost like an
+English specification. That and test doubles. Armed with
+RSpec's facilities for stubbing and mocking methods, I could
+test anything!
+
+At my first performance review, my manager, Josh Krall,
+thanked me for my diligence but suggested that I should
+really read up on object-oriented design, starting with
+Sandi Metz's _Practical Object-Oriented Design in Ruby_.
+That remains, to this day, the most valuable feedback I've
+ever received.
+
+The main lesson from Sandi Metz's book that stuck with me
+was *don't design classes; let messages drive the design*.
+That is, think about what message you want to send and then
+figure out who the receiver should be. If there isn't a
+receiver that makes sense, you probably need to create a new
+class.
+
+In the best case, this advice led me to design classes with
+a single responsibility. In the worst case, it led me to put
+most of the methods I added on the `User` class. Since
+almost every action in the system can be conceptualized as
+either something a user is doing or something being done
+to a user, the `User` class always seems like a good choice
+of receiver. `User.login`. `User.send_confirmation_email`.
+`User.charge_cents(10000)`.
+
+Eventually, I figured out that the `User` god-object was
+hurting my ability to understand what the effects of calling
+any given method would be. Any method that took a reference
+to a `User` might be doing any of several hundred things to
+it. Understanding side effects was vitally important because
+I was often called on to repair issues on production
+servers, which usually meant poking around in an interactive
+Ruby prompt that loaded the application code and connected
+to the database. Thanks to the magic of Ruby, I could
+manually call methods to diagnose and fix the problem—but I
+had to be very careful not to trigger undesirable side
+effects like sending emails. The `User` class was so
+complicated, and so central to every operation, that it was
+both a booby trap and impossible to avoid.
+
+When I went to refactor my messy code, I discovered a
+problem: the RSpec mocks I so loved writing were pinning
+vast swaths of test code to the specific methods I wanted to
+change. This meant I had to rewrite a huge number of tests
+to change each method. And because I had to rip out the old
+tests and write new ones as I changed the code, I had very
+little test coverage to reassure me that my refactorings
+were correct. I began to doubt the value of the time I'd
+spent painstakingly writing the original tests.
+
+I vaguely sensed that something was wrong with the way I was
+testing, but I couldn't bear to add more integrated tests to
+our suite. Our continuous integration server already took
+half an hour to run all of them, and on top of that, it
+failed every few runs when a third-party server the tests
+were calling went down. Replacing all my nicely-mocked unit
+tests with slow integrated tests would make the build even
+longer and flakier.
+
+Toward the end of my tenure at Groupon, a coworker (I think
+it was Josh) sent me a link to a video of a conference talk
+by Gary Bernhardt, titled "Boundaries". It blew my mind
+right open. In it, Gary tackles the very problem I'd been
+struggling with when refactoring: how to test small units of
+code in isolation without having to change the tests and the
+code in lockstep. He basically shows that the dilemma
+between mock-heavy, tightly-coupled unit tests and slow,
+flaky integrated tests is a false choice, *as long as code
+with complex logic never calls code that has side effects*.
+The reason I was in a testing bind was that I had done
+exactly the opposite: My logic code invoked side effects all
+over the place, because that seemed like the most natural
+way to write it.
+
+The stuff Gary said in the talk sounded a lot like this
+Hexagonal Architecture thing I'd been hearing about at work.
+Josh was working on a new project that was using Hexagonal
+Architecture, and on a whim, I peeked at the code. And it
+was glorious.
+
+Every single file was like a haiku: brief, focused, and
+charmingly indirect. No method was longer than a few lines.
+The entire application was split up into these tiny islands
+of code that interlocked in a beautifully intricate pattern.
+I didn't really understand what any of it was doing, because
+it was so indirect and abstract, but it was awe-inspiring.
+
 ## 2019-03-21
 
 - Some "magic" interfaces that have side effects are dangerous. You can't just try them out to see how they work
