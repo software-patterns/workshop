@@ -1,8 +1,196 @@
-> The Way that can be followed is not the eternal Way.
+> The Way that can be followed is not the timeless Way.
 >
-> —Laozi, _Daodejing_.
+> —_Daodejing_
 
 # Introduction
+
+We programmers often think of our field as an ever-changing
+one. But the fact is, the fundamentals of programming—the
+semantics of the languages we use, the types of applications
+we write—have experienced no revolutions in the last fifty
+years.
+
+Lisp, the forerunner of modern functional languages like
+Clojure, appeared on the scene in 1958.
+
+Development on Smalltalk, widely considered the precursor of
+modern dynamic object-oriented languages like Ruby, began in
+the early 1970s.
+
+Perhaps these aren't the languages we want, but they seem to
+be close to the best we can come up with. Can we learn to
+live with them? Can we make working with them joyful? Can
+we, in a word, make them home?
+
+I think we can. And more than that: we can make them
+beautiful.
+
+There exists, hidden amidst the technological churn of our
+era, a way of programming that is timeless. To discover that
+way is the mission of this book.
+
+Imagine, right now, the most wonderful code you can: code
+that succinctly communicates your understanding of some
+tricky problem; that is as simple as it can be and as
+efficient as it needs to be; that makes plain by its
+simplicity that it harbors no bugs. Code that is a joy to
+change and test and run.
+
+We all want to write code like this, but most of us don't
+know how.
+
+Yet all of us have, at some point, created code that has
+this amazing quality, seemingly by accident. The quality
+emerges when we forget ourselves, when we are working
+quickly and yet paying such close attention to the work that
+the world around us disappears. Then, when we step back from
+the code, we blink in astonishment at what we've created. We
+try to piece together how we did it, but the moment is gone.
+We can't remember.
+
+Indeed, when we look at the code afterwards it seems to us
+that we could not have designed it, because we do not know
+how to design code like that. Nevertheless, it seems to have
+been designed. Whether the code grew from the seed of its
+own nature, or was dictated to us by a muse, we can't tell.
+
+Here is an example of some code I wrote that I have no idea
+*how* I wrote. The `apply` function "updates" a value nested
+deep in some immutable object, by constructing a new object
+with copies of each sub-object that needs to change.
+
+```javascript
+let revise = (draft, key, value) => {
+  let copy = shallowCopy(draft)
+  copy[key] = value
+  return copy
+}
+
+let apply = (subject, path, transform) =>
+  empty(path)?
+    transform(subject)
+  : revise(
+      subject,
+      head(path),
+      apply(subject[head(path)], tail(path), transform))
+```
+
+Don't feel bad if you don't understand this code. I feel I
+don't really understand it myself. If I look at it closely I
+can convince myself it is correct, but if you asked me to
+explain in English how it works, I'd likely just go through
+the algorithm line by line, saying words that are already in
+the code. I cannot explain it better than it explains
+itself.
+
+Here's a longer fragment, from the heart of a web UI
+framework I wrote: a pair of mutually recursive methods,
+`run` and `runOrThrow`, that step through a routine that the
+user of the framework has plugged in.
+
+```
+  function run(returnFromYield) {
+    handleErrors(() => runOrThrow(returnFromYield))
+  }
+
+  function handleErrors(mightFail) {
+    if (error) return
+    try {
+      error = null
+      mightFail()
+    } catch (e) {
+      error = e
+    }
+  }
+
+  function runOrThrow(returnFromYield) {
+    if (gotosThisTurn > 1000) throw new Error('Infinite retry loop detected')
+
+    if (!stack.length) return
+    let {value: effect, done} = lastOf(stack).next(returnFromYield)
+
+    if (done) {
+      pop()
+      run(effect)
+      return
+    }
+
+    // ...
+
+    switch (effect.effectType) {
+      case 'perform':
+      store.emit(effect.action)
+      run(store.getState())
+      return
+
+      case 'waitForEvent':
+      gotosThisTurn = 0
+      return
+
+      // ...
+
+      case 'retry':
+      gotosThisTurn++
+      pop()
+      push(effect.generator)
+      run()
+      return
+
+      // ...
+
+      default:
+      error = new Error('You `yield`ed something weird: ' + JSON.stringify(effect))
+      return
+    }
+  }
+```
+
+Both of these examples were created using test-driven
+development. The experience of working on them was that I
+had only to sketch the interface and write the first test;
+the implementation blossomed out from each subsequent test I
+wrote, as if under its own internal power, like a drop of
+dye spreading and blossoming in water.
+
+I'm not sure what, if anything, you can get out of
+out-of-context code fragments like this. My main point is to
+demonstrate that I have really had this strange experience,
+of discovering myself writing code that I don't know how to
+design.
+
+Could the above code examples be cleaned up? Could they be
+locally improved? Certainly. Both are from projects on which
+I worked alone. They haven't had the benefit of a team of
+reviewers compelling me to choose good names and use
+consistent indentation. I mean, just look at that ternary
+operator in the first example!
+
+But should they be rearchitected? Will I ever throw them out
+and rewrite them? I can't imagine it. Above all, these
+pieces of code are *useful*. Their overall structure is in
+perfect harmony with their purpose. I can imagine using
+them, and growing them, slowly, for as long as I am
+programming. They are not stylish or elegant. Yet they have
+an easy, sleepy kind of grace, like a rough stone wall or
+the gnarled roots of a tree. They have this quality, I
+think, because I did not design them; I imposed no external
+criteria of "goodness" on them. I merely began them, and let
+them unfold. Their usefulness comes simply from the fact
+that I began well.
+
+
+
+
+
+
+
+Axioms:
+
+- a happy programmer is more valuable than an angsty one
+- the code programmers work on can make them happy
+- the unit that must be addressed is the team: it is not
+  feasible, nor really desirable, to make programmers
+  individually happy, in isolation.
 
 ## Who is this book for?
 
