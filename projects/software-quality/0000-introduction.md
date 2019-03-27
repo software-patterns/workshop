@@ -1,14 +1,16 @@
+# THE PATH BEYOND THE GATE: SPARKING SOFTWARE QUALITY WITH TESTS
+
 > The Way that can be followed is not the timeless Way.
 >
 > —_Daodejing_
 
-# Introduction
+# The Beginning
 
 We programmers often think of our field as an ever-changing
 one. But the fact is, the fundamentals of programming—the
-semantics of the languages we use, the types of applications
-we write—have experienced no revolutions in the last fifty
-years.
+semantics of the languages we use, the shapes of the
+programs we write—have experienced no revolutions in the
+last fifty years.
 
 Lisp, the forerunner of modern functional languages like
 Clojure, appeared on the scene in 1958.
@@ -17,17 +19,59 @@ Development on Smalltalk, widely considered the precursor of
 modern dynamic object-oriented languages like Ruby, began in
 the early 1970s.
 
-Perhaps these aren't the languages we want, but they seem to
-be close to the best we can come up with. Can we learn to
-live with them? Can we make working with them joyful? Can
-we, in a word, make them home?
+Though our languages are old, perhaps we can make progress
+via new and improved practices, like test-driven and
+agile development. Yet these ideas, though they are newly
+popular, are also old.
+
+Test-driven development was used in the maintenance of the
+AWK language, initially developed in 1977.
+
+> [W]e instituted a rigorous regression test for all of the
+> features of AWK. Any of the three of us who put in a new
+> feature into the language from then on, first had to write
+> a test for the new feature.
+>
+> —[Alfred Aho](https://www.computerworld.com.au/article/216844/a-z_programming_languages_awk/?pp=5)
+
+Agile development, too, was useful long before it was a
+buzzword. Here is what Tony Hoare said about using
+short-cycle, iterative development to rescue a failing
+operating system project, the Elliot 503 Mark II:
+
+> First, we classified our [Elliot 503 Mark II] customers
+> into groups, according to the nature and size of the
+> hardware configurations which they had bought [. . .].
+> We assigned to each group of customers a small team of
+> programmers and told the team leader to visit the
+> customers to find out what they wanted; to select the
+> easiest request to fulfill, and to make plans (but no
+> promises) to implement it. In no case would we consider a
+> request for a feature that would take more than three
+> months to implement and deliver. The project leader would
+> then have to convince me that the customers’ request was
+> reasonable, that the design of the new feature was
+> appropriate, and that the plans and schedules for
+> implementation were realistic. Above all, I did not allow
+> anything to be done which I did not myself understand. It
+> worked! The software requested began to be delivered on
+> the promised dates.
+>
+> —Tony Hoare, _The Emperor's Old Clothes_
+
+The year was 1965.
+
+Perhaps these aren't the languages and techniques we want,
+but they seem to be close to the best we can come up with.
+Can we learn to live with them? Can we make working with
+them joyful? Can we, in a word, make them home?
 
 I think we can. And more than that: we can make them
 beautiful.
 
 There exists, hidden amidst the technological churn of our
-era, a way of programming that is timeless. To discover that
-way is the mission of this book.
+era, a way of programming that is timeless. To illuminate
+that way is the mission of this book.
 
 Imagine, right now, the most wonderful code you can: code
 that succinctly communicates your understanding of some
@@ -37,9 +81,11 @@ simplicity that it harbors no bugs. Code that is a joy to
 change and test and run.
 
 We all want to write code like this, but most of us don't
-know how.
+know how. Or rather, we know how, but we don't know what
+it is we know. We can't explain it, and we can't perform on
+demand.
 
-Yet all of us have, at some point, created code that has
+Yet many of us have, at some point, created code that has
 this amazing quality, seemingly by accident. The quality
 emerges when we forget ourselves, when we are working
 quickly and yet paying such close attention to the work that
@@ -75,13 +121,38 @@ let apply = (subject, path, transform) =>
       apply(subject[head(path)], tail(path), transform))
 ```
 
-Don't feel bad if you don't understand this code. I feel I
-don't really understand it myself. If I look at it closely I
-can convince myself it is correct, but if you asked me to
-explain in English how it works, I'd likely just go through
-the algorithm line by line, saying words that are already in
-the code. I cannot explain it better than it explains
-itself.
+The apply function is called like this:
+
+```javascript
+let data = {
+  people: [
+    {name: 'Alice'},
+    {name: 'Bob'},
+    {name: 'Carol'}
+  ]
+}
+
+apply(data, ['people', 1, 'name'], function() { return 'Robert' })
+
+/* returns:
+ *
+ * {
+ *   people: [
+ *     {name: 'Alice'},
+ *     {name: 'Robert'},
+ *     {name: 'Carol'}
+ *   ]
+ * }
+ */
+```
+
+If I look at this code closely I can convince myself it is
+correct, but if you asked me to explain in English how it
+works, I'd likely just go through the algorithm line by
+line, saying words that are already in the code. I cannot
+explain it better than it explains itself. And if you put me
+in front of a whiteboard with no preparation and asked me to
+sketch out this algorithm, I'd likely be stumped.
 
 Here's a longer fragment, from the heart of a web UI
 framework I wrote: a pair of mutually recursive methods,
@@ -145,18 +216,44 @@ user of the framework has plugged in.
   }
 ```
 
-Both of these examples were created using test-driven
+I wrote this code piecemeal, building it up bit by bit, as I
+wrote tests for new behavior. Had I designed the system
+deliberately and all at once, I never would have found the
+mutual recursion solution. My design would likely have
+been far more complicated.
+
+Think of what this means for us who write software. We all
+have, hidden somewhere within us, this latent power to
+create mechanisms whose designs exceed in simplicity and
+beauty anything our conscious minds can devise. If we can
+only awake this ability, and make it part of our daily work,
+the software we write will grow and flourish around us like
+a forest, called into being by a million effortless acts
+of creation.
+
+If I could say only one word to the programmers of the world
+to try to awake this ability in them, it would be this one:
+
+TEST!
+
+Test early, and test often. Test small units of code.
+Both of the examples above were created using test-driven
 development. The experience of working on them was that I
 had only to sketch the interface and write the first test;
 the implementation blossomed out from each subsequent test I
 wrote, as if under its own internal power, like a drop of
 dye spreading and blossoming in water.
 
-I'm not sure what, if anything, you can get out of
-out-of-context code fragments like this. My main point is to
-demonstrate that I have really had this strange experience,
-of discovering myself writing code that I don't know how to
-design.
+But test-driven development is not the whole solution; by
+itself it will never create this amazing quality. I've
+seen it go south enough times to know that.
+
+Perhaps you think this is all just gee-whiz, who-cares
+stuff, and indeed, I'm not really sure what anyone can get
+from out-of-context code fragments like this. My main
+point is to demonstrate that I have really had this strange
+experience, of discovering myself writing code that I don't
+know how to design.
 
 Could the above code examples be cleaned up? Could they be
 locally improved? Certainly. Both are from projects on which
@@ -175,12 +272,25 @@ an easy, sleepy kind of grace, like a rough stone wall or
 the gnarled roots of a tree. They have this quality, I
 think, because I did not design them; I imposed no external
 criteria of "goodness" on them. I merely began them, and let
-them unfold. Their usefulness comes simply from the fact
-that I began well.
+them unfold. Their continuing usefulness comes simply from
+the fact that I began well.
 
+And this simple act, beginning well—I think it is the most
+underappreciated thing in our industry. We think can hack
+as we go and refactor our way out of any difficulties. But
+the fact is that there are design assumptions that are too
+big to refactor, too big to even really see clearly, under
+most circumstances. These assumptions can plant the seeds
+for future problems before a single line of code is written.
 
+(example: Concourse stdin bug)
 
-
+So the puzzle of evolutionary design is this: how do we
+choose good initial conditions? More concretely, how do we
+choose good *interfaces*, at all levels of scale, that allow
+for future change, *without* knowing beforehand how the
+design will turn out or what the future requirements will
+be?
 
 
 
