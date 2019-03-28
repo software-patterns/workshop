@@ -151,8 +151,8 @@ correct, but if you asked me to explain in English how it
 works, I'd likely just go through the algorithm line by
 line, saying words that are already in the code. I cannot
 explain it better than it explains itself. And if you put me
-in front of a whiteboard with no preparation and asked me to
-sketch out this algorithm, I'd likely be stumped.
+in front of a whiteboard, unprepared, and asked me to sketch
+out this algorithm, I'd likely be stumped.
 
 Here's a longer fragment, from the heart of a web UI
 framework I wrote: a pair of mutually recursive methods,
@@ -222,38 +222,47 @@ deliberately and all at once, I never would have found the
 mutual recursion solution. My design would likely have
 been far more complicated.
 
-Think of what this means for us who write software. We all
-have, hidden somewhere within us, this latent power to
-create mechanisms whose designs exceed in simplicity and
-beauty anything our conscious minds can devise. If we can
-only awake this ability, and make it part of our daily work,
-the software we write will grow and flourish around us like
-a forest, called into being by a million effortless acts
-of creation.
-
-If I could say only one word to the programmers of the world
-to try to awake this ability in them, it would be this one:
-
-TEST!
-
-Test early, and test often. Test small units of code.
-Both of the examples above were created using test-driven
-development. The experience of working on them was that I
-had only to sketch the interface and write the first test;
-the implementation blossomed out from each subsequent test I
-wrote, as if under its own internal power, like a drop of
-dye spreading and blossoming in water.
-
-But test-driven development is not the whole solution; by
-itself it will never create this amazing quality. I've
-seen it go south enough times to know that.
-
 Perhaps you think this is all just gee-whiz, who-cares
 stuff, and indeed, I'm not really sure what anyone can get
-from out-of-context code fragments like this. My main
-point is to demonstrate that I have really had this strange
-experience, of discovering myself writing code that I don't
-know how to design.
+from out-of-context code fragments like this. My main point
+is to demonstrate that I really have had this strange
+experience, of discovering that I have written code that I
+don't know how to design.
+
+Think of what this means for us who write software. We all
+have, hidden somewhere within us, the latent power to
+create mechanisms whose designs exceed in simplicity and
+beauty anything our conscious minds can devise. If we can
+only awaken this ability, and make it part of our daily
+work, the software we write will grow and flourish around us
+like a forest, propelled into being by a million effortless
+acts of creation.
+
+If I could say only one word to the programmers of the world
+to try to awaken this ability in them, it would be this one:
+
+**TEST!**
+
+As practical advice, of course, this is simplistic. But as a
+foundation to build on, it is solid. The rest of this book
+will be dedicated to expanding and refining this
+monosyllabic mantra, *test!*
+
+Here is the first step of that refinement: Test early, and
+test often. Test small units of code.
+
+Both of the examples above were created using
+test-driven development. The experience of working on them
+was that I had only to sketch the interface and write the
+first test; the implementation blossomed out from each
+subsequent test I wrote, as if under its own internal power,
+like a drop of dye spreading and blossoming in water.
+
+But test-driven development, or TDD, is not the whole
+solution. Applied carelessly, it will never create this
+amazing quality. I've seen TDD go south enough times to know
+that.
+
 
 Could the above code examples be cleaned up? Could they be
 locally improved? Certainly. Both are from projects on which
