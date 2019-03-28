@@ -6,16 +6,26 @@
 
 # The Beginning
 
+Software quality is an enduring mystery. We have heuristics,
+metrics, and "best practices" for pursuing it, but few
+reliable recipes. Entropy always seems to win; even the most
+sprightly and promising projects can turn to unruly, buggy
+behemoths in just a few years.
+
 We programmers often think of our field as an ever-changing
-one. But the fact is, the fundamentals of programming—the
-semantics of the languages we use, the shapes of the
-programs we write—have experienced no revolutions in the
-last fifty years.
+one, and it is to this change that we look for the solutions
+to our quality woes. We want to believe that the next great
+language, tool, or process will solve our problems for us.
+But the "next great thing" always turns out to be a
+rehashing of an old idea. The fact is, the fundamentals of
+programming—the semantics of the languages we use, the
+shapes of the programs we write—have experienced no
+revolutions in the last fifty years.
 
 Lisp, the forerunner of modern functional languages like
 Clojure, appeared on the scene in 1958.
 
-Development on Smalltalk, widely considered the precursor of
+Development of Smalltalk, widely considered the precursor of
 modern dynamic object-oriented languages like Ruby, began in
 the early 1970s.
 
@@ -99,6 +109,13 @@ that we could not have designed it, because we do not know
 how to design code like that. Nevertheless, it seems to have
 been designed. Whether the code grew from the seed of its
 own nature, or was dictated to us by a muse, we can't tell.
+
+The fascinating thing about this type of code is that it is
+not just a passive object, a tablet impressed with the stamp
+of our knowledge. It actually *teaches* us a new way of
+thinking about the problem we are solving. When we are done
+writing it, we are often a little confused. Then we read
+what we have written and become enlightened.
 
 Here is an example of some code I wrote that I have no idea
 *how* I wrote. The `apply` function "updates" a value nested
@@ -246,10 +263,11 @@ to try to awaken this ability in them, it would be this one:
 As practical advice, of course, this is simplistic. But as a
 foundation to build on, it is solid. The rest of this book
 will be dedicated to expanding and refining this
-monosyllabic mantra, *test!*
+monosyllabic mantra.
 
-Here is the first step of that refinement: Test early, and
-test often. Test small units of code.
+Here is the first step of that refinement:
+
+**Test early, and test often. Test small units of code.**
 
 Both of the examples above were created using
 test-driven development. The experience of working on them
@@ -258,23 +276,22 @@ first test; the implementation blossomed out from each
 subsequent test I wrote, as if under its own internal power,
 like a drop of dye spreading and blossoming in water.
 
-But test-driven development, or TDD, is not the whole
-solution. Applied carelessly, it will never create this
-amazing quality. I've seen TDD go south enough times to know
-that.
-
-
-Could the above code examples be cleaned up? Could they be
-locally improved? Certainly. Both are from projects on which
-I worked alone. They haven't had the benefit of a team of
-reviewers compelling me to choose good names and use
-consistent indentation. I mean, just look at that ternary
-operator in the first example!
+The code that is produced by this process is by no means
+perfect, or even particularly good from the perspective of
+modern code quality metrics. There is a lot in the above
+examples that could be cleaned up.
 
 But should they be rearchitected? Will I ever throw them out
-and rewrite them? I can't imagine it. Above all, these
-pieces of code are *useful*. Their overall structure is in
-perfect harmony with their purpose. I can imagine using
+and rewrite them? I can't imagine it. These pieces of code
+are *useful*. They *work*. Their usefulness overrides any
+concerns about style or cyclomatic complexity or the length
+of the files they are in. Such issues are only passing
+shadows: insubstantial, easy enough to fix if and when I
+feel they need fixing.
+
+And yet, just as they are, these code fragments are easy
+enough to read, and easy enough to change. I know, because
+I have read and changed them many times. I can imagine using
 them, and growing them, slowly, for as long as I am
 programming. They are not stylish or elegant. Yet they have
 an easy, sleepy kind of grace, like a rough stone wall or
@@ -285,12 +302,12 @@ them unfold. Their continuing usefulness comes simply from
 the fact that I began well.
 
 And this simple act, beginning well—I think it is the most
-underappreciated thing in our industry. We think can hack
-as we go and refactor our way out of any difficulties. But
-the fact is that there are design assumptions that are too
-big to refactor, too big to even really see clearly, under
-most circumstances. These assumptions can plant the seeds
-for future problems before a single line of code is written.
+underappreciated thing in our industry. We think can hack as
+we go and refactor our way out of any difficulties. But the
+fact is that there are design assumptions that are too big
+to refactor, too big even to see clearly under most
+circumstances. These assumptions can plant the seeds for
+future problems before a single line of code is written.
 
 (example: Concourse stdin bug)
 
