@@ -34,3 +34,4 @@ Links to things and people that have inspired us.
   - [Summary by the author](http://theconversation.com/open-plan-offices-can-actually-work-under-certain-conditions-89452).
 - [Do You Have a Good Outcome-Oriented Roadmap?](https://content.pivotal.io/blog/do-you-have-a-good-outcome-oriented-roadmap) People: Aloka Penmetcha.
 - [C.S. Lewis and the Anscombe Debate](https://inklings-studies.org/wp-content/uploads/2015/03/jis_1-2_06_brazier1.pdf). People: P.H. Brazier, C.S. Lewis, G.E.M. Anscombe.
+- [Programming as Theory Building](http://pages.cs.wisc.edu/~remzi/Naur.pdf). People: Peter Naur.
